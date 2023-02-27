@@ -1,17 +1,11 @@
-@font-face {
-    font-family: FontGothamBold;
-    src: url(../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
-}
-@font-face {
-    font-family: FontGothamBook;
-    src: url(../../../../fonts/GOTHAMBOOK.TTF) format(‘truetype’);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-cable-blue{
     width: 800px;
     margin-left: 370px;
     height: 700px;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 .name-product-cable-blue{
     font-size: 22px;
@@ -19,7 +13,8 @@
 }
 .description-cable-blue{
     width: 300px;
-    font-family: FontGothamBook;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
     padding-bottom: 30px;
     font-size: 18px;
     line-height: 22px;
@@ -51,7 +46,8 @@
     height: 50px;
     position: absolute;
     color: #fff;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     border: none;
     border-radius: 10px;

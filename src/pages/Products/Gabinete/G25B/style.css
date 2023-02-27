@@ -1,15 +1,15 @@
-@font-face {
-    font-family: FontGothamBold;
-    src: url(../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .container-gabinete{
     width: 900px;
     margin-left: 370px;
     height: 700px;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 .description-gabinete{
-    font-family: FontGothamBook;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
     width: 300px;
     padding-bottom: 30px;
     font-size: 18px;
