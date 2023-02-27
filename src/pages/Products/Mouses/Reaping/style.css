@@ -1,3 +1,7 @@
+@font-face {
+    font-family: FontGothamBold;
+    src: url(../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
+}
 .container-redragon{
     width: 800px;
     margin-left: 370px;

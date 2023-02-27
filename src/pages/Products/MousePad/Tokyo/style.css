@@ -1,10 +1,10 @@
 @font-face {
     font-family: FontGothamBold;
-    src: url(../../../../fonts/GOTHAMBOLD.TTF)
+    src: url(../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
 }
 @font-face {
     font-family: FontGothamBook;
-    src: url(../../../../fonts/GOTHAMBOOK.TTF);
+    src: url(../../../../fonts/GOTHAMBOOK.TTF) format(‘truetype’);
 }
 
 .container-mousepad-tokyo{
