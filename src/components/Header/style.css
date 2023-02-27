@@ -2,10 +2,8 @@
     font-family: FontAwesome;
     src: url(../../fonts/FONT_AWESOME_5_PRO-SOLID-900.OTF);
 }
-@font-face {
-    font-family: FontGotham;
-    src: url(../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
-}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 .header-container{
     width: 100%;
@@ -18,7 +16,7 @@
 }
 
 .info{
-    font-family: FontGotham;
+    font-family: MontserratBold;
     color:rgba(255, 255, 255, 0.766);
 }
 
