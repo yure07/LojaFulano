@@ -3,7 +3,10 @@
     src: url(../../fonts/FONT_AWESOME_5_PRO-SOLID-900.OTF);
 }
  
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@font-face {
+    font-family: MontserratBold;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+}
 
 .header-container{
     width: 100%;
