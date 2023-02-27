@@ -1,0 +1,139 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Teclado Mecânico Redragon",
+            "description": "Switch Azul K606R (PT-BLUE) Preto",
+            "price": 204.99
+        },
+        {
+            "id": 2,
+            "name": "Mousepad Akko",
+            "description": "World Tour Tokio R2",
+            "price": 154.99
+        },
+        {
+            "id": 3,
+            "name": "Mousepad Akko",
+            "description": "Dracula Castle",
+            "price": 154.99
+        },
+        {
+            "id": 4,
+            "name":"Mousepad Akko",
+            "description": "World Tour London",
+            "price": 154.99
+        },
+        {
+            "id": 5,
+            "name": "Cabo Para Teclado",
+            "description": "Cabo Enrolado Modelo Blue",
+            "price": 49.99
+        },
+        {
+            "id": 6,
+            "name":"Cabo Para Teclado",
+            "description":"Cabo Enrolado Modelo Pink",
+            "price": 49.99
+        },
+        {
+            "id": 7,
+            "name":"Teclado Mecânico Akko",
+            "description":"Switch Akko Pink World Tour Tokio R1",
+            "price": 599.99
+
+        },
+        {
+            "id": 8,
+            "name": "Headset Hebe E2",
+            "description": "Alto falante aprimorado de 40mm, Microfone omnidirecional com cancelamento de ruído, Com Bass Impact (conversor de tons graves baixos em pulsos, permitindo sentir as vibrações do jogo)",
+            "price": 159.99
+        },
+        {
+            "id": 9,
+            "name": "Headset Scylla Preto H901",
+            "description": "Earpads com espumas macias e confortáveis, Drivers de 40mm com som cristalino e isolamento passivo, Roda de volume integrada na concha para ajustes, Construção com hastes duplas em metal com peso reduzido e de alta durabilidade",
+            "price": 119.99
+        },
+        {
+            "id": 10,
+            "name": "Headset Scylla Branco H210",
+            "description": "Earpads com espumas macias e confortáveis, Drivers de 40mm com som cristalino e isolamento passivo, Roda de volume integrada na concha para ajustes, Construção com hastes duplas em metal com peso reduzido e de alta durabilidade",
+            "price": 184.99
+        },
+        {
+            "id": 11,
+            "name": "Headset Minos Preto H210",
+            "description": " Headset USB plug and play sem necessidade de drivers, Iluminação vermelha representando a marca com elegância, Cabo USB de 2 metros para um bom alcance, dando mais liberdade para o usuário",
+            "price": 179.99
+        },
+        {
+            "id": 12,
+            "name":"Headset Minos Branco H210W",
+            "description": "Headset USB plug and play sem necessidade de dri, vers, Iluminação vermelha representando a marca com elegância, Cabo USB de 2 metros para um bom alcance, dando mais liberdade para o usuário",
+            "price": 184.99
+
+        },
+        {
+            "id": 13,
+            "name": "Headset Hylas Rosa H260-P",
+            "description": "Alto falante de 50mm com reprodução limpa e de qualidade, Iluminação RGB Redragon Chroma trazendo brilho para seu setup, Roda de volume integrada na concha para ajustes, Microfone omnidirecional flexível com cápsula de 40mm, Acompanha cabo adaptador em Y para dispositivo móveis",
+            "price": 124.99
+        },
+        {
+            "id": 14,
+            "name": "Headset Taurus E1",
+            "description": "Iluminação RGB, Alto falante de 40mm de diâmetro, Fone de ouvido estéreo de 3.5mm para jogos, Suporte PS4 e XBOX One com plug de 3.5mm, Microfone omnidirecional sensível com ajuste de posição focada em conforto e maior desempenho, Acompanha cabo adaptador em Y para dispositivo móveis",
+            "price": 79.99
+        },
+        {
+            "id": 15,
+            "name":"Headset Hero Branco H530-W",
+            "description": "Controladora integrada para maior praticidade durante o uso, Microfone com redução de ruído de fundo para captação clara e limpa, Som estéreo de alta qualidade com drivers de 53mm",
+            "price": 269.99
+        },
+        {
+            "id": 16,
+            "name": "Headset Hero Branco Com Roxo H530-WP",
+            "description":"Controladora integrada para maior praticidade durante o uso, Microfone com redução de ruído de fundo para captação clara e limpa, Som estéreo de alta qualidade com drivers de 53mm",
+            "price": 204.99
+        },
+        {
+            "id": 17,
+            "name": "Headset Hero Branco Com Vermelho H530-WP",
+            "description":"Controladora integrada para maior praticidade durante o uso, Microfone com redução de ruído de fundo para captação clara e limpa, Som estéreo de alta qualidade com drivers de 53mm",
+            "price": 204.99
+        },
+        {
+            "id": 18,
+            "name": "Gabinete T-DAGGER TGC-G25B Preto",
+            "description": "Gabinete mid tower de alto desempenho com painel lateral de acrílico para mostrar o interior de seu equipamento. Com um painel frontal texturizado com entradas de ar geométricas no estilo mesh com iluminação RGB.",
+            "price": 219.99
+        },
+        {
+            "id": 19,
+            "name": "Gabinete T-DAGGER TGC-G28B Preto",
+            "description": "Gabinete Mid Tower com Painel frontal de metal, Iluminação RGB no painel frontal e Janela lateral de acrílico. É perfeito para quem procura um gabinete espaçoso para ótimas configurações de montagem, sem deixar de lado uma ótima aparência.",
+            "price": 219.99   
+        },
+        {
+            "id": 20,
+            "name": "Mouse Readragon Reaping Elite M987P-K Preto",
+            "description": "Equipado com o sensor profissional de altíssimo desempenho PIXART PWM 3389 de até 32000 DPI o mouse Reaping eleva a sua experiência dentro dos games. Carcaça com design em colmeia ultraleve e cabo ultraleve.",
+            "price": 209.99
+        },
+        {
+            "id": 21,
+            "name": "Mouse Redragon Storm Elite M988W",
+            "description": "Leve e Preciso. Devido ao seu design colméia, ele pesa apenas 85g. Com DPI Mínimo de 100 e DPI Máximo de 16000. Equipado com o sensor PIXART PMW 3389 elevando sua experiência dentro dos games.",
+            "price": 194.99
+        },
+        {
+            "id": 22,
+            "name": "Mouse Imperial T-DAGGER Preto - TGM310",
+            "description": "Botão de disparos (um clique para três disparos). 8 Botões programáveis com um botão extra na lateral para atalhos e macros na ponta dos dedos. 7 efeitos de retroiluminação RGB trazendo mais brilho para seu setup.",
+            "price": 109.99
+        }
+
+    ]
+}

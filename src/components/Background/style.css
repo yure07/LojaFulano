@@ -1,0 +1,44 @@
+.galery{
+    width: 1100px;
+    overflow: hidden;
+    margin-left: 200px;
+    margin-top: 140px;
+    position: absolute;
+}
+.galery .pictures {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.carousel{
+    width: 20%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+@keyframes animacao {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+    100%{margin-left: -400%;}
+}
+
+/* --- MEDIA QUERIES --- */
+@media (width <= 500px) 
+and (height <= 950px ) {
+    .galery{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 110px;
+    }
+
+    .carousel{
+        height: 150px;
+    }
+}

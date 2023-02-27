@@ -1,0 +1,116 @@
+@font-face {
+    font-family: FontGothamBold;
+    src: url(../../../fonts/GOTHAMBOLD.TTF);
+}
+@font-face {
+    font-family: FontGothamBook;
+    src: url(../../../fonts/GOTHAMBOOK.TTF);
+}
+
+.container-keyboard{
+    width: 800px;
+    margin-left: 370px;
+    height: 700px;
+    font-family: FontGothamBold;
+    padding-top: 50px;
+}
+.title-product-keyboard{
+    font-size: 45px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.name-product-keyboard{
+    font-size: 27px;
+    margin-top: 10px;
+}
+.description-keyboard{
+    font-family: FontGothamBook;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.description-keyboard p{
+    margin: 0;
+}
+.product-keyboard{
+    width: 400px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: -250px;
+    position: absolute;
+    translate: x;
+}
+.discount-keyboard{
+    width: 65px;
+    padding: 4px;
+    margin-left: 130px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+.price-keyboard{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin: 0;
+}
+.price-now-keyboard{
+    font-size: 45px;
+    padding-right: 20px;
+}
+.btn-buy-keyboard{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-family: FontGothamBold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(72, 255, 0, 0.756);
+    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-keyboard {
+        margin-left: 0;
+        width: 100%;
+        height: 900px;
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-product-keyboard{
+        font-size: 24px;
+    }
+    .name-product-keyboard{
+        font-size: 17px;
+        margin-top: 0px;
+    }
+    .description-keyboard{
+        padding-bottom: 30px;
+        margin-top: 200px;
+        font-size: 18px;
+    }
+    .product-keyboard{
+        width: 330px;
+        height: 130px;
+        margin-left: 0px;
+        margin-top: 230px;
+    }
+    .discount-keyboard{
+        width: 55px;
+        padding: 4px;
+        margin-left: 200px;
+        margin-top: 615px;
+        font-size: 18px;
+    }
+    .btn-buy-keyboard{
+        margin-left: -100px;
+        margin-top: 20px;
+    }
+}

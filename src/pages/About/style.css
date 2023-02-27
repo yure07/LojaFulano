@@ -1,0 +1,88 @@
+@font-face {
+    font-family: FontGothamBook;
+    src: url(../../fonts/GOTHAMBOOK.TTF);
+}
+
+@font-face {
+    font-family: FontGothamBold;
+    src: url(../../fonts/GOTHAMBOLD.TTF);
+}
+
+.about{
+    font-family: FontGothamBold;
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    justify-content: center;
+    height: 600px;
+    margin-left: 200px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 90px;
+}
+
+.created{
+    width: 550px;
+    font-family: FontGothamBook;
+}
+/* IPHONE SE */
+@media (width <= 380px) and (height < 680px){
+    .about{
+        margin-left: 30px;
+        width: 660px;
+        font-size: 14px;
+        height: 750px;
+        margin-top: 0px;
+        margin-bottom: 380px;
+    }
+    .created{
+        width: 320px;
+    }
+}
+
+/* A51/71, S20 ULTRA && IPHONE XR*/
+@media (width >= 412px) and (width <= 420px) {
+    .about{
+        margin-left: 30px;
+        width: 850px;
+        font-size: 20px;
+        height: 900px;
+        margin-bottom: 900px;
+        margin-top: 0px;
+    }
+    .created{
+        font-size: 18px;
+        width: 350px; 
+    }
+}
+
+/* IPHONE 12 PRO */
+@media (width <= 395px) and (width > 380px)
+and (height <= 900px ) and (height >= 840px){
+    .about{
+        margin-left: 30px;
+        width: 800px;
+        font-size: 16px;
+        height: 840px;
+        margin-top: 0px;
+    }
+    .created{
+        font-size: 16px;
+        width: 350px;
+    }
+}
+
+/* S8+ */
+@media (width = 360px) and (height = 740px) {
+    .about{
+        margin-left: 30px;
+        width: 400px;
+        font-size: 16px;
+        height: 800px;
+        margin-top: 0px;
+    }
+    .created{
+        font-size: 14px;
+        width: 300px;
+    }
+}

@@ -1,0 +1,168 @@
+@font-face {
+    font-family: FontGothamBold;
+    src: url(../../../../fonts/GOTHAMBOLD.TTF);
+}
+@font-face {
+    font-family: FontGothamBook;
+    src: url(../../../../fonts/GOTHAMBOOK.TTF);
+}
+
+.container-mousepad-dracula{
+    width: 800px;
+    margin-left: 370px;
+    height: 700px;
+    font-family: FontGothamBold;
+}
+.name-product-mousepad-dracula{
+    font-size: 22px;
+    margin-top: 0;
+}
+.description-mousepad-dracula{
+    font-family: FontGothamBook;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.description-mousepad-dracula p{margin-bottom: 0;}
+.discount-mousepad-dracula{
+    width: 65px;
+    padding: 4px;
+    margin-left: 130px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.price-mousepad-dracula{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin: 0;
+}
+.price-now-mousepad-dracula{
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.btn-buy-mousepad-dracula{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-family: FontGothamBold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(72, 255, 0, 0.756);
+    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+}
+.title-product-mousepad-dracula{
+    font-size: 80px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.product-mousepad-dracula{
+    width: 530px;
+    height: 340px;
+    margin-left: 120px;
+    margin-top: -340px;
+    position: absolute;
+}
+
+button{
+    cursor: pointer;
+    position: absolute;
+}
+.dracula-mousepad-dracula {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(120deg,
+    #a11e2a 50%,
+    #575d5e 50%);
+    margin-left: 350px;
+    border-radius: 50%;
+    border: 3px solid rgba(72, 255, 0, 0.756);
+}
+.london-mousepad-dracula{
+    width: 50px;
+    background: linear-gradient(120deg,
+    #243d2e 50%,
+    #d69647 50%);
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 420px;
+}
+.tokyo-mousepad-dracula{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(120deg,
+    rgb(223, 89, 111) 50%,
+    white 50%);
+    margin-left: 490px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-mousepad-dracula{
+        margin-left: 0;
+        width: 100%;
+        height: 900px;
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-product-mousepad-dracula{
+        font-size: 40px;
+    }
+    .name-product-mousepad-dracula{
+        font-size: 16px;
+    }
+    .description-mousepad-dracula{
+        padding-bottom: 30px;
+        margin-top: 240px;
+    }
+    .discount-mousepad-dracula{
+        width: 55px;
+        padding: 4px;
+        margin-left: 190px;
+        margin-top: 720px;
+        font-size: 18px;
+    }
+    .btn-buy-mousepad-dracula{
+        width: 200px;
+        height: 50px;
+        margin-left: -100px;
+        margin-top: 20px;
+    }
+    .product-mousepad-dracula{
+        width: 350px;
+        height: 240px;
+        margin-left: 0px;
+        margin-top: 200px;
+    }
+    .dracula-mousepad-dracula{
+        width: 40px;
+        height: 40px;
+        margin-left: -10px;
+        margin-top: 416px;
+        
+    }
+    .london-mousepad-dracula{
+        width: 40px;
+        height: 40px;
+        margin-top: -383px;
+        margin-left: 70px;
+    }
+    .tokyo-mousepad-dracula{
+        width: 40px;
+        height: 40px;
+        margin-left: -120px;
+        margin-top: -380px;
+    }
+}

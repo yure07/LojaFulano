@@ -1,0 +1,133 @@
+@font-face {
+    font-family: FontAwesome;
+    src: url(../../fonts/FONT_AWESOME_5_PRO-SOLID-900.OTF);
+}
+@font-face {
+    font-family: FontGotham;
+    src: url(../../fonts/GOTHAMBOLD.TTF);
+}
+
+.header-container{
+    width: 100%;
+    top: 0%;
+    display: flex;
+    height: 140px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.766);
+}
+
+.info{
+    font-family: FontGotham;
+    color:rgba(255, 255, 255, 0.766);
+}
+
+.icon{
+    font-family: FontAwesome;
+    color: rgba(255, 0, 0, 0.766);
+    margin-right: -10px;
+    margin-left: 40px;
+}
+
+.header-container a{
+    padding: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.itens{
+    margin-top: 55px;
+}
+
+.img-lobby{
+    margin-left: 245px;
+    margin-top: 15px;
+    width: 200px;
+}
+.logo-title{
+   width: 200px;
+   height: 70px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+}
+
+/* --- MEDIA QUERIES --- */
+@media (width <= 500px) 
+and (height <= 950px ) {
+    .header-container{
+        width: 100%;
+        height: 110px;
+        
+    }
+    
+    .header-container a{
+        padding: 0;
+        color: rgb(255, 255, 255);
+    }
+
+    .itens{
+        width: 150px;
+        background-color: red;
+        display: flex;
+        height: 40px;
+        margin-top: 50px;
+        margin-left: 210px;
+        border-radius: 7px;
+    }
+
+    #home-header{
+        margin-top: 15px; 
+        margin-left: 15px;
+        font-size: 8px;
+        position: absolute;
+        color: transparent;
+    }
+    #home-icon{
+        margin-top: 10px;
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    #contact-header{
+        font-size: 8px;
+        margin-left: 10px;
+        margin-top: 15px;
+        color: transparent;
+    }
+    #contact-icon{
+        position: absolute;
+        margin-left: 65px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    
+    #about-header{
+        margin-top: 17px;
+        font-size: 8px;
+        margin-left: 10px;
+        color: transparent;
+    }
+    #about-icon{
+        margin-right: 0;
+        position: absolute;
+        margin-left: 115px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .icon{
+        margin-right: 9px;
+    }
+
+    .img-lobby{
+        margin-left: -350px;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .logo-title{
+        width: 180px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,66 @@
+@font-face {
+    font-family: FontGothamBold;
+    src: url(../../../../fonts/GOTHAMBOLD.TTF);
+}
+.container-gabinete{
+    width: 900px;
+    margin-left: 370px;
+    height: 700px;
+    font-family: FontGothamBold;
+}
+.description-gabinete{
+    font-family: FontGothamBook;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.discount-gabinete{
+    width: 65px;
+    padding: 4px;
+    margin-left: 130px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.product-gabinete{
+    width: 320px;
+    height: 340px;
+    margin-left: 290px;
+    margin-top: -290px;
+    position: absolute;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-gabinete{
+        margin-left: 0;
+        width: 100%;
+        height: 1000px;
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description-gabinete{
+        padding-bottom: 30px;
+        margin-top: 250px;
+    }
+    .discount-gabinete{
+        width: 50px;
+        padding: 4px;
+        margin-left: 190px;
+        margin-top: 700px;
+        font-size: 18px;
+    }
+    .product-gabinete{
+        width: 215px;
+        height: 230px;
+        margin-left: 0px;
+        margin-top: 230px;
+    }
+}

@@ -1,0 +1,147 @@
+@font-face {
+    font-family: FontGothamBold;
+    src: url(../../../../../fonts/GOTHAMBOLD.TTF);
+}
+@font-face {
+    font-family: FontGothamBook;
+    src: url(../../../../../fonts/GOTHAMBOOK.TTF);
+}
+
+.container-headset-minos-white{
+    width: 800px;
+    margin-left: 370px;
+    height: 700px;
+    font-family: FontGothamBold;
+}
+
+.title-product-headset-minos-white{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.name-product-headset-minos-white{
+    font-size: 22px;
+    margin-top: 0;
+}
+.description-headset-minos-white{
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family: FontGothamBook;
+}
+.description-minos-white p {
+    margin-bottom: 0;
+}
+.description-minos-white h2{
+    margin-bottom: -10px;
+}
+.headset-minos-product{
+    width: 390px;
+    height: 340px;
+    margin-left: 180px;
+    margin-top: -360px;
+    position: absolute;
+}
+.discount-minos-white{
+    width: 65px;
+    padding: 4px;
+    margin-left: 130px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.price-minos-white{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin: 0;
+}
+.price-now-minos-white{
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.btn-buy-headset-minos-white{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(72, 255, 0, 0.756);
+    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+}
+
+.headset-minos-white-change{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 350px;
+    border: 3px solid rgba(72, 255, 0, 0.756);
+}
+.headset-minos-black-change{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 430px;
+    background: #575d5e;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-headset-minos-white{
+        margin-left: 0;
+        width: 100%;
+        height: 1100px;
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .title-product-headset-minos-white{
+        font-size: 40px;
+    }
+    
+    .name-product-headset-minos-white{
+        font-size: 17px;
+    }
+    .description-headset-minos-white{
+        padding-bottom: 30px;
+        margin-top: 280px;
+    }
+    .headset-minos-product{
+        width: 285px;
+        height: 230px;
+        margin-left: 0px;
+        margin-top: 225px;
+    }
+    .discount-minos-white{
+        width: 55px;
+        padding: 4px;
+        margin-left: 190px;
+        margin-top: 790px;
+        font-size: 18px;
+    }
+    .btn-buy-headset-minos-white{
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+    .headset-minos-white-change{
+        width: 40px;
+        height: 40px;
+        margin-left: 85px;
+        margin-top: 470px;
+    }
+    .headset-minos-black-change{
+        width: 40px;
+        height: 40px;
+        margin-left: -60px;
+        margin-top: -395px;
+    }
+}

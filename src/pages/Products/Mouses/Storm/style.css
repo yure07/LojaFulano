@@ -1,0 +1,34 @@
+.mouse-storm{
+    width: 430px;
+    height: 410px;
+    margin-left: 180px;
+    margin-top: -400px;
+    position: absolute;
+}
+.discount-storm{
+    width: 65px;
+    padding: 4px;
+    margin-left: 130px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .mouse-storm{
+        width: 325px;
+        height: 290px;
+        margin-left: 0px;
+        margin-top: 210px;
+    }
+    .discount-storm{
+        width: 50px;
+        padding: 4px;
+        margin-left: 190px;
+        margin-top: 875px;
+        font-size: 18px;
+    }
+}

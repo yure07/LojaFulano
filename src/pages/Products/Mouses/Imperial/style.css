@@ -1,0 +1,35 @@
+.mouse-imperial{
+    width: 380px;
+    height: 340px;
+    margin-left: 210px;
+    margin-top: -390px;
+    position: absolute;
+}
+.discount-imperial-mouse{
+    width: 65px;
+    padding: 4px;
+    margin-left: 130px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .mouse-imperial{
+        width: 300px;
+        height: 260px;
+        margin-left: 0px;
+        margin-top: 230px;
+        position: absolute;
+    }
+    .discount-imperial-mouse{
+        width: 50px;
+        padding: 4px;
+        margin-left: 185px;
+        margin-top: 900px;
+        font-size: 18px;
+    }
+}

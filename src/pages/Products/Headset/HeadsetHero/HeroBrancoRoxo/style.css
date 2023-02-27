@@ -1,0 +1,109 @@
+.container-headset-hero-purple{
+    width: 800px;
+    margin-left: 370px;
+    height: 700px;
+    font-family: FontGothamBold;
+}
+.title-product-headset-hero-purple{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.name-product-headset-hero-purple{
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.product-headset-purple{
+    width: 340px;
+    height: 360px;
+    margin-left: 300px;
+    margin-top: -360px;
+    position: absolute;
+}
+
+.white-hero-change2 {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 350px;
+}
+
+.white-purple-hero-change2 {
+    border: 3px solid rgba(72, 255, 0, 0.756);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 430px;
+    background: linear-gradient(120deg, #fff 50%, purple 50%);
+}
+
+.white-red-hero-change2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 510px;
+    background: linear-gradient(120deg, #fff 50%, red 50%);
+}
+.btn-buy-headset-hero-purple{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(72, 255, 0, 0.756);
+    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-headset-hero-purple{
+        margin-left: 0;
+        width: 100%;
+        height: 1000px;
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-product-headset-hero-purple{
+        font-size: 40px;
+    }
+    .name-product-headset-hero-purple{
+        font-size: 13px;
+    }
+    .product-headset-purple{
+        width: 225px;
+        height: 240px;
+        margin-left: 0px;
+        margin-top: 225px;
+    }
+    .white-hero-change2 {
+        width: 40px;
+        height: 40px;
+        margin-left: -80px;
+        margin-top: -380px;
+    }
+    
+    .white-purple-hero-change2 {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 460px;
+    }
+    
+    .white-red-hero-change2{
+        width: 40px;
+        height: 40px;
+        margin-left: 60px;
+        margin-top: -380px;
+    }
+    .btn-buy-headset-hero-purple{
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+}

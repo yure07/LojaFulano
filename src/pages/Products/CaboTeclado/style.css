@@ -1,0 +1,149 @@
+@font-face {
+    font-family: FontGothamBold;
+    src: url(../../../fonts/GOTHAMBOLD.TTF);
+}
+@font-face {
+    font-family: FontGothamBook;
+    src: url(../../../fonts/GOTHAMBOOK.TTF);
+}
+
+.container-cable{
+    width: 800px;
+    margin-left: 370px;
+    height: 700px;
+    font-family: FontGothamBold;
+}
+.name-product-cable{
+    font-size: 22px;
+    margin-top: 0;
+}
+.description-cable{
+    font-family: FontGothamBook;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.description-cable p{margin-bottom: 0;}
+.discount-cable{
+    width: 65px;
+    padding: 4px;
+    margin-left: 130px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.price-cable{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin: 0;
+}
+.price-now-cable{
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.btn-buy-cable{
+    width: 200px;
+    font-family: FontGothamBold;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(72, 255, 0, 0.756);
+    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+}
+.title-product-cable{
+    font-size: 80px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.pg-product-cable-pink{
+    width: 260px;
+    height: 260px;
+    margin-left: 280px;
+    margin-top: -300px;
+    position: absolute;
+}
+
+button{
+    cursor: pointer;
+    position: absolute;
+    border: none;
+}
+.cable-pink-change1 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin-left: 350px;
+    border-radius: 50%;
+    border: none;
+}
+.cable-change-to-blue1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(226, 89, 112);
+    margin-left: 420px;
+    border-radius: 50%;
+    border: 3px solid rgba(72, 255, 0, 0.756);
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-cable{
+        margin-left: 0;
+        width: 100%;
+        height: 1100px;
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-product-cable{
+        font-size: 35px;
+    }
+    .name-product-cable{
+        font-size: 18px;
+    }
+    .description-cable{
+        padding-bottom: 30px;
+        margin-top: 300px;
+    }
+    .discount-cable{
+        width: 55px;
+        padding: 4px;
+        margin-left: 190px;
+        margin-top: 790px;
+        font-size: 18px;
+    }
+    .btn-buy-cable{
+        width: 200px;
+        height: 50px;
+        margin-left: -100px;
+        margin-top: 20px;
+    }
+    .pg-product-cable-pink{
+        width: 230px;
+        height: 230px;
+        margin-left: 0px;
+        margin-top: 230px;
+    }
+    .cable-pink-change1 {
+        width: 40px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: -400px;
+    }
+    .cable-change-to-blue1 {
+        width: 40px;
+        height: 40px;
+        margin-left: -85px;
+        margin-top: 470px;
+    }
+}

@@ -1,0 +1,148 @@
+@font-face {
+    font-family: FontGothamBold;
+    src: url(../../../../fonts/GOTHAMBOLD.TTF);
+}
+@font-face {
+    font-family: FontGothamBook;
+    src: url(../../../../fonts/GOTHAMBOOK.TTF);
+}
+.container-headset-scylla{
+    width: 800px;
+    font-family: FontGothamBold;
+    margin-left: 370px;
+    height: 700px;
+}
+
+.title-product-headset-scylla{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.name-product-headset-scylla{
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.description-headset-scylla{
+    width: 300px;
+    font-family: FontGothamBook;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.description-scylla h2{
+    margin-bottom: -10px;
+}
+
+.discount-scylla{
+    width: 65px;
+    padding: 4px;
+    margin-left: 130px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.price-scylla{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin: 0;
+}
+.price-now-scylla{
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.pg-product-headset-scylla{
+    width: 330px;
+    height: 330px;
+    margin-left: 260px;
+    margin-top: -350px;
+    position: absolute;
+}
+
+.btn-buy-headset-scylla{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(72, 255, 0, 0.756);
+    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+}
+
+.headset-scylla-white{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 350px;
+}
+.headset-scylla-black{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 430px;
+    background: #575d5e;
+    border: 2px solid rgba(72, 255, 0, 0.756);
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-headset-scylla{
+        margin-left: 0;
+        width: 100%;
+        height: 1100px;
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .title-product-headset-scylla{
+        font-size: 40px;
+    }
+    
+    .name-product-headset-scylla{
+        font-size: 18px;
+    }
+    .description-headset-scylla{
+        padding-bottom: 30px;
+        margin-top: 250px;
+    }
+    .pg-product-headset-scylla{
+        width: 265px;
+        height: 230px;
+        margin-left: 0px;
+        margin-top: 230px;
+    }
+    .discount-scylla{
+        width: 55px;
+        padding: 4px;
+        margin-left: 190px;
+        margin-top: 835px;
+        font-size: 18px;
+    }
+    .btn-buy-headset-scylla{
+        width: 200px;
+        height: 50px;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+    .headset-scylla-white{
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: -453px;
+    }
+    .headset-scylla-black{
+        width: 40px;
+        height: 40px;
+        margin-left: -100px;
+        margin-top: 460px;
+    }
+}

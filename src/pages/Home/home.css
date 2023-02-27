@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+

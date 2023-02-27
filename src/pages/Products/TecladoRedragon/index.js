@@ -1,0 +1,38 @@
+import './style.css'
+import Header from '../../../components/Header/header'
+import Footer from '../../../components/Footer/index'
+import image1 from '../../../images/produtos/produto-teclado.png'
+
+function Teclado () {
+    return(
+        <div>
+            <Header/>
+            <div className='container-keyboard'>
+            <h1 className='title-product-keyboard'>Teclado Mecânico Redragon</h1>
+            <p className='name-product-keyboard'>Redragon Switch Azul</p>
+            
+            <div className='description-keyboard'>
+                <p>K606R (PT-BLUE) - Teclado Gamer Mecânico
+                   Lakshmi Rainbow PTO Switch Azul ABNT2.</p>
+                <p>O Lakshmi é um modelo muito portátil para aqueles usuários
+                   que buscam praticidade na hora levar seus equipamentos. 
+                   Sem deixar de lado a qualidade na sua construção</p>   
+            </div>
+
+            <div className='discount-keyboard'>
+                <strong>-25%</strong>
+            </div>
+            <p className='price-keyboard'>R$274,99</p>
+            <strong className='price-now-keyboard'>R$204,99</strong>
+
+           <a href='https://wa.link/zccpr9' target='_blank'>
+            <button type='submit' className='btn-buy-keyboard'>COMPRAR</button>
+           </a>
+                <img src={image1} alt='1' className='product-keyboard'/>
+
+            </div>
+            <Footer/>
+        </div>
+    )
+}
+export default Teclado
