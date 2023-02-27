@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: FontGotham;
-    src: url(../../fonts/GOTHAMBOLD.TTF);
+    src: url(../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
 }
 
 .header-container{
