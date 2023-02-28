@@ -30,9 +30,12 @@ function Footer () {
               <img src={zapIcon} alt='6' className='contact'/>
             </a>
            </div>
-           
           </div>
-          
+
+          <div className='credits'>
+          <p>DESIGN POR: <a href='http://vstectity.com/' target='_blank'><strong>VSTECTITY</strong></a></p>
+          <p>PROGRAMAÇÃO POR: <strong>YURE RAFAEL</strong></p>
+          </div>
         </footer>
     )
 }

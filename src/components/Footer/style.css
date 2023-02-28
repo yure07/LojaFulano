@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .footer-container{
     width: 100%;
     display: flex;
-    height: 200px;
+    height: 220px;
     padding-bottom: 100px;
     background-color: #390000;
 }
@@ -41,6 +43,22 @@
     height: 50px;
     width: 50px;
 }
+.credits{
+    font-family: 'Montserrant', sans-serif;
+    font-weight: normal;
+    position: absolute;
+    bottom: -48%;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+.credits a{
+    text-decoration: none;
+    color: #fff;
+}
+.credits p{
+    margin: 0;
+}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -55,6 +73,7 @@
         display: grid;
         grid-template-columns: auto auto;
         column-gap: 3.5rem;
+        row-gap: -20px;
         margin-top: 0px;
         margin-left: 0px;
     }
@@ -63,20 +82,21 @@
         height: 50px;
         width: 150px;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: -50px;
     }
     
     .payments{
         height: 85px;
         width: 140px;
         margin-left: 0px;
+        margin-top: -25px;
     }
     
     .securities{
         height: 40px;
         width: 140px;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: -55px;
     }
     .discord-icon{
         margin-left: 0px;
@@ -88,11 +108,20 @@
         display: flex;
         flex-direction: row;
         margin-left: 0px;
+        margin-top: -50px;
     }
     
     .contact{
         margin-left: 10px;
         height: 40px;
         width: 40px;
+    }
+    .credits{
+        bottom: -75%;
+        position: relative;
+        font-size: 8px;
+        width: 100%;
+        right: 50%;
+        text-align: center;
     }
 }
