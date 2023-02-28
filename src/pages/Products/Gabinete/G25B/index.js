@@ -10,7 +10,7 @@ function G25B () {
             <Header/>
             <div className='container-gabinete'>
             <h1 className='title-product-mousepad-tokyo'>Gabinete Gamer</h1>
-            <p className='name-product-mousepad-tokyo'>Gabinete Gamer TDAGGER TGC-G25B Preto </p>
+            <p className='name-product-gabinete'>Gabinete Gamer TDAGGER TGC-G25B Preto </p>
             
             <div className='description-gabinete'>
                 <p> <p>Gabinete Gamer T-DAGGER G25B, Mid Tower, RGB, Preto.</p> Gabinete mid tower de alto desempenho 

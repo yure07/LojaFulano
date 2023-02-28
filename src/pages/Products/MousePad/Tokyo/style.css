@@ -132,7 +132,7 @@ button{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 720px;
+        margin-top: 725px;
         font-size: 18px;
     }
     .buy-buy{
@@ -145,18 +145,18 @@ button{
         width: 40px;
         height: 40px;
         margin-left: -20px;
-        margin-top: -387px;
+        margin-top: -390px;
     }
     .london-mousepad{
         width: 40px;
         height: 40px;
-        margin-top: -387px;
+        margin-top: -390px;
         margin-left: 70px;
     }
     .tokyo-mousepad{
         width: 40px;
         height: 40px;
         margin-left: -170px;
-        margin-top: 410px;
+        margin-top: 420px;
     }
 }

@@ -114,8 +114,8 @@ button{
     .discount-cable{
         width: 55px;
         padding: 4px;
-        margin-left: 190px;
-        margin-top: 790px;
+        margin-left: 180px;
+        margin-top: 800px;
         font-size: 18px;
     }
     .btn-buy-cable{
@@ -134,12 +134,12 @@ button{
         width: 40px;
         height: 40px;
         margin-left: 30px;
-        margin-top: -400px;
+        margin-top: -405px;
     }
     .cable-change-to-blue1 {
         width: 40px;
         height: 40px;
         margin-left: -85px;
-        margin-top: 470px;
+        margin-top: 480px;
     }
 }

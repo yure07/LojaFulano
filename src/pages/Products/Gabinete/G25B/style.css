@@ -7,6 +7,10 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+.name-product-gabinete{
+    font-size: 22px;
+    margin-top: 0;
+}
 .description-gabinete{
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
@@ -50,11 +54,14 @@
         padding-bottom: 30px;
         margin-top: 250px;
     }
+    .name-product-gabinete{
+        font-size: 14px;
+    }
     .discount-gabinete{
         width: 50px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 700px;
+        margin-top: 730px;
         font-size: 18px;
     }
     .product-gabinete{

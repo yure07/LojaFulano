@@ -127,7 +127,7 @@ button{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 720px;
+        margin-top: 725px;
         font-size: 18px;
     }
     .btn-buy-mousepad-dracula{
@@ -146,19 +146,19 @@ button{
         width: 40px;
         height: 40px;
         margin-left: -10px;
-        margin-top: 416px;
+        margin-top: 420px;
         
     }
     .london-mousepad-dracula{
         width: 40px;
         height: 40px;
-        margin-top: -383px;
+        margin-top: -393px;
         margin-left: 70px;
     }
     .tokyo-mousepad-dracula{
         width: 40px;
         height: 40px;
         margin-left: -120px;
-        margin-top: -380px;
+        margin-top: -390px;
     }
 }
