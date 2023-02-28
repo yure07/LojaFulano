@@ -63,6 +63,7 @@ and (height <= 950px ) {
     
     .header-container a{
         padding: 0;
+        margin-top: 7px;
         color: rgb(255, 255, 255)
     }
 
@@ -71,7 +72,7 @@ and (height <= 950px ) {
         background-color: red;
         display: flex;
         height: 40px;
-        padding: 0;
+        
         margin-top: 0px;
         margin-right: 15px;
         border-radius: 7px;
@@ -79,7 +80,6 @@ and (height <= 950px ) {
     }
     i{
         color: #fff;
-        margin-top: 10px;
     }
         
     #home-header{
@@ -95,7 +95,7 @@ and (height <= 950px ) {
     }
     
     #about-header{
-        margin-top: 0px;
+        margin-top: 7px;
         font-size: 22px;
         margin-left: 0px;
         color: transparent;

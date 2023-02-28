@@ -1,27 +1,29 @@
 import './style.css'
 import {Link} from 'react-router-dom'
 import image1 from '../../images/lobby.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
   return(
     <header className='header-container'>
       
       <div className='itens'>
-      
         <a href='/' className='info' id='home-header'>
-          <i className='fas fa-home'></i>
+          <i><FontAwesomeIcon icon={faHome} /></i>
         HOME
         </a>
-        
-        
+
         <a href='https://www.instagram.com/loja_dofulano/' target='_blank' className='info' id='contact-header'> 
-        <i class='fas fa-phone'></i>
+        <i><FontAwesomeIcon icon={faPhoneFlip} /></i>
         CONTATO 
         </a>
 
 
         <a href='/sobre' className='info' id='about-header'> 
-          <i class='fas fa-info-circle'></i>
+        <i><FontAwesomeIcon icon={faInfoCircle} /></i>
         SOBRE 
         </a>
       </div>
