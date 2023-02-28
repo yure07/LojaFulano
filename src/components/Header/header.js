@@ -6,14 +6,22 @@ function Header() {
   return(
     <header className='header-container'>
       <div className='itens'>
-        <a href='/' className='icon' id='home-icon'>HOME</a>
-        <a href='/' className='info' id='home-header'>HOME </a>
+      <a href='/' className='info' id='home-header'>
+          <i className='fas fa-home'></i>
+        HOME
+        </a>
+        
+        
+        <a href='https://www.instagram.com/loja_dofulano/' target='_blank' className='info' id='contact-header'> 
+        <i class='fas fa-phone'></i>
+        CONTATO 
+        </a>
 
-        <a href='https://www.instagram.com/loja_dofulano/' target='_blank' className='icon' id='contact-icon'>PHONE</a>
-        <a href='https://www.instagram.com/loja_dofulano/' target='_blank' className='info' id='contact-header'> CONTATO </a>
 
-        <a href='/sobre' className='icon' id='about-icon'>info-circle</a>
-        <a href='/sobre' className='info' id='about-header'> SOBRE </a>
+        <a href='/sobre' className='info' id='about-header'> 
+          <i class='fas fa-info-circle'></i>
+        SOBRE 
+        </a>
       </div>
 
       <div className='img-lobby'>
