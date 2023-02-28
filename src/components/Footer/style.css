@@ -47,9 +47,9 @@
     font-family: 'Montserrant', sans-serif;
     font-weight: normal;
     position: absolute;
-    bottom: -48%;
-    font-size: 12px;
     width: 100%;
+    margin-top: 180px;
+    font-size: 12px;
     text-align: center;
 }
 .credits a{
@@ -117,11 +117,7 @@
         width: 40px;
     }
     .credits{
-        bottom: -75%;
-        position: relative;
         font-size: 8px;
         width: 100%;
-        right: 50%;
-        text-align: center;
     }
 }
