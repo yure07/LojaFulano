@@ -64,6 +64,7 @@
     height: 50px;
     border-radius: 50%;
     margin-left: 350px;
+    background-color: #fff;
     border: 3px solid rgba(72, 255, 0, 0.756);
 }
 .white-purple-hero{
@@ -126,7 +127,7 @@
         width: 55px;
         padding: 4px;
         margin-left: 200px;
-        margin-top: 795px;
+        margin-top: 805px;
         font-size: 18px;
     }
     .btn-buy-headset-hero{
@@ -143,12 +144,12 @@
         width: 40px;
         height: 40px;
         margin-left: -10px;
-        margin-top: -412px;
+        margin-top: -420px;
     }
     .white-red-hero{
         width: 40px;
         height: 40px;
         margin-left: 60px;
-        margin-top: -412px;
+        margin-top: -420px;
     }
 }

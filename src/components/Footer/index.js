@@ -1,7 +1,7 @@
 import './style.css'
 import image1 from '../../images/lobby.png'
 import image2 from '../../images/formas-pagamento.png'
-import image3 from '../../images/seguranças'
+import image3 from '../../images/google-safe-browsing.png'
 
 import discordIcon from '../../images/sociais/discord.png'
 import instagramIcon from '../../images/sociais/instagram.png'
