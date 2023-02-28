@@ -5,8 +5,10 @@ import image1 from '../../images/lobby.png'
 function Header() {
   return(
     <header className='header-container'>
+      
       <div className='itens'>
-      <a href='/' className='info' id='home-header'>
+      
+        <a href='/' className='info' id='home-header'>
           <i className='fas fa-home'></i>
         HOME
         </a>
@@ -26,7 +28,7 @@ function Header() {
 
       <div className='img-lobby'>
         <Link to='/'>
-        <img src={image1} alt='1' className='logo-title'/>
+        <img src={image1} alt='2' className='logo-title'/>
         </Link>
       </div> 
 
