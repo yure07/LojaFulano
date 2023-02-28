@@ -1,17 +1,11 @@
-@font-face {
-    font-family: FontGothamBold;
-    src: url(../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
-}
-@font-face {
-    font-family: FontGothamBook;
-    src: url(../../../../fonts/GOTHAMBOOK.TTF) format(‘truetype’);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-headset-hero{
     width: 800px;
     margin-left: 370px;
     height: 700px;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .title-product-headset-hero{
@@ -28,7 +22,8 @@
     width: 300px;
     padding-bottom: 30px;
     font-size: 18px;
-    font-family: FontGothamBook;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 .description-hero p {
     margin-bottom: 0;
@@ -131,7 +126,7 @@
         width: 55px;
         padding: 4px;
         margin-left: 200px;
-        margin-top: 765px;
+        margin-top: 795px;
         font-size: 18px;
     }
     .btn-buy-headset-hero{
@@ -142,18 +137,18 @@
         width: 40px;
         height: 40px;
         margin-left: -120px;
-        margin-top: 460px;
+        margin-top: 470px;
     }
     .white-purple-hero{
         width: 40px;
         height: 40px;
         margin-left: -10px;
-        margin-top: -385px;
+        margin-top: -412px;
     }
     .white-red-hero{
         width: 40px;
         height: 40px;
         margin-left: 60px;
-        margin-top: -385px;
+        margin-top: -412px;
     }
 }

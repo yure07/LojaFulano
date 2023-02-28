@@ -1,24 +1,19 @@
-@font-face {
-    font-family: FontGothamBold;
-    src: url(../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
-}
-@font-face {
-    font-family: FontGothamBook;
-    src: url(../../../../fonts/GOTHAMBOOK.TTF) format(‘truetype’);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-mousepad-tokyo{
     width: 900px;
     margin-left: 370px;
     height: 700px;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 .name-product-mousepad-tokyo{
     font-size: 22px;
     margin-top: 0;
 }
 .description-mousepad-tokyo{
-    font-family: FontGothamBook;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
     width: 300px;
     padding-bottom: 30px;
     font-size: 18px;
@@ -51,7 +46,7 @@
     height: 50px;
     position: absolute;
     color: #fff;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     border: none;
     border-radius: 10px;
@@ -137,7 +132,7 @@ button{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 720px;
+        margin-top: 725px;
         font-size: 18px;
     }
     .buy-buy{
@@ -150,18 +145,18 @@ button{
         width: 40px;
         height: 40px;
         margin-left: -20px;
-        margin-top: -387px;
+        margin-top: -390px;
     }
     .london-mousepad{
         width: 40px;
         height: 40px;
-        margin-top: -387px;
+        margin-top: -390px;
         margin-left: 70px;
     }
     .tokyo-mousepad{
         width: 40px;
         height: 40px;
         margin-left: -170px;
-        margin-top: 410px;
+        margin-top: 420px;
     }
 }

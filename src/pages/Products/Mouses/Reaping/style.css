@@ -1,12 +1,11 @@
-@font-face {
-    font-family: FontGothamBold;
-    src: url(../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .container-redragon{
     width: 800px;
     margin-left: 370px;
     height: 700px;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 .title-product-redragon{
     font-size: 60px;
@@ -40,7 +39,8 @@ p{margin-bottom: 0;}
     height: 50px;
     position: absolute;
     color: #fff;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     border: none;
     border-radius: 10px;
@@ -82,7 +82,7 @@ p{margin-bottom: 0;}
         width: 50px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 835px;
+        margin-top: 845px;
         font-size: 18px;
     }
 }

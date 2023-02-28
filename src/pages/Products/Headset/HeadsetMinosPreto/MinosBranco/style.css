@@ -1,17 +1,11 @@
-@font-face {
-    font-family: FontGothamBold;
-    src: url(../../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
-}
-@font-face {
-    font-family: FontGothamBook;
-    src: url(../../../../../fonts/GOTHAMBOOK.TTF) format(‘truetype’);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-headset-minos-white{
     width: 800px;
     margin-left: 370px;
     height: 700px;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .title-product-headset-minos-white{
@@ -28,7 +22,8 @@
     width: 300px;
     padding-bottom: 30px;
     font-size: 18px;
-    font-family: FontGothamBook;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 .description-minos-white p {
     margin-bottom: 0;
@@ -122,10 +117,10 @@
         margin-top: 225px;
     }
     .discount-minos-white{
-        width: 55px;
+        width: 50px;
         padding: 4px;
-        margin-left: 190px;
-        margin-top: 790px;
+        margin-left: 195px;
+        margin-top: 825px;
         font-size: 18px;
     }
     .btn-buy-headset-minos-white{
@@ -142,6 +137,6 @@
         width: 40px;
         height: 40px;
         margin-left: -60px;
-        margin-top: -395px;
+        margin-top: -435px;
     }
 }

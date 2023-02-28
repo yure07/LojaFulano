@@ -1,24 +1,19 @@
-@font-face {
-    font-family: FontGothamBold;
-    src: url(../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
-}
-@font-face {
-    font-family: FontGothamBook;
-    src: url(../../../../fonts/GOTHAMBOOK.TTF) format(‘truetype’);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-mousepad-dracula{
     width: 800px;
     margin-left: 370px;
     height: 700px;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 .name-product-mousepad-dracula{
     font-size: 22px;
     margin-top: 0;
 }
 .description-mousepad-dracula{
-    font-family: FontGothamBook;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
     width: 300px;
     padding-bottom: 30px;
     font-size: 18px;
@@ -51,7 +46,8 @@
     height: 50px;
     position: absolute;
     color: #fff;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     border: none;
     border-radius: 10px;
@@ -131,7 +127,7 @@ button{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 720px;
+        margin-top: 725px;
         font-size: 18px;
     }
     .btn-buy-mousepad-dracula{
@@ -150,19 +146,19 @@ button{
         width: 40px;
         height: 40px;
         margin-left: -10px;
-        margin-top: 416px;
+        margin-top: 420px;
         
     }
     .london-mousepad-dracula{
         width: 40px;
         height: 40px;
-        margin-top: -383px;
+        margin-top: -393px;
         margin-left: 70px;
     }
     .tokyo-mousepad-dracula{
         width: 40px;
         height: 40px;
         margin-left: -120px;
-        margin-top: -380px;
+        margin-top: -390px;
     }
 }

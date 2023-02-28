@@ -1,14 +1,9 @@
-@font-face {
-    font-family: FontGothamBold;
-    src: url(../../../../fonts/GOTHAMBOLD.TTF) format(‘truetype’);
-}
-@font-face {
-    font-family: FontGothamBook;
-    src: url(../../../../fonts/GOTHAMBOOK.TTF) format(‘truetype’);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .container-headset-scylla{
     width: 800px;
-    font-family: FontGothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     margin-left: 370px;
     height: 700px;
 }
@@ -26,7 +21,8 @@
 }
 .description-headset-scylla{
     width: 300px;
-    font-family: FontGothamBook;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
     padding-bottom: 30px;
     font-size: 18px;
 }
@@ -124,7 +120,7 @@
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 835px;
+        margin-top: 875px;
         font-size: 18px;
     }
     .btn-buy-headset-scylla{
@@ -137,12 +133,12 @@
         width: 40px;
         height: 40px;
         margin-left: 20px;
-        margin-top: -453px;
+        margin-top: -480px;
     }
     .headset-scylla-black{
         width: 40px;
         height: 40px;
         margin-left: -100px;
-        margin-top: 460px;
+        margin-top: 480px;
     }
 }
