@@ -10,7 +10,7 @@ function Header() {
   return(
     <header className='header-container'>
       
-    <div className='itens-container'>
+    
       <div className='itens'>
         <a href='/' className='info' id='home-header'>
           <i><FontAwesomeIcon icon={faHome} /></i>
@@ -28,7 +28,7 @@ function Header() {
         SOBRE 
         </a>
       </div>
-    </div>
+    
 
       <div className='img-lobby'>
         <Link to='/'>
