@@ -1,13 +1,22 @@
+.background-container-main{
+    width: 100vw;
+    
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
 .galery{
     width: 1100px;
     overflow: hidden;
-    margin-left: 200px;
     margin-top: 140px;
     position: absolute;
+    height: 450px;
+    
 }
 .galery .pictures {
     width: 500%;
     animation-name: animacao;
+    
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
@@ -15,6 +24,7 @@
     width: 20%;
     height: 400px;
     border-radius: 5px;
+    background-size: cover;
 }
 
 @keyframes animacao {

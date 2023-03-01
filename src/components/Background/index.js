@@ -6,6 +6,7 @@ import image4 from '../../images/BG-3.jpg'
 
 function Background () {
     return(
+      <div className='background-container-main'>
         <div className='galery'>
               <div className='pictures'> 
                 <img src={image1} alt='1' className='carousel'/>
@@ -15,6 +16,7 @@ function Background () {
                 <img src={image1} alt='5' className='carousel'/>
               </div>
             </div>
+      </div>
     )
 }
 export default Background

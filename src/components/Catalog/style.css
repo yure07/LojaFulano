@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .catalog{
-    margin-top: 550px;
-    width: 100%; 
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
     height: 3350px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -13,7 +15,6 @@
     max-width: 1100px;
     width: 1100px;
     display: grid;
-    margin-left: 200px;
     margin-top: 80px;
     column-gap: 100px;
     row-gap: 100px;
