@@ -38,7 +38,7 @@ function HeadsetHeroBrancoRoxo () {
 
             <img src={image} alt='1' className='product-headset-purple'/>
 
-            <a href='https://wa.link/8ghyba' target='_blank'>
+            <a href='https://api.whatsapp.com/send?phone=5574999089728&text=Ol%C3%A1%20Fulano%2C%20Estou%20interessado%20em%20comprar%20um%20produto%20que%20vi%20na%20sua%20loja%2CHeadset%20Gamer%20Hero%2C%20Redragon%2C%20Branco%20com%20Roxo%20-%20H530-WP.%20Acredito%20que%20ele%20atender%C3%A1%20perfeitamente%20minhas%20necessidades.' target='_blank'>
                 <button type='submit' className='btn-buy-headset-hero-purple'>COMPRAR</button>
             </a>
             </div>

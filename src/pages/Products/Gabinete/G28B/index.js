@@ -28,7 +28,7 @@ function G28B () {
 
             <img src={image} alt='1' className='product-gabinete'/>
 
-           <a href='https://wa.link/py0kc4' target='_blank'>
+           <a href='https://api.whatsapp.com/send?phone=5574999089728&text=Ol%C3%A1%20Fulano%2C%20Estou%20interessado%20em%20comprar%20um%20produto%20que%20vi%20na%20sua%20loja%2C%20Gabinete%20Gamer%20TGC-G28B%20PTO.%20Acredito%20que%20ele%20atender%C3%A1%20perfeitamente%20minhas%20necessidades.' target='_blank'>
             <button type='submit' className='buy-buy'>COMPRAR</button>
            </a>
             </div>

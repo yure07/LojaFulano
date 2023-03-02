@@ -29,7 +29,7 @@ function Storm () {
 
             <img src={image} alt='1' className='mouse-storm' />
 
-           <a target='_blank' href='https://wa.link/gavlub'>
+           <a target='_blank' href='https://api.whatsapp.com/send?phone=5574999089728&text=Ol%C3%A1%20Fulano%2C%20Estou%20interessado%20em%20comprar%20um%20produto%20que%20vi%20na%20sua%20loja%2C%20Mouse%20Gamer%20Storm%20Elite%20RGB.%20Acredito%20que%20ele%20atender%C3%A1%20perfeitamente%20minhas%20necessidades.'>
             <button type='submit' className='btn-buy-mouse-storm'>COMPRAR</button>
            </a>
 

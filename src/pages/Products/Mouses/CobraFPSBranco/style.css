@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.name-product-cobra-white{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -210px;
+}
+.mouse-cobra-white{
+    width: 430px;
+    height: 340px;
+    margin-left: 350px;
+    margin-top: 150px;
+    position: absolute;
+}
+.discount-mouse-cobra-fps-white{
+    width: 60px;
+    padding: 4px;
+    margin-left: -230px;
+    margin-top: 600px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .name-product-cobra-white{
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .mouse-cobra-white{
+        width: 370px;
+        height: 280px;
+        margin-top: -420px;
+        margin-left: 0;
+    }
+    .discount-mouse-cobra-fps-white{
+        margin-left: 190px;
+        margin-top: 675px;
+    }
+}

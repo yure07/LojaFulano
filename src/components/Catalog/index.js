@@ -5,11 +5,16 @@ import './style.css'
 // TECLADOS //
 import teclado from '../../images/produtos/produto-teclado.png'
 import tecladoAkko from '../../images/produtos/teclado-akko.jpg'
+import tecladoDoubleSwitch from '../../images/produtos/teclado-mecanico-redragon-switch-red-blue.webp'
+import tecladoWhite from '../../images/produtos/teclado-mecanico-redragon-white.png'
 
 // MOUSEPADS //
 import mousePadDracula from '../../images/produtos/Tokyo-Mouse-Pad-Dracula.png'
 import mousePadTokyo from '../../images/produtos/Tokyo-Mouse-Pad.png'
 import mousePadLondon from '../../images/produtos/Tokyo-Mouse-Pad-London.png'
+import mousePadKulun from '../../images/produtos/mousepad-redragon.webp'
+import mousePadFlick from '../../images/produtos/mousepad-redragon-flick.png'
+import mousePadTaurus from '../../images/produtos/mousepad-redragon-taurus.webp'
 
 // CABO TECLADO //
 import caboBlue from '../../images/produtos/cabo-akko-blue.png'
@@ -23,6 +28,10 @@ import gabineteG28b from '../../images/produtos/gabinete-g28b.png'
 import mouseImperial from '../../images/produtos/mouse_imperial.webp'
 import mouseStorm from '../../images/produtos/mouse_gamer_rmouse_storm.png'
 import mouseReaping from '../../images/produtos/mouse_reaping.png'
+import mouseCobraPreto from '../../images/produtos/mouse-redragon-cobra-preto.webp'
+import mouseCobraFPSBranco from '../../images/produtos/mouse-cobra-branco.png'
+import mouseCobraFPSPreto from '../../images/produtos/Mouse-redragon-cobra-FPS.png'
+import mouseStormLunar from '../../images/produtos/mouse-storm-lunar.webp'
 
 // HEADSETS //
 import MinosPreto from '../../images/produtos/headset-minos-preto.png'
@@ -271,6 +280,118 @@ function Catalog() {
           <p className='price'>R$ 139,99</p>
           <strong className='price-now'>R$ 109,99</strong>
             </Link>
+          </div>
+
+          <div className='card-product'>
+          <Link to='/mouse-cobra-preto'>
+              <img src={mouseCobraPreto} alt='19' className='mouses'/>
+          <p className='product-name'>MOUSE GAMER</p>
+          <p className='info-product'>Mouse Redragon Cobra M711</p>
+          <div className='discount'>
+            <strong>-11%</strong>
+          </div>
+          <p className='price'>R$ 139,99</p>
+          <strong className='price-now'>R$ 124,99</strong>
+          </Link>
+          </div>
+
+          <div className='card-product'>
+          <Link to='/mouse-cobra-fps-branco'>
+            <img src={mouseCobraFPSBranco} alt='20' className='mouses'/>
+          <p className='product-name'>MOUSE GAMER</p>
+          <p className='info-product'>Mouse Redragon Cobra FPS - M711W</p>
+          <div className='discount'>
+            <strong>-8%</strong>
+          </div>
+          <p className='price'>R$ 209,99</p>
+          <strong className='price-now'>R$ 194,99</strong>
+          </Link>
+          </div>
+
+          <div className='card-product'>
+
+            <img src={mouseCobraFPSPreto} alt='21' className='mouse-reaping'/>
+          <p className='product-name'>MOUSE GAMER</p>
+          <p className='info-product'>Mouse Redragon Cobra FPS Preto - M711B</p>
+          <div className='discount'>
+            <strong>-10%</strong>
+          </div>
+          <p className='price'>R$ 219,99</p>
+          <strong className='price-now'>R$ 194,99</strong>
+
+          </div>
+
+          <div className='card-product'>
+
+            <img src={mousePadKulun} alt='22' className='mousepad-new'/>
+          <p className='product-name'>MOUSEPAD REDRAGON</p>
+          <p className='info-product'>Mousepad Redragon Kunlun EXT Preto</p>
+          <div className='discount'>
+            <strong>-25%</strong>
+          </div>
+          <p className='price'>R$ 119,99</p>
+          <strong className='price-now'>R$ 89,99</strong>
+
+          </div>
+
+          <div className='card-product'>
+
+            <img src={mousePadFlick} alt='23' className='mousepad-new'/>
+          <p className='product-name'>MOUSEPAD REDRAGON</p>
+          <p className='info-product'>Mousepad Redragon Flick L Preto</p>
+          <div className='discount'>
+            <strong>-20%</strong>
+          </div>
+          <p className='price'>R$ 99,99</p>
+          <strong className='price-now'>R$ 79,99</strong>
+
+          </div>
+          
+          <div className='card-product'>
+            <img src={tecladoDoubleSwitch} alt='24' className='teclado-double-switch'/>
+          <p className='product-name'>TECLADO GAMER</p>
+          <p className='info-product'>Teclado Mecânico Redragon Dark Avenger Rainbow (PT-BLUE)</p>
+          <div className='discount'>
+            <strong>-16%</strong>
+          </div>
+          <p className='price'>R$ 249,99</p>
+          <strong className='price-now'>R$ 209,99</strong>
+
+          </div>
+
+          <div className='card-product'>
+            <img src={tecladoWhite} alt='25' className='teclado-white'/>
+          <p className='product-name'>TECLADO GAMER</p>
+          <p className='info-product'>Teclado Mecânico Redragon Dark Avenger Rainbow Lunar White</p>
+          <div className='discount'>
+            <strong>-22%</strong>
+          </div>
+          <p className='price'>R$ 269,99</p>
+          <strong className='price-now'>R$ 209,99</strong>
+
+          </div>
+
+          <div className='card-product'>
+            <img src={mouseStormLunar} alt='26' className='mouses'/>
+          <p className='product-name'>MOUSE GAMER</p>
+          <p className='info-product'>Mouse Storm RGB Lunar White</p>
+          <div className='discount'>
+            <strong>-15%</strong>
+          </div>
+          <p className='price'>R$ 189,99</p>
+          <strong className='price-now'>R$ 159,99</strong>
+
+          </div>
+
+          <div className='card-product'>
+            <img src={mousePadTaurus} alt='27' className='mousepad-new'/>
+          <p className='product-name'>MOUSEPAD REDRAGON</p>
+          <p className='info-product'>Mousepad EXT Taurus Speed</p>
+          <div className='discount'>
+            <strong>-27%</strong>
+          </div>
+          <p className='price'>R$ 89,99</p>
+          <strong className='price-now'>R$ 64,99</strong>
           </div>
 
          </div>

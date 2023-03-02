@@ -1,15 +1,14 @@
 import './style.css'
 import Header from '../../../../components/Header/header'
 import Footer from '../../../../components/Footer'
-import image from '../../../../images/produtos/mouse_reaping.png'
 
-function Reaping () {
-    return (
+export default function CobraFPSPreto () {
+    return(
         <div>
             <Header/>
             <div className='container-redragon'>
             <h1 className='title-product-redragon'>MOUSE REDRAGON</h1>
-            <p className='name-product-redragon'>Mouse Redragon Reaping Elite RGB Preto</p>
+            <p className='name-product-cobra-white'>Mouse Redragon Cobra FPS M711W</p>
             
             <div className='description-mouse-redragon'>
                 <p>Mouse Gamer Reaping Elite, Redragon - M987P-K.
@@ -26,9 +25,9 @@ function Reaping () {
             <p className='price-mouse-redragon'>R$239,99</p>
             <strong className='price-now-mouse-redragon'>R$209,99</strong>
 
-            <img src={image} alt='1' className='mouse'/>
+            <img  alt='1' className='mouse-cobra-white'/>
 
-           <a target='_blank' href='https://api.whatsapp.com/send?phone=5574999089728&text=Ol%C3%A1%20Fulano%2C%20Estou%20interessado%20em%20comprar%20um%20produto%20que%20vi%20na%20sua%20loja%2C%20Mouse%20Reaping%20Elite%20RGB%20PTO.%20Acredito%20que%20ele%20atender%C3%A1%20perfeitamente%20minhas%20necessidades.'>
+           <a target='_blank' href=''>
             <button type='submit' className='btn-buy-mouse-reaping'>COMPRAR</button>
            </a>
 
@@ -37,4 +36,3 @@ function Reaping () {
         </div>
     )
 }
-export default Reaping

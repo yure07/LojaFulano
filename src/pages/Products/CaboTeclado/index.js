@@ -34,7 +34,7 @@ function CaboTeclado () {
             <p className='price-cable'>R$69,99</p>
             <strong className='price-now-cable'>R$49,99</strong>
 
-           <a target='_blank' href='https://wa.link/dwsy1p'>
+           <a target='_blank' href='https://api.whatsapp.com/send?phone=5574999089728&text=Ol%C3%A1%20Fulano%2C%20Estou%20interessado%20em%20comprar%20um%20produto%20que%20vi%20na%20sua%20loja%2C%20CABO%20PARA%20TECLADO%20Akko%20Pink.%20Acredito%20que%20ele%20atender%C3%A1%20perfeitamente%20minhas%20necessidades.'>
             <button type='submit' className='btn-buy-cable'>COMPRAR</button>
            </a>
 

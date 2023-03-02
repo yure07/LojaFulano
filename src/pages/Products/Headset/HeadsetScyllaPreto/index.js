@@ -34,7 +34,7 @@ function HeadsetScylla () {
 
             <button className='headset-scylla-black' type='submit'></button>
 
-            <a href='https://wa.link/7q1wuf' target='_blank'>
+            <a href='https://api.whatsapp.com/send?phone=5574999089728&text=Ol%C3%A1%20Fulano%2C%20Estou%20interessado%20em%20comprar%20um%20produto%20que%20vi%20na%20sua%20loja%2C%20Headset%20Gamer%20Scylla%2C%20Redragon%2C%20Preto%20-%20H901.%20Acredito%20que%20ele%20atender%C3%A1%20perfeitamente%20minhas%20necessidades.' target='_blank'>
                 <button type='submit' className='btn-buy-headset-scylla'>COMPRAR</button>
             </a>
 

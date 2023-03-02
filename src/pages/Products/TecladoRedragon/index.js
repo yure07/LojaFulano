@@ -25,7 +25,7 @@ function Teclado () {
             <p className='price-keyboard'>R$274,99</p>
             <strong className='price-now-keyboard'>R$204,99</strong>
 
-           <a href='https://wa.link/zccpr9' target='_blank'>
+           <a href='https://api.whatsapp.com/send?phone=5574999089728&text=Ol%C3%A1%20Fulano%2C%20Estou%20interessado%20em%20comprar%20um%20produto%20que%20vi%20na%20sua%20loja%2C%20Teclado%20Mec%C3%A2nico%20Redragon.%20Acredito%20que%20ele%20atender%C3%A1%20perfeitamente%20minhas%20necessidades.' target='_blank'>
             <button type='submit' className='btn-buy-keyboard'>COMPRAR</button>
            </a>
                 <img src={image1} alt='1' className='product-keyboard'/>
