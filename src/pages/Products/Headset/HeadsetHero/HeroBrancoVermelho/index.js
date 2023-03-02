@@ -13,14 +13,14 @@ function HeadsetHeroBrancoVermelho () {
             <h1 className='title-product-headset-hero-red'>Headset Gamer</h1>
             <p className='name-product-headset-hero-red'>Headset Redragon Hero Branco com Vermelho H530-WP</p>
             
-            <div className='description-headset-hero'>
+            <div className='description-headset-hero-red'>
                    <h2>Características:</h2>
                 <p> - Controladora integrada para maior praticidade durante o uso.</p>
                 <p> - Microfone com redução de ruído de fundo para captação clara e limpa.</p>
                 <p> - Som estéreo de alta qualidade com drivers de 53mm.</p>   
             </div>
 
-            <div className='discount-hero'>
+            <div className='discount-hero-red'>
                 <strong>-14%</strong>
             </div>
             <p className='price-hero'>R$ 239,99</p>

@@ -69,14 +69,15 @@
 .btn-buy-headset-hebe{
     width: 220px;
     margin-left: -230px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     height: 50px;
     position: absolute;
     color: #fff;
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    background-color: rgba(72, 255, 0, 0.756);
-    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+    background-color: rgb(39, 185, 39);
 }
 
 /* MEDIA QUERIES */ 

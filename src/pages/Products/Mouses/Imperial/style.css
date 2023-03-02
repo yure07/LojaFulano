@@ -1,35 +1,109 @@
+.container-imperial{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.title-product-imperial{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.name-product-imperial{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -290px;
+}
+.description-mouse-imperial{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: -250px;
+}
 .mouse-imperial{
-    width: 380px;
-    height: 340px;
-    margin-left: 210px;
-    margin-top: -390px;
+    width: 450px;
+    height: 410px;
+    margin-left: 450px;
+    margin-top: 160px;
     position: absolute;
 }
 .discount-imperial-mouse{
     width: 65px;
     padding: 4px;
-    margin-left: 130px;
+    margin-left: -175px;
+    margin-top: 610px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
 }
+.price-mouse-imperial{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -370px;
+}
+.price-now-mouse-imperial{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -320px;
+}
+.btn-buy-mouse-imperial{
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+    margin-left: -275px;
+}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
-    .mouse-imperial{
-        width: 300px;
-        height: 260px;
+    .title-product-imperial{
+        font-size: 33px;
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
+    .name-product-imperial{
+        font-size: 15px;
         margin-left: 0px;
-        margin-top: 230px;
+    }
+    .description-mouse-imperial{
+        margin-left: 0px;
+        margin-top: 220px;
+    }
+    .mouse-imperial{
+        width: 260px;
+        height: 220px;
+        margin-left: 0px;
+        margin-top: -280px;
         position: absolute;
     }
     .discount-imperial-mouse{
-        width: 50px;
-        padding: 4px;
-        margin-left: 185px;
-        margin-top: 905px;
-        font-size: 18px;
+        margin-left: 190px;
+        margin-top: 785px;
+    }
+    .price-mouse-imperial{
+        margin-left: 0px;
+    }
+    .price-now-mouse-imperial{
+        margin-left: 0px;
+    }
+    .btn-buy-mouse-imperial{
+        margin-left: -120px;
     }
 }

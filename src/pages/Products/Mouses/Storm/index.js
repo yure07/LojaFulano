@@ -8,11 +8,11 @@ function Storm () {
         <div>
             <Header/>
 
-            <div className='container-cable'>
+            <div className='container-storm'>
             <h1 className='title-product-redragon'>MOUSE REDRAGON</h1>
-            <p className='name-product-cable'>Mouse Redragon Storm Elite RGB</p>
+            <p className='name-product-storm'>Mouse Redragon Storm Elite RGB</p>
             
-            <div className='description-cable'>
+            <div className='description-mouse-storm'>
                 <p>Mouse Gamer Storm Elite, Redragon - M988W. 
                  <h2> Características </h2>
                   <p>- Leve e Preciso. Devido ao seu design colméia, ele pesa apenas 85g.</p>
@@ -24,13 +24,13 @@ function Storm () {
             <div className='discount-storm'>
                 <strong>-11%</strong>
             </div>
-            <p className='price-cable'>R$219,99</p>
-            <strong className='price-now-cable'>R$194,99</strong>
+            <p className='price-mouse-storm'>R$219,99</p>
+            <strong className='price-now-mouse-storm'>R$194,99</strong>
 
             <img src={image} alt='1' className='mouse-storm' />
 
            <a target='_blank' href='https://wa.link/gavlub'>
-            <button type='submit' className='btn-buy-cable'>COMPRAR</button>
+            <button type='submit' className='btn-buy-mouse-storm'>COMPRAR</button>
            </a>
 
             </div>

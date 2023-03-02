@@ -1,34 +1,103 @@
+.container-storm{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 .mouse-storm{
-    width: 430px;
-    height: 410px;
-    margin-left: 180px;
-    margin-top: -400px;
+    width: 520px;
+    height: 470px;
+    margin-left: 380px;
+    margin-top: 200px;
     position: absolute;
+}
+.name-product-storm{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -230px;
+}
+.description-mouse-storm{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: -310px;
 }
 .discount-storm{
     width: 65px;
     padding: 4px;
-    margin-left: 130px;
+    margin-left: -220px;
+    margin-top: 590px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
 }
+.price-mouse-storm{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -420px;
+}
+.price-now-mouse-storm{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -370px;
+}
+.btn-buy-mouse-storm{
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+    margin-left: -300px;
+}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
+    .container-storm{
+        height: 1110px;
+    }
+    .name-product-storm{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    .description-mouse-storm{
+        margin-top: 250px;
+        margin-left: 0px;
+    }
     .mouse-storm{
         width: 325px;
         height: 290px;
         margin-left: 0px;
-        margin-top: 210px;
+        margin-top: -420px;
     }
     .discount-storm{
-        width: 50px;
-        padding: 4px;
         margin-left: 185px;
-        margin-top: 885px;
+        margin-top: 655px;
+        width: 50px;
         font-size: 18px;
+    }
+    .price-mouse-storm{
+        margin-left: 0px;
+    }
+    .price-now-mouse-storm{
+        margin-left: 0px;
+    }
+    .btn-buy-mouse-storm{
+        margin-left: -120px;
     }
 }

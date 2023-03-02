@@ -1,28 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-headset-hero-purple{
-    width: 800px;
-    margin-left: 370px;
-    height: 700px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 .title-product-headset-hero-purple{
     font-size: 60px;
-    margin-top: 150px;
     margin-bottom: 0;
 }
 .name-product-headset-hero-purple{
     font-size: 22px;
     margin-top: 0;
+    margin-left: 120px;
 }
 
 .product-headset-purple{
-    width: 340px;
+    width: 310px;
     height: 360px;
-    margin-left: 300px;
-    margin-top: -360px;
+    margin-left: 600px;
+    margin-top: 150px;
     position: absolute;
+}
+.discount-hero-purple{
+    width: 65px;
+    padding: 4px;
+    margin-left: -50px;
+    margin-top: 410px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
 }
 
 .white-hero-change2 {
@@ -30,7 +43,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-left: 350px;
+    margin-left: 180px;
     background-color: #fff;
 }
 
@@ -39,7 +52,8 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-left: 430px;
+    margin-left: 580px;
+    margin-top: 600px;
     background: linear-gradient(120deg, #fff 50%, purple 50%);
 }
 
@@ -47,67 +61,67 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-left: 510px;
+    margin-left: 350px;
     background: linear-gradient(120deg, #fff 50%, red 50%);
 }
 .btn-buy-headset-hero-purple{
-    width: 200px;
+    width: 220px;
     height: 50px;
     position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: -240px;
     color: #fff;
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    background-color: rgba(72, 255, 0, 0.756);
-    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+    background-color: rgb(39, 185, 39);
 }
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
     .container-headset-hero-purple{
-        margin-left: 0;
-        width: 100%;
         height: 1000px;
-        margin-top: 00px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .title-product-headset-hero-purple{
         font-size: 40px;
     }
     .name-product-headset-hero-purple{
-        font-size: 13px;
+        font-size: 12px;
+        margin-left: 0;
     }
     .product-headset-purple{
         width: 225px;
         height: 240px;
         margin-left: 0px;
-        margin-top: 225px;
+        margin-top: -335px;
     }
     .white-hero-change2 {
         width: 40px;
         height: 40px;
         margin-left: -80px;
-        margin-top: -420px;
+        margin-top: -430px;
     }
     
     .white-purple-hero-change2 {
         width: 40px;
         height: 40px;
         margin-left: 20px;
-        margin-top: 470px;
+        margin-top: -40px;
     }
-    
+    .discount-hero-purple{
+        margin-top: 640px;
+        margin-left: 200px;
+    }
     .white-red-hero-change2{
         width: 40px;
         height: 40px;
         margin-left: 60px;
-        margin-top: -420px;
+        margin-top: -430px;
     }
     .btn-buy-headset-hero-purple{
-        margin-left: -100px;
+        margin-left: -120px;
         margin-top: 30px;
     }
 }

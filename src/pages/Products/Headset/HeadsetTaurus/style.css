@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-headset-taurus{
-    width: 800px;
-    margin-left: 370px;
-    height: 700px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -17,6 +20,7 @@
 .name-product-headset-taurus{
     font-size: 22px;
     margin-top: 0;
+    margin-left: -180px;
 }
 .description-headset-taurus{
     width: 300px;
@@ -24,6 +28,7 @@
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    margin-left: -180px;
 }
 .description-taurus p {
     margin-bottom: 0;
@@ -34,14 +39,15 @@
 .taurus-headset-product{
     width: 450px;
     height: 430px;
-    margin-left: 240px;
-    margin-top: -460px;
+    margin-left: 500px;
+    margin-top: 150px;
     position: absolute;
 }
 .discount-taurus{
     width: 65px;
     padding: 4px;
-    margin-left: 130px;
+    margin-left: -120px;
+    margin-top: 710px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -52,36 +58,34 @@
     color: rgb(255, 0, 0);
     text-decoration: line-through;
     font-size: 25px;
-    margin: 0;
+    margin-bottom: 0;
+    margin-left: -310px;
 }
 .price-now-taurus{
     font-size: 45px;
     padding-right: 20px;
+    margin-left: -255px;
 }
 
 .btn-buy-headset-taurus{
-    width: 200px;
+    width: 220px;
     height: 50px;
+    margin-left: -240px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     position: absolute;
     color: #fff;
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    background-color: rgba(72, 255, 0, 0.756);
-    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+    background-color: rgb(39, 185, 39);
 }
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
     .container-headset-taurus{
-        margin-left: 0;
-        width: 100%;
         height: 1250px;
-        margin-top: 00px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     
     .title-product-headset-taurus{
@@ -90,26 +94,34 @@
     
     .name-product-headset-taurus{
         font-size: 20px;
+        margin-left: 0;
     }
     .description-headset-taurus{
         padding-bottom: 30px;
         margin-top: 270px;
+        margin-left: 0;
     }
     .taurus-headset-product{
         width: 300px;
         height: 270px;
         margin-left: 0px;
-        margin-top: 225px;
+        margin-top: -325px;
     }
     .discount-taurus{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 990px;
+        margin-top: 950px;
         font-size: 18px;
     }
+    .price-now-taurus{
+        margin-left: 0;
+    }
+    .price-taurus{
+        margin-left: 0;
+    }
     .btn-buy-headset-taurus{
-        margin-left: -100px;
+        margin-left: -120px;
         margin-top: 30px;
     }
 }

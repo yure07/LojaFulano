@@ -20,7 +20,7 @@ function HeadsetHeroBrancoRoxo () {
                 <p> - Som estéreo de alta qualidade com drivers de 53mm.</p>   
             </div>
 
-            <div className='discount-hero'>
+            <div className='discount-hero-purple'>
                 <strong>-14%</strong>
             </div>
             <p className='price-hero'>R$ 239,99</p>
