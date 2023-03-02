@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-mousepad-tokyo{
-    width: 900px;
-    margin-left: 370px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 700px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -10,12 +13,14 @@
 .name-product-mousepad-tokyo{
     font-size: 22px;
     margin-top: 0;
+    margin-left: -230px;
 }
 .description-mousepad-tokyo{
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     width: 300px;
     padding-bottom: 30px;
+    margin-left: -365px;
     font-size: 18px;
     line-height: 22px;
 }
@@ -23,35 +28,39 @@
 .discount-mousepad-tokyo{
     width: 65px;
     padding: 4px;
-    margin-left: 130px;
+    margin-left: -260px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
+    margin-top: 510px;
 }
 
 .price-mousepad-tokyo{
     color: rgb(255, 0, 0);
     text-decoration: line-through;
     font-size: 25px;
-    margin: 0;
+    margin-bottom: 0;
+    margin-left: -450px;
 }
 .price-now-mousepad-tokyo{
     font-size: 45px;
     padding-right: 20px;
+    margin-left: -400px;
 }
 
 .buy-buy{
-    width: 200px;
+    width: 220px;
     height: 50px;
+    margin-left: -320px;
     position: absolute;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    background-color: rgba(72, 255, 0, 0.756);
-    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+    background-color: rgb(39, 185, 39);
 }
 .title-product-mousepad-tokyo{
     font-size: 80px;
@@ -61,8 +70,8 @@
 .product-mousepad-tokyo{
     width: 440px;
     height: 230px;
-    margin-left: 180px;
-    margin-top: -280px;
+    margin-left: 480px;
+    margin-top: 200px;
     position: absolute;
 }
 
@@ -76,7 +85,8 @@ button{
     background: linear-gradient(120deg,
     #a11e2a 50%,
     #575d5e 50%);
-    margin-left: 350px;
+    margin-left: 220px;
+    margin-top: -90px;
     border-radius: 50%;
 }
 .london-mousepad{
@@ -87,7 +97,8 @@ button{
     height: 50px;
     border-radius: 50%;
     margin-right: 20px;
-    margin-left: 420px;
+    margin-left: 320px;
+    margin-top: -90px;
 }
 .tokyo-mousepad{
     width: 50px;
@@ -96,7 +107,8 @@ button{
     background: linear-gradient(120deg,
     rgb(223, 89, 111) 50%,
     white 50%);
-    margin-left: 490px;
+    margin-left: 290px;
+    margin-top: 520px;
     border: 3px solid rgba(72, 255, 0, 0.756);
 }
 
@@ -117,22 +129,30 @@ button{
     }
     .name-product-mousepad-tokyo{
         font-size: 16px;
+        margin-left: 0;
     }
     .description-mousepad-tokyo{
         padding-bottom: 30px;
         margin-top: 240px;
+        margin-left: 0;
     }
     .product-mousepad-tokyo{
         width: 300px;
         height: 160px;
         margin-left: 0px;
-        margin-top: 230px;
+        margin-top: -180px;
+    }
+    .price-mousepad-tokyo{
+        margin-left: 0;
+    }
+    .price-now-mousepad-tokyo{
+        margin-left: 0;
     }
     .discount-mousepad-tokyo{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 725px;
+        margin-top: 705px;
         font-size: 18px;
     }
     .buy-buy{
@@ -145,18 +165,18 @@ button{
         width: 40px;
         height: 40px;
         margin-left: -20px;
-        margin-top: -397px;
+        margin-top: -408px;
     }
     .london-mousepad{
         width: 40px;
         height: 40px;
-        margin-top: -397px;
+        margin-top: -408px;
         margin-left: 70px;
     }
     .tokyo-mousepad{
         width: 40px;
         height: 40px;
         margin-left: -170px;
-        margin-top: 420px;
+        margin-top: 60px;
     }
 }

@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-cable-blue{
-    width: 800px;
-    margin-left: 370px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 700px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -10,6 +13,7 @@
 .name-product-cable-blue{
     font-size: 22px;
     margin-top: 0;
+    margin-left: -360px;
 }
 .description-cable-blue{
     width: 300px;
@@ -18,32 +22,37 @@
     padding-bottom: 30px;
     font-size: 18px;
     line-height: 22px;
+    margin-left: -460px;
 }
 .description-cable-blue p{margin-bottom: 0;}
 .discount-cable-blue{
     width: 65px;
     padding: 4px;
-    margin-left: 130px;
+    margin-left: -365px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
+    margin-top: 525px;
 }
 
 .price-cable-blue{
     color: rgb(255, 0, 0);
     text-decoration: line-through;
     font-size: 25px;
-    margin: 0;
+    margin-bottom: 0;
+    margin-left: -550px;
 }
 .price-now-cable-blue{
     font-size: 45px;
     padding-right: 20px;
+    margin-left: -500px;
 }
 
 .btn-buy-cable-blue{
-    width: 200px;
+    width: 220px;
     height: 50px;
+    margin-left: -370px;
     position: absolute;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -51,9 +60,9 @@
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    background-color: rgba(72, 255, 0, 0.756);
-    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+    background-color: rgb(39, 185, 39);
 }
+
 .title-product-cable-blue{
     font-size: 80px;
     margin-top: 150px;
@@ -63,7 +72,7 @@
     width: 260px;
     height: 260px;
     margin-left: 280px;
-    margin-top: -300px;
+    margin-top: 200px;
     position: absolute;
 }
 
@@ -75,7 +84,8 @@ button{
     width: 50px;
     height: 50px;
     background-color: blue;
-    margin-left: 350px;
+    margin-left: 200px;
+    margin-top: 600px;
     border-radius: 50%;
     border: 3px solid rgba(72, 255, 0, 0.756);
 }
@@ -83,7 +93,8 @@ button{
     width: 50px;
     height: 50px;
     background-color: rgb(226, 89, 112);
-    margin-left: 420px;
+    margin-left: 180px;
+    margin-top: -60px;
     border-radius: 50%;
 }
 
@@ -91,36 +102,38 @@ button{
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
     .container-cable-blue{
-        margin-left: 0;
-        width: 100%;
         height: 1100px;
-        margin-top: 00px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .title-product-cable-blue{
         font-size: 35px;
     }
     .name-product-cable-blue{
         font-size: 18px;
+        margin-left: 0;
     }
     .description-cable-blue{
         padding-bottom: 30px;
         margin-top: 300px;
+        margin-left: 0;
     }
     .discount-cable-blue{
         width: 55px;
         padding: 4px;
         margin-left: 180px;
-        margin-top: 800px;
+        margin-top: 780px;
         font-size: 18px
+    }
+    .price-cable-blue{
+        margin-left: 0;
+    }
+    .price-now-cable-blue{
+        margin-left: 0;
     }
     .pg-product-cable-blue{
         width: 230px;
         height: 230px;
         margin-left: 0px;
-        margin-top: 230px;
+        margin-top: -220px;
     }
     .btn-buy-cable-blue{
         width: 200px;
@@ -132,12 +145,12 @@ button{
         width: 40px;
         height: 40px;
         margin-left: 100px;
-        margin-top: 480px;
+        margin-top: 85px;
     }
     .cable-change-to-blue {
         width: 40px;
         height: 40px;
         margin-left: -65px;
-        margin-top: -410px;
+        margin-top: -432px;
     }
 }

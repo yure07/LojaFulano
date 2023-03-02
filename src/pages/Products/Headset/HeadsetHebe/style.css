@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .container-headset-hebe{
-    width: 800px;
-    margin-left: 370px;
-    height: 700px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
 .title-product-headset-hebe{
     font-size: 60px;
-    margin-top: 150px;
     margin-bottom: 0;
 }
 
 .name-product-headset-hebe{
     font-size: 22px;
+    margin-left: -195px;
     margin-top: 0;
 }
 .description-headset-hebe{
-    width: 300px;
+    width: 350px;
+    margin-left: -130px;
     padding-bottom: 30px;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
@@ -32,35 +36,39 @@
     margin-bottom: -10px;
 }
 .headset-product{
-    width: 430px;
+    width: 450px;
     height: 430px;
-    margin-left: 240px;
-    margin-top: -420px;
+    margin-left: 600px;
+    margin-top: 100px;
     position: absolute;
 }
 .discount-hebe{
-    width: 65px;
+    width: 60px;
     padding: 4px;
-    margin-left: 130px;
+    margin-left: -80px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
+    margin-top: 470px;
 }
 
 .price-hebe{
     color: rgb(255, 0, 0);
     text-decoration: line-through;
     font-size: 25px;
-    margin: 0;
+    margin-bottom: 0;
+    margin-left: -280px;
 }
 .price-now-hebe{
     font-size: 45px;
     padding-right: 20px;
+    margin-left: -230px;
 }
 
 .btn-buy-headset-hebe{
-    width: 200px;
+    width: 220px;
+    margin-left: -230px;
     height: 50px;
     position: absolute;
     color: #fff;
@@ -75,13 +83,7 @@
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
     .container-headset-hebe{
-        margin-left: 0;
-        width: 100%;
         height: 1100px;
-        margin-top: 00px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     
     .title-product-headset-hebe{
@@ -90,23 +92,31 @@
     
     .name-product-headset-hebe{
         font-size: 20px;
+        margin-left: 0;
     }
     .description-headset-hebe{
         padding-bottom: 30px;
-        margin-top: 230px;
+        margin-top: 250px;
+        margin-left: 0;
     }
     .headset-product{
         width: 265px;
         height: 230px;
         margin-left: 0px;
-        margin-top: 230px;
+        margin-top: -350px;
     }
     .discount-hebe{
         width: 50px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 890px;
+        margin-top: 690px;
         font-size: 18px;
+    }
+    .price-hebe{
+        margin-left: 0;
+    }
+    .price-now-hebe{
+        margin-left: 0;
     }
     .btn-buy-headset-hebe{
         width: 200px;

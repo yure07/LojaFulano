@@ -42,12 +42,12 @@
 .discount-keyboard{
     width: 65px;
     padding: 4px;
-    margin-left: -240px;
+    margin-left: -250px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 460px;
+    margin-top: 470px;
 }
 .price-keyboard{
     color: rgb(255, 0, 0);
@@ -72,8 +72,7 @@
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    background-color: rgba(72, 255, 0, 0.756);
-    background-image: linear-gradient( to right, rgba(102, 255, 0, 0.404), rgba(0, 0, 0, 0.522));
+    background-color: rgb(39, 185, 39);
 }
 
 /* MEDIA QUERIES */ 
