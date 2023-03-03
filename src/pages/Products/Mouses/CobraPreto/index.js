@@ -28,7 +28,7 @@ export default function CobraPreto () {
 
             <img src={image} alt='1' className='mouse-cobra-black'/>
 
-           <a target='_blank' href=''>
+           <a target='_blank' href='https://wa.link/3nnl4y'>
             <button type='submit' className='btn-buy-mouse-reaping'>COMPRAR</button>
            </a>
 

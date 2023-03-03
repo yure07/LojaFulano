@@ -49,10 +49,10 @@
 }
 
 .teclado-double-switch{
-    width: 270px;
-    height: 130px;
-    margin-top: 40px; 
-    margin-bottom: 20px;
+    width: 280px;
+    height: 280px;
+    margin-top: 0px; 
+    margin-bottom: -70px;
 }
 
 .product-name{
@@ -103,6 +103,13 @@
 .mousepad-new{
     width: 270px;
     height: 160px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.mousepad-flick{
+    width: 170px;
+    height: 170px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -186,9 +193,8 @@
     }
     .teclado-double-switch{
         width: 150px;
-        height: 60px;
-        margin-top: 20px;
-        margin-bottom: 0px;
+        height: 160px;
+        margin-top: -10px;
     }
     
     .mousepad-tokyo{
@@ -201,6 +207,12 @@
         width: 130px;
         height: 70px;
         margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .mousepad-flick{
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
         margin-bottom: 0px;
     }
 

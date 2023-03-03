@@ -5,7 +5,7 @@ import './style.css'
 // TECLADOS //
 import teclado from '../../images/produtos/produto-teclado.png'
 import tecladoAkko from '../../images/produtos/teclado-akko.jpg'
-import tecladoDoubleSwitch from '../../images/produtos/teclado-mecanico-redragon-switch-red-blue.webp'
+import tecladoDoubleSwitch from '../../images/produtos/dar-avenger-rainbow.png'
 import tecladoWhite from '../../images/produtos/teclado-mecanico-redragon-white.png'
 
 // MOUSEPADS //
@@ -336,7 +336,7 @@ function Catalog() {
 
           <div className='card-product'>
 
-            <img src={mousePadFlick} alt='23' className='mousepad-new'/>
+            <img src={mousePadFlick} alt='23' className='mousepad-flick'/>
           <p className='product-name'>MOUSEPAD REDRAGON</p>
           <p className='info-product'>Mousepad Redragon Flick L Preto</p>
           <div className='discount'>

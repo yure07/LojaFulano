@@ -24,6 +24,9 @@
     background-color: rgb(255, 6, 6);
     font-size: 22px;
 }
+button{
+    margin-left: 600px;
+}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
