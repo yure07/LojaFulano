@@ -12,7 +12,7 @@ import tecladoWhite from '../../images/produtos/teclado-mecanico-redragon-white.
 import mousePadDracula from '../../images/produtos/Tokyo-Mouse-Pad-Dracula.png'
 import mousePadTokyo from '../../images/produtos/Tokyo-Mouse-Pad.png'
 import mousePadLondon from '../../images/produtos/Tokyo-Mouse-Pad-London.png'
-import mousePadKulun from '../../images/produtos/mousepad-redragon.webp'
+import mousePadKulun from '../../images/produtos/mousepad-kunlun.png'
 import mousePadFlick from '../../images/produtos/mousepad-redragon-flick.png'
 import mousePadTaurus from '../../images/produtos/mousepad-redragon-taurus.webp'
 
@@ -309,7 +309,7 @@ function Catalog() {
           </div>
 
           <div className='card-product'>
-
+          <Link to='/mouse-cobra-fps-preto'>
             <img src={mouseCobraFPSPreto} alt='21' className='mouse-reaping'/>
           <p className='product-name'>MOUSE GAMER</p>
           <p className='info-product'>Mouse Redragon Cobra FPS Preto - M711B</p>
@@ -318,11 +318,11 @@ function Catalog() {
           </div>
           <p className='price'>R$ 219,99</p>
           <strong className='price-now'>R$ 194,99</strong>
-
+          </Link>
           </div>
 
           <div className='card-product'>
-
+          <Link to='/mousepad-kunlun'>
             <img src={mousePadKulun} alt='22' className='mousepad-new'/>
           <p className='product-name'>MOUSEPAD REDRAGON</p>
           <p className='info-product'>Mousepad Redragon Kunlun EXT Preto</p>
@@ -331,11 +331,11 @@ function Catalog() {
           </div>
           <p className='price'>R$ 119,99</p>
           <strong className='price-now'>R$ 89,99</strong>
-
+          </Link>
           </div>
 
           <div className='card-product'>
-
+          <Link to='/mousepad-flick'>
             <img src={mousePadFlick} alt='23' className='mousepad-flick'/>
           <p className='product-name'>MOUSEPAD REDRAGON</p>
           <p className='info-product'>Mousepad Redragon Flick L Preto</p>
@@ -344,7 +344,7 @@ function Catalog() {
           </div>
           <p className='price'>R$ 99,99</p>
           <strong className='price-now'>R$ 79,99</strong>
-
+          </Link>
           </div>
           
           <div className='card-product'>
@@ -384,7 +384,7 @@ function Catalog() {
           </div>
 
           <div className='card-product'>
-            <img src={mousePadTaurus} alt='27' className='mousepad-new'/>
+            <img src={mousePadTaurus} alt='27' className='mousepad-tokyo'/>
           <p className='product-name'>MOUSEPAD REDRAGON</p>
           <p className='info-product'>Mousepad EXT Taurus Speed</p>
           <div className='discount'>

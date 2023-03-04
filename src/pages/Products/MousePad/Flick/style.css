@@ -1,0 +1,47 @@
+.name-product-mousepad-flick{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -465px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.discount-mousepad-flick{
+    width: 65px;
+    padding: 4px;
+    margin-left: -510px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+    margin-top: 555px;
+}
+
+.product-mousepad-flick{
+    width: 440px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 350px;
+    position: absolute;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .name-product-mousepad-flick{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .product-mousepad-flick{
+        width: 240px;
+        height: 200px;
+        margin-left: 0px;
+        margin-top: -150px;
+    }
+
+    .discount-mousepad-flick{
+        margin-left: 180px;
+        margin-top: 755px;
+    }
+}

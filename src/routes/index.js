@@ -14,6 +14,8 @@ import CaboBlue from '../pages/Products/CaboTeclado/CaboBlue'
 import Dracula from '../pages/Products/MousePad/Dracula'
 import London from '../pages/Products/MousePad/London'
 import Tokyo from '../pages/Products/MousePad/Tokyo'
+import Kunlun from '../pages/Products/MousePad/Kunlun'
+import Flick from '../pages/Products/MousePad/Flick'
 
 // -- TECLADOS -- //
 import TecladoRedragon from '../pages/Products/TecladoRedragon'
@@ -55,6 +57,8 @@ import CobraPreto from '../pages/Products/Mouses/CobraPreto'
         <Route path='/mousepad-tokyo' element={<Tokyo/>}/>
         <Route path='/mousepad-dracula' element={<Dracula/>}/>
         <Route path='/mousepad-london' element={<London/>}/>
+        <Route path='/mousepad-kunlun' element={ <Kunlun/> }/>
+        <Route path='/mousepad-flick' element={ <Flick/> }/>
         <Route path='/headset-hebe' element={<HeadsetHebe/>}/>
         <Route path='/headset-scylla' element={<HeadsetScylla/>}/>
         <Route path='/headset-scylla-branco' element={ <HeadsetScyllaBranco/> }/>

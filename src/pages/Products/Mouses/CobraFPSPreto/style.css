@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.name-product-cobra-fps-preto{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -220px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.discount-mouse-cobra-fps-preto{
+    width: 65px;
+    padding: 4px;
+    margin-left: -225px;
+    margin-top: 605px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.product-mouse-cobra-fps-preto{
+    width: 220px;
+    height: 360px;
+    margin-left: 480px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .name-product-cobra-fps-preto{
+        margin-left: 0;
+        font-size: 19px;
+    }
+    .discount-mouse-cobra-fps-preto{
+        margin-left: 190px;
+        margin-top: 680px
+    }
+    .product-mouse-cobra-fps-preto{
+        margin-top: -410px;
+        margin-left: 0;
+        width: 140px;
+        height: 250px;
+    }
+}

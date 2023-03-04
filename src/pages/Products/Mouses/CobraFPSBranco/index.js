@@ -2,7 +2,6 @@ import './style.css'
 import Header from "../../../../components/Header/header";
 import Footer from '../../../../components/Footer';
 import image from '../../../../images/produtos/mouse-cobra-branco.png'
-import image2 from '../../../../images/produtos/mouse-2.png'
 
 export default function CobraFPSBranco () {
 
