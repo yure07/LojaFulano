@@ -155,3 +155,22 @@
         margin-top: -70px;
     }
 }
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .pg-product-headset-minos{
+        width: 350px;
+        height: 320px;
+        margin-left: 430px;
+    }
+    
+    .headset-minos-white{
+        margin-left: 250px;
+        margin-top: -72px;
+    }
+    .headset-minos-black{
+        margin-left: 330px;
+        margin-top: 480px;
+    }
+}

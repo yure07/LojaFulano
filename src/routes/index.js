@@ -16,10 +16,14 @@ import London from '../pages/Products/MousePad/London'
 import Tokyo from '../pages/Products/MousePad/Tokyo'
 import Kunlun from '../pages/Products/MousePad/Kunlun'
 import Flick from '../pages/Products/MousePad/Flick'
+import Taurus from '../pages/Products/MousePad/Taurus'
 
 // -- TECLADOS -- //
-import TecladoRedragon from '../pages/Products/TecladoRedragon'
-import TecladoAkko from '../pages/Products/TecladoAkko'
+import TecladoRedragon from '../pages/Products/Teclados/TecladoRedragon'
+import TecladoAkko from '../pages/Products/Teclados/TecladoAkko'
+import DarkBlue from '../pages/Products/Teclados/DarkBlue'
+import DarkWhite from '../pages/Products/Teclados/DarkWhite'
+import DarkRed from '../pages/Products/Teclados/DarkRed'
 
 // -- HEADSETS -- //
 import HeadsetHebe from '../pages/Products/Headset/HeadsetHebe'
@@ -40,6 +44,7 @@ import G28B from '../pages/Products/Gabinete/G28B'
 // -- MOUSES -- //
 import Reaping from '../pages/Products/Mouses/Reaping'
 import Storm from '../pages/Products/Mouses/Storm'
+import StormLunar from '../pages/Products/Mouses/StormLunar'
 import Imperial from '../pages/Products/Mouses/Imperial'
 import CobraFPSBranco from '../pages/Products/Mouses/CobraFPSBranco'
 import CobraFPSPreto from '../pages/Products/Mouses/CobraFPSPreto'
@@ -54,11 +59,15 @@ import CobraPreto from '../pages/Products/Mouses/CobraPreto'
         <Route path='/keyboard-cable-blue' element={<CaboBlue/>}/>
         <Route path='/produto-teclado-redragon' element={<TecladoRedragon/>}/>
         <Route path='/produto-teclado-akko' element={<TecladoAkko/>}/>
+        <Route path='/teclado-dark-switch-blue' element={ <DarkBlue/> }/>
+        <Route path='/teclado-dark-switch-red' element={ <DarkRed/> }/>
+        <Route path='/teclado-dark-white' element={ <DarkWhite/> }/>
         <Route path='/mousepad-tokyo' element={<Tokyo/>}/>
         <Route path='/mousepad-dracula' element={<Dracula/>}/>
         <Route path='/mousepad-london' element={<London/>}/>
         <Route path='/mousepad-kunlun' element={ <Kunlun/> }/>
         <Route path='/mousepad-flick' element={ <Flick/> }/>
+        <Route path='/mousepad-taurus' element={ <Taurus/> }/>
         <Route path='/headset-hebe' element={<HeadsetHebe/>}/>
         <Route path='/headset-scylla' element={<HeadsetScylla/>}/>
         <Route path='/headset-scylla-branco' element={ <HeadsetScyllaBranco/> }/>
@@ -73,6 +82,7 @@ import CobraPreto from '../pages/Products/Mouses/CobraPreto'
         <Route path='/gabinete-gamer-g28b' element={ <G28B/> }/>
         <Route path='/mouse-reaping' element={ <Reaping/> }/>
         <Route path='/mouse-storm' element={ <Storm/> }/>
+        <Route path='/mouse-storm-lunar' element={ <StormLunar/> }/>
         <Route path='/mouse-imperial' element={ <Imperial/> }/>
         <Route path='/mouse-cobra-fps-preto' element={ <CobraFPSPreto/> }/>
         <Route path='/mouse-cobra-preto' element={ <CobraPreto/> }/>

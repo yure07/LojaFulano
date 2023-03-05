@@ -154,3 +154,44 @@ button{
         margin-top: -435px;
     }
 }
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .title-product-cable-blue{
+        font-size: 60px;
+    }
+    .name-product-cable-blue{
+        margin-left: -170px;
+    }
+    .description-cable-blue{
+        margin-left: -270px;
+    }
+    .pg-product-cable-blue{
+        margin-left: 420px;
+        margin-top: 160px;
+    }
+    .cable-pink-change {
+        margin-left: 300px;
+        margin-top: 520px;
+    }
+    .cable-change-to-blue {
+        margin-left: 250px;
+        margin-top: -90px;
+    }
+    .price-cable-blue{
+        margin-left: -400px;
+    }
+    .price-now-cable-blue{
+        margin-left: -370px;
+    }
+    
+    .btn-buy-cable-blue{
+        margin-left: -295px;
+    }
+
+    .discount-cable-blue{
+        margin-left: -215px;
+        margin-top: 500px;
+    }
+}

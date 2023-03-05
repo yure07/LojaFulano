@@ -1,0 +1,66 @@
+.discount-keyboard-dark-red{
+    width: 60px;
+    padding: 4px;
+    margin-left: -280px;
+    margin-top: 415px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.price-keyboard-dark-red{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -470px;
+}
+
+.product-keyboard-dark-red{
+    width: 480px;
+    height: 440px;
+    margin-left: 550px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .discount-keyboard-dark-red{
+        margin-left: 140px;
+        margin-top: 570px;
+    }
+
+    .product-keyboard-dark-red{
+        width: 360px;
+        height: 350px;
+        margin-left: 0px;
+        margin-top: -270px;
+    }
+
+    .price-keyboard-dark-red{
+        margin-left: -55px;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .discount-keyboard-dark-red{
+        margin-left: 200px;
+        margin-top: 690px;
+    }
+    
+    .price-keyboard-dark-red{
+        margin-left: 0px;
+    }
+    
+    .product-keyboard-dark-red{
+        width: 580px;
+        height: 540px;
+        margin-left: 0px;
+        margin-top: -130px;
+    }
+}

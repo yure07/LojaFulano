@@ -1,7 +1,7 @@
 import './style.css'
-import Header from "../../../components/Header/header"
-import Footer from "../../../components/Footer"
-import image1 from '../../../images/produtos/teclado-akko.jpg'
+import Header from '../../../../components/Header/header'
+import Footer from '../../../../components/Footer'
+import image1 from '../../../../images/produtos/teclado-akko.jpg'
 
 function TecladoAkko () {
     return(

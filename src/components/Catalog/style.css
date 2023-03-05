@@ -43,9 +43,9 @@
 
 .teclado-white{
     width: 270px;
-    height: 170px;
-    margin-top: 40px;
-    margin-bottom: -20px
+    height: 240px;
+    margin-top: 0px;
+    margin-bottom: -50px
 }
 
 .teclado-double-switch{
@@ -187,9 +187,9 @@
     }
     .teclado-white{
         width: 150px;
-        height: 90px;
-        margin-top: 10px;
-        margin-bottom: -20px;
+        height: 130px;
+        margin-top: 0px;
+        margin-bottom: -50px;
     }
     .teclado-double-switch{
         width: 150px;
@@ -282,5 +282,128 @@
     .price-now{
         font-size: 22px;
         color: #fff;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .catalog{
+        margin-top: 480px;
+        width: 100%; 
+        height: 6400px;
+    }
+    
+    .cards-products-container{
+        max-width: 475px;
+        width: 100%;
+        display: grid;
+        margin-left: 0px;
+        justify-content: center;
+        margin-top: 80px;
+        column-gap: 30px;
+        row-gap: 30px;
+        grid-template-columns: auto auto;
+    }
+    
+    .card-product{
+        width: 340px;
+        height: 430px;
+        font-size: 18px;
+    }
+
+    .teclado{
+        width: 260px;
+        height: 120px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .teclado-white{
+        width: 290px;
+        height: 270px;
+        margin-top: -10px;
+        margin-bottom: -70px;
+    }
+    .teclado-double-switch{
+        width: 290px;
+        height: 260px;
+        margin-top: -10px;
+    }
+    
+    .mousepad-tokyo{
+        width: 275px;
+        height: 150px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .cable-pink{
+        width: 170px;
+        height: 170px; 
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    .mouse-reaping{
+        margin-top: 15px;
+    }
+
+    .product-name{
+        font-size: 26px;
+    }
+    
+    .info-product{
+        margin-top: 3px;
+        font-size: 20px;
+    }
+
+    .discount{
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 230px;
+    }
+    
+    .price{
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    
+    .price-now{
+        font-size: 32px;
+        color: #fff;
+    }
+
+    .mouses{
+        width: 220px;
+        height: 180px; 
+        margin-top: 0;  
+        margin-bottom: 10px; 
+    }
+
+    .mousepad-new{
+        width: 320px;
+        height: 290px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+    
+    .mousepad-flick{
+        width: 170px;
+        height: 170px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .teclado-white{
+        width: 270px;
+        height: 240px;
+        margin-top: -20px;
+        margin-bottom: -70px
+    }
+    
+    .teclado-double-switch{
+        width: 280px;
+        height: 280px;
+        margin-top: -20px; 
+        margin-bottom: -100px;
     }
 }

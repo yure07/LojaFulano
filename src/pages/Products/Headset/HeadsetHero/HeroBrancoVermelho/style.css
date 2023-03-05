@@ -140,3 +140,37 @@
         margin-left: 200px;
     }
 }
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .name-product-headset-hero-red{
+        font-size: 20px;
+        margin-top: 0;
+        margin-left: 110px;
+    }
+    
+    .product-headset-red{
+        width: 320px;
+        height: 340px;
+        margin-left: 440px;
+        margin-top: 100px;
+    }
+    
+    .white-hero-change1{
+        margin-left: 110px;
+        background-color: #fff;
+    }
+    
+    .white-purple-hero-change1{
+        margin-left: 200px;
+        margin-top: -50px;
+        background: linear-gradient(120deg, #fff 50%, purple 50%);
+    }
+    
+    .white-red-hero-change1{
+        margin-left: 630px;
+        margin-top: 525px;
+        background: linear-gradient(120deg, #fff 50%, red 50%);
+    }
+}

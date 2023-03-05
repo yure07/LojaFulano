@@ -124,3 +124,43 @@
         margin-top: 175px;
     }
 }
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .menu{
+        display: flex;
+        height: 65px;
+        width: 170px;
+        margin-left: 170px;
+    }
+    
+    .payments{
+        height: 110px;
+        margin-left: 50px;
+    }
+    
+    .securities{
+        height: 45px;
+        width: 170px;
+        margin-left: 50px;
+    }
+    
+    .discord-icon{
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 10px;
+        
+    }
+    .contact{
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+    }
+}

@@ -1,0 +1,160 @@
+.container-keyboard-dark-blue{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 200px;
+}
+.title-product-keyboard-dark-blue{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.name-product-keyboard-dark-blue{
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: -335px;
+}
+.description-keyboard-dark-blue{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    margin-left: -360px;
+}
+
+.discount-keyboard-dark-blue{
+    width: 65px;
+    padding: 4px;
+    margin-left: -270px;
+    margin-top: 435px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.price-keyboard-dark-blue{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -470px;
+}
+.price-now-keyboard-dark-blue{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -420px;
+}
+.btn-buy-keyboard-dark-blue{
+    width: 220px;
+    height: 50px;
+    margin-left: -330px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+
+.product-keyboard-dark-blue{
+    width: 480px;
+    height: 440px;
+    margin-left: 550px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-keyboard-dark-blue{
+        height: 900px;
+    }
+    .title-product-keyboard-dark-blue{
+        font-size: 24px;
+    }
+    
+    .name-product-keyboard-dark-blue{
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .description-keyboard-dark-blue{
+        margin-left: 0px;
+        margin-top: 210px;
+    }
+    
+    .discount-keyboard-dark-blue{
+        margin-left: 195px;
+        margin-top: 590px;
+    }
+    
+    .price-keyboard-dark-blue{
+        margin-left: 0px;
+    }
+    .price-now-keyboard-dark-blue{
+        margin-left: 0px;
+    }
+    .btn-buy-keyboard-dark-blue{
+        margin-left: -120px;
+    }
+    
+    .product-keyboard-dark-blue{
+        width: 360px;
+        height: 350px;
+        margin-left: 0px;
+        margin-top: -300px;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .container-keyboard-dark-blue{
+        height: 1000px;
+    }
+    .title-product-keyboard-dark-blue{
+        font-size: 44px;
+    }
+    
+    .name-product-keyboard-dark-blue{
+        font-size: 32px;
+        margin-left: 0;
+    }
+    .description-keyboard-dark-blue{
+        margin-left: 0px;
+        margin-top: 320px;
+        width: 400px;
+    }
+
+    .discount-keyboard-dark-blue{
+        margin-left: 200px;
+        margin-top: 700px;
+    }
+    
+    .price-keyboard-dark-blue{
+        margin-left: 0px;
+    }
+    .price-now-keyboard-dark-blue{
+        margin-left: 0px;
+    }
+    .btn-buy-keyboard-dark-blue{
+        margin-left: -120px;
+    }
+    
+    .product-keyboard-dark-blue{
+        width: 560px;
+        height: 520px;
+        margin-left: 0px;
+        margin-top: -160px;
+        position: absolute;
+    }
+}

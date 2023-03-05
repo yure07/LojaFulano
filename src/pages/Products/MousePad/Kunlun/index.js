@@ -7,7 +7,7 @@ export default function Kunlun () {
     return(
         <div>
             <Header/>
-            <div className='container-mousepad-dracula'>
+            <div className='container-mousepad-kunlun'>
             <h1 className='title-product-mousepad-kunlun'>Mousepad Redragon</h1>
             <p className='name-product-mousepad-kunlun'>Mousepad Redragon Kunlun Preto </p>
             

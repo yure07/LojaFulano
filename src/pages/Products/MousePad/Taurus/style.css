@@ -1,23 +1,31 @@
-.container-mousepad-flick{
+.container-mousepad-taurus{
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 900px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
-.name-product-mousepad-flick{
+.name-product-mousepad-taurus{
     font-size: 22px;
     margin-top: 0;
-    margin-left: -465px;
+    margin-left: -405px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
-.discount-mousepad-flick{
+.product-mousepad-taurus{
+    width: 500px;
+    height: 200px;
+    margin-left: 360px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.discount-mousepad-taurus{
     width: 65px;
     padding: 4px;
     margin-left: -510px;
@@ -25,59 +33,48 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 555px;
-}
-
-.product-mousepad-flick{
-    width: 440px;
-    height: 400px;
-    margin-left: 400px;
-    margin-top: 350px;
-    position: absolute;
+    margin-top: 620px;
 }
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
-    .name-product-mousepad-flick{
-        font-size: 18px;
+    .name-product-mousepad-taurus{
+        font-size: 16px;
         margin-left: 0px;
     }
 
-    .product-mousepad-flick{
-        width: 240px;
-        height: 200px;
+    .product-mousepad-taurus{
+        width: 340px;
+        height: 130px;
         margin-left: 0px;
-        margin-top: -150px;
+        margin-top: -220px;
     }
 
-    .discount-mousepad-flick{
-        margin-left: 180px;
-        margin-top: 755px;
+    .discount-mousepad-taurus{
+        margin-left: 195px;
+        margin-top: 820px;
     }
 }
 
 /* -- TABLETS -- */
 @media (width <= 900px) 
 and (height >= 1000px ) {
-    .container-mousepad-flick{
-        height: 900px;
-    }
-
-    .name-product-mousepad-flick{
+    .name-product-mousepad-taurus{
+        font-size: 25px;
         margin-left: 0px;
     }
     
-    .discount-mousepad-flick{
-        margin-left: 190px;
-        margin-top: 805px;
-    }
-    
-    .product-mousepad-flick{
-        width: 280px;
-        height: 240px;
+    .product-mousepad-taurus{
+        width: 520px;
+        height: 220px;
         margin-left: 0px;
-        margin-top: 40px;
+        margin-top: -20px;
         position: absolute;
+    }
+    
+    .discount-mousepad-taurus{
+        margin-left: 190px;
+        margin-top: 840px;
     }
 }

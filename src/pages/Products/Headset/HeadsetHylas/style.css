@@ -124,3 +124,13 @@
         margin-top: 30px;
     }
 }
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .hylas-headset-product{
+        width: 360px;
+        height: 340px;
+        margin-left: 430px;
+    }
+}

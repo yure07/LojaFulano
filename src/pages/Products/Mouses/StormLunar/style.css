@@ -1,0 +1,29 @@
+.name-product-storm-lunar{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -135px;
+}
+
+.mouse-storm-lunar{
+    width: 520px;
+    height: 470px;
+    margin-left: 450px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .name-product-storm-lunar{
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    
+    .mouse-storm-lunar{
+        width: 320px;
+        height: 260px;
+        margin-left: 0px;
+        margin-top: -420px;
+    }
+}

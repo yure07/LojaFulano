@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-.container-keyboard{
+.container-keyboard-akko{
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -9,62 +9,62 @@
     height: 700px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    padding-top: 100px;
 }
-.title-product-keyboard{
+.title-product-keyboard-akko{
     font-size: 45px;
-    margin-top: 150px;
     margin-bottom: 0;
 }
-.name-product-keyboard{
+.name-product-keyboard-akko{
     font-size: 27px;
     margin-top: 10px;
-    margin-left: -340px;
+    margin-left: -300px;
 }
-.description-keyboard{
+.description-keyboard-akko{
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     width: 300px;
     padding-bottom: 30px;
     font-size: 18px;
-    margin-left: -350px;
+    margin-left: -250px;
 }
-.description-keyboard p{
+.description-keyboard-akko p{
     margin: 0;
 }
-.product-keyboard{
-    width: 450px;
+.product-keyboard-akko{
+    width: 480px;
     height: 200px;
-    margin-left: 550px;
-    margin-top: 100px;
+    margin-left: 600px;
+    margin-top: 180px;
     position: absolute;
     translate: x;
 }
-.discount-keyboard{
+.discount-keyboard-akko{
     width: 65px;
     padding: 4px;
-    margin-left: -250px;
+    margin-left: -150px;
+    margin-top: 260px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 470px;
 }
-.price-keyboard{
+.price-keyboard-akko{
     color: rgb(255, 0, 0);
     text-decoration: line-through;
     font-size: 25px;
     margin-bottom: 0;
-    margin-left: -450px;
+    margin-left: -350px;
 }
-.price-now-keyboard{
+.price-now-keyboard-akko{
     font-size: 45px;
     padding-right: 20px;
-    margin-left: -420px;
+    margin-left: -300px;
 }
-.btn-buy-keyboard{
+.btn-buy-keyboard-akko{
     width: 220px;
     height: 50px;
-    margin-left: -330px;
+    margin-left: -270px;
     position: absolute;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -78,49 +78,68 @@
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
-    .container-keyboard {
-        margin-left: 0;
+    .container-keyboard-akko{
         height: 900px;
-        
     }
-    .title-product-keyboard{
-        font-size: 24px;
+    .title-product-keyboard-akko{
+        font-size: 28px;
     }
-    .name-product-keyboard{
-        font-size: 17px;
-        margin-top: 0px;
-        margin-left: 0;
-    }
-    .description-keyboard{
-        padding-bottom: 30px;
-        margin-top: 200px;
+    .name-product-keyboard-akko{
         font-size: 18px;
         margin-left: 0;
     }
-    .product-keyboard{
-        width: 330px;
+    .description-keyboard-akko{
+        padding-bottom: 30px;
+        margin-top: 200px;
+        margin-left: 0;
+    }
+    .product-keyboard-akko{
+        width: 320px;
         height: 130px;
         margin-left: 0px;
-        margin-top: -170px;
+        margin-top: -180px;
     }
-    .discount-keyboard{
+    .discount-keyboard-akko{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 640px;
+        margin-top: 420px;
         font-size: 18px;
     }
-    .price-keyboard{
-        font-size: 25px;
-        margin-bottom: 0;
-        margin-left: 0px;
+    .price-keyboard-akko{
+        margin-left: 0;
     }
-    .price-now-keyboard{
-        font-size: 45px;
-        margin-left: 0px;
+    .price-now-keyboard-akko{
+        margin-left: 0;
     }
-    .btn-buy-keyboard{
+    .btn-buy-keyboard-akko{
+        width: 200px;
+        height: 50px;
         margin-left: -100px;
         margin-top: 20px;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .container-keyboard-akko{
+        height: 800px;
+    }
+
+    .product-keyboard-akko{
+        width: 400px;
+        height: 150px;
+        margin-left: 0px;
+        margin-top: 160px;
+    }
+    .discount-keyboard-akko{
+        margin-top: 450px;
+    }
+    .price-keyboard-akko{
+        margin-top: 220px;
+    }
+    .btn-buy-keyboard-akko{
+        margin-left: -270px;
     }
 }

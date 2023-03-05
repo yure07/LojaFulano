@@ -7,7 +7,7 @@ export default function Flick () {
     return(
         <div>
             <Header/>
-            <div className='container-mousepad-dracula'>
+            <div className='container-mousepad-flick'>
             <h1 className='title-product-mousepad-kunlun'>Mousepad Redragon</h1>
             <p className='name-product-mousepad-flick'>Mousepad Redragon Flick L Preto. </p>
             

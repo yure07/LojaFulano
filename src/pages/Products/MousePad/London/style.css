@@ -177,3 +177,28 @@ button{
         margin-top: 20px;
     }
 }
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .product-mousepad-london{
+        width: 430px;
+        height: 300px;
+        margin-left: 350px;
+        margin-top: 200px;
+        position: absolute;
+    }
+
+    .dracula-mousepad-london {
+        margin-left: 150px;
+        margin-top: -78px;
+    }
+    .london-mousepad-london{
+        margin-top: 520px;
+        margin-left: 570px;
+    }
+    .tokyo-mousepad-london{
+        margin-top: -78px;
+        margin-left: 40px;
+    }
+}

@@ -169,3 +169,26 @@
         margin-top: -440px;
     }
 }
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .white-hero{
+        margin-left: 300px;
+        margin-top: 650px;
+    }
+    .white-purple-hero{
+        margin-left: 200px;
+        margin-top: -30px;
+    }
+    .white-red-hero{
+        margin-left: 280px;
+        margin-top: -30px;
+    }
+    .product-headset-black{
+        width: 380px;
+        height: 340px;
+        margin-left: 470px;
+        margin-top: 220px;
+    }
+}

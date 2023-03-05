@@ -52,3 +52,18 @@ and (height <= 950px ) {
         height: 150px;
     }
 }
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .galery{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 135px;
+        height: 330px;
+    }
+
+    .carousel{
+        height: 320px;
+    }
+}

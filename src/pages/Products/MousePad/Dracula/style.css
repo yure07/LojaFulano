@@ -174,3 +174,28 @@ button{
         margin-top: -415px;
     }
 }
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .product-mousepad-dracula{
+        width: 430px;
+        height: 280px;
+        margin-left: 350px;
+        margin-top: 160px;
+        position: absolute;
+    }
+
+    .dracula-mousepad-dracula {
+        margin-left: 350px;
+        margin-top: 445px;
+    }
+    .london-mousepad-dracula{
+        margin-left: 260px;
+        margin-top: -130px;
+    }
+    .tokyo-mousepad-dracula{
+        margin-left: 40px;
+        margin-top: -130px;
+    }
+}

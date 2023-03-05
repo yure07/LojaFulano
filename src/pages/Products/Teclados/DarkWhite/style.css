@@ -1,0 +1,65 @@
+.name-product-keyboard-dark-white{
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: -150px;
+}
+
+.discount-keyboard-dark-white{
+    width: 65px;
+    padding: 4px;
+    margin-left: -270px;
+    margin-top: 415px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.product-keyboard-dark-white{
+    width: 480px;
+    height: 470px;
+    margin-left: 550px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .name-product-keyboard-dark-white{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    
+    .discount-keyboard-dark-white{
+        margin-left: 195px;
+        margin-top: 565px;
+    }
+    
+    .product-keyboard-dark-white{
+        width: 360px;
+        height: 350px;
+        margin-left: 0px;
+        margin-top: -270px;
+    }
+}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ) {
+    .name-product-keyboard-dark-white{
+        margin-left: 50px;
+    }
+    
+    .discount-keyboard-dark-white{
+        margin-left: 200px;
+        margin-top: 685px;
+    }
+    
+    .product-keyboard-dark-white{
+        width: 540px;
+        height: 530px;
+        margin-left: 0px;
+        margin-top: -150px;
+    }
+}

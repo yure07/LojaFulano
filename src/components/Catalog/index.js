@@ -6,7 +6,8 @@ import './style.css'
 import teclado from '../../images/produtos/produto-teclado.png'
 import tecladoAkko from '../../images/produtos/teclado-akko.jpg'
 import tecladoDoubleSwitch from '../../images/produtos/dar-avenger-rainbow.png'
-import tecladoWhite from '../../images/produtos/teclado-mecanico-redragon-white.png'
+import tecladoWhite from '../../images/produtos/teclado-dark-white.png'
+import tecladoDoubleSwitch2 from '../../images/produtos/teclado-dark-260.png'
 
 // MOUSEPADS //
 import mousePadDracula from '../../images/produtos/Tokyo-Mouse-Pad-Dracula.png'
@@ -348,18 +349,20 @@ function Catalog() {
           </div>
           
           <div className='card-product'>
+          <Link to='/teclado-dark-switch-blue'>
             <img src={tecladoDoubleSwitch} alt='24' className='teclado-double-switch'/>
           <p className='product-name'>TECLADO GAMER</p>
-          <p className='info-product'>Teclado Mecânico Redragon Dark Avenger Rainbow (PT-BLUE)</p>
+          <p className='info-product'>Teclado Mecânico Redragon Dark Avenger Rainbow - Switch Blue</p>
           <div className='discount'>
             <strong>-16%</strong>
           </div>
           <p className='price'>R$ 249,99</p>
           <strong className='price-now'>R$ 209,99</strong>
-
+          </Link>
           </div>
 
           <div className='card-product'>
+          <Link to='/teclado-dark-white'>
             <img src={tecladoWhite} alt='25' className='teclado-white'/>
           <p className='product-name'>TECLADO GAMER</p>
           <p className='info-product'>Teclado Mecânico Redragon Dark Avenger Rainbow Lunar White</p>
@@ -368,10 +371,11 @@ function Catalog() {
           </div>
           <p className='price'>R$ 269,99</p>
           <strong className='price-now'>R$ 209,99</strong>
-
+          </Link>
           </div>
 
           <div className='card-product'>
+          <Link to='/mouse-storm-lunar'>
             <img src={mouseStormLunar} alt='26' className='mouses'/>
           <p className='product-name'>MOUSE GAMER</p>
           <p className='info-product'>Mouse Storm RGB Lunar White</p>
@@ -380,10 +384,11 @@ function Catalog() {
           </div>
           <p className='price'>R$ 189,99</p>
           <strong className='price-now'>R$ 159,99</strong>
-
+          </Link>
           </div>
 
           <div className='card-product'>
+          <Link to='/mousepad-taurus'>
             <img src={mousePadTaurus} alt='27' className='mousepad-tokyo'/>
           <p className='product-name'>MOUSEPAD REDRAGON</p>
           <p className='info-product'>Mousepad EXT Taurus Speed</p>
@@ -392,8 +397,22 @@ function Catalog() {
           </div>
           <p className='price'>R$ 89,99</p>
           <strong className='price-now'>R$ 64,99</strong>
+          </Link>
           </div>
 
+          <div className='card-product'>
+          <Link to='/teclado-dark-switch-red'>
+            <img src={tecladoDoubleSwitch2} alt='28' className='teclado-double-switch'/>
+          <p className='product-name'>TECLADO GAMER</p>
+          <p className='info-product'>Teclado Mecânico Redragon Dark Avenger RGB - Switch Red</p>
+          <div className='discount'>
+            <strong>-13%</strong>
+          </div>
+          <p className='price'>R$ 299,99</p>
+          <strong className='price-now'>R$ 259,99</strong>
+          </Link>
+          
+          </div>
          </div>
         </div>
     )
