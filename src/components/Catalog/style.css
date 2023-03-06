@@ -182,8 +182,8 @@
     .teclado{
         width: 150px;
         height: 60px;
-        margin-top: 20px;
-        margin-bottom: 0px;
+        margin-top: 15px;
+        margin-bottom: -5px;
     }
     .teclado-white{
         width: 150px;
