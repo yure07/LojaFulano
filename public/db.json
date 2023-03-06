@@ -1,0 +1,313 @@
+[
+     
+        {
+            "id": 1,
+            "name": "TECLADO MECÂNICO REDRAGON",
+            "description": "Switch Azul K606R (PT-BLUE) Preto",
+            "discount": "-25%",
+            "price": "274,99",
+            "pricenow": "204,99",
+            "link": "/produto-teclado-redragon",
+            "imagem": "./images/produtos/produto-teclado.png",
+            "class": "teclado"
+        },
+        {
+            "id": 2,
+            "name": "MOUSEPAD AKKO",
+            "description": "World Tour Tokio R2",
+            "discount": "-12%",
+            "price": "175,99",
+            "pricenow": "154,99",
+            "link": "/mousepad-tokyo",
+            "imagem": "./images/produtos/Tokyo-Mouse-Pad.png",
+            "class": "mousepad-tokyo"
+        },
+        {
+            "id": 3,
+            "name": "MOUSEPAD AKKO",
+            "description": "Dracula Castle",
+            "discount": "-12%",
+            "price": "175,99",
+            "pricenow": "154,99",
+            "link": "/mousepad-dracula",
+            "imagem": "./images/produtos/Tokyo-Mouse-Pad-Dracula.png",
+            "class": "mousepad-dracula-london"
+        },
+        {
+            "id": 4,
+            "name":"MOUSEPAD AKKO",
+            "description": "World Tour London",
+            "discount": "-12%",
+            "price": "175,99",
+            "pricenow": "154,99",
+            "link": "/mousepad-london",
+            "imagem": "./images/produtos/Tokyo-Mouse-Pad-London.png",
+            "class": "mousepad-dracula-london"
+        },
+        {
+            "id": 5,
+            "name": "CABO TECLADO",
+            "description": "Cabo Enrolado Modelo Blue",
+            "discount": "-28%",
+            "price": "69,99",
+            "pricenow": "49,99",
+            "link": "/keyboard-cable-blue",
+            "imagem": "./images/produtos/cabo-akko-blue.png",
+            "class": "cable-pink"
+        },
+        {
+            "id": 6,
+            "name":"CABO TECLADO",
+            "description":"Cabo Enrolado Modelo Pink",
+            "discount": "-28%",
+            "price": "69,99",
+            "pricenow": "49,99",
+            "link": "/keyboard-cable-pink",
+            "imagem": "./images/produtos/cabo-akko-pink.png",
+            "class": "cable-pink"
+        },
+        {
+            "id": 7,
+            "name":"TECLADO MECÂNICO AKKO",
+            "description":"Switch Akko Pink World Tour Tokio R1",
+            "discount": "-17%",
+            "price": "726,90",
+            "pricenow": "599,99",
+            "link": "/produto-teclado-akko",
+            "imagem": "./images/produtos/teclado-akko.jpg",
+            "class": "teclado"
+        },
+        {
+            "id": 8,
+            "name": "HEADSET GAMER",
+            "description": "Headset Gamer Hebe E2",
+            "discount": "-11%",
+            "price": "179,99",
+            "pricenow": "159,99",
+            "link": "/headset-hebe",
+            "imagem": "./images/produtos/headset-hebe.png",
+            "class": "headset"
+        },
+        {
+            "id": 9,
+            "description": "Headset Scylla Preto H901",
+            "name": "HEADSET GAMER",
+            "discount": "-20%",
+            "price": "149,99",
+            "pricenow": "119,99",
+            "link": "/headset-scylla",
+            "imagem": "./images/produtos/headset-scylla-preto.png",
+            "class": "headset"
+        },
+        {
+            "id": 10,
+            "description": "Headset Minos Preto H210",
+            "name": "HEADSET GAMER",
+            "discount": "-10%",
+            "price": "199,99",
+            "pricenow": "179,99",
+            "link": "/headset-minos",
+            "imagem": "./images/produtos/headset-minos-preto.png",
+            "class": "headset"
+        },
+        {
+            "id": 11,
+            "name": "HEADSET GAMER",
+            "description": "Headset Hylas Rosa H260-P",
+            "discount": "-16%",
+            "price": "149,99",
+            "pricenow": "124,99",
+            "link": "/headset-hylas",
+            "imagem": "./images/produtos/Hylas.png",
+            "class": "headset"
+        },
+        {
+            "id": 12,
+            "name": "HEADSET GAMER",
+            "description": "Headset Taurus E1",
+            "discount": "-20%",
+            "price": "99,99",
+            "pricenow": "79,99",
+            "link": "/headset-taurus",
+            "imagem": "./images/produtos/headset-taurus.png",
+            "class": "headset"
+        },
+        {
+            "id": 13,
+            "name":"HEADSET GAMER",
+            "description": "Headset Hero Branco H530-W",
+            "discount": "-10%",
+            "price": "299,99",
+            "pricenow": "279,99",
+            "link": "/headset-hero",
+            "imagem": "./images/produtos/hero-branco.webp",
+            "class": "headset"
+        },
+        {
+            "id": 14,
+            "name": "GABINETE GAMER",
+            "description": "Gabinete T-DAGGER TGC-G25B Preto",
+            "discount": "-12%",
+            "price": "249,99",
+            "pricenow": "219,99",
+            "link": "/gabinete-gamer-g25b",
+            "imagem": "./images/produtos/gabinete-g25b.png",
+            "class": "gabinete"
+        },
+        {
+            "id": 15,
+            "name": "GABINETE GAMER",
+            "description": "Gabinete T-DAGGER TGC-G28B Preto",
+            "discount": "-12%",
+            "price": "249,99",
+            "pricenow": "219,99",
+            "link": "/gabinete-gamer-g28b",
+            "imagem": "./images/produtos/gabinete-g28b.png",
+            "class": "gabinete"
+        },
+        {
+            "id": 16,
+            "name": "MOUSE GAMER",
+            "description": "Mouse Readragon Reaping Elite Preto",
+            "discount": "-13%",
+            "price": "239,99",
+            "pricenow": "209,99",
+            "link": "/mouse-reaping",
+            "imagem": "./images/produtos/mouse_reaping.png",
+            "class": "mouse-reaping"
+        },
+        {
+            "id": 17,
+            "name": "MOUSE GAMER",
+            "description": "Mouse Redragon Storm Elite",
+            "discount": "-11%",
+            "price": "219,99",
+            "pricenow": "194,99",
+            "link": "/mouse-storm",
+            "imagem": "./images/produtos/mouse_gamer_rmouse_storm.png",
+            "class": "mouses"
+        },
+        {
+            "id": 18,
+            "name": "MOUSE GAMER",
+            "description": "Mouse Imperial T-DAGGER Preto",
+            "discount": "-21%",
+            "price": "139,99",
+            "pricenow": "109,99",
+            "link": "/mouse-imperial",
+            "imagem": "./images/produtos/mouse_imperial.webp",
+            "class": "mouses"
+        },
+        {
+            "id": 19,
+            "name": "MOUSE GAMER",
+            "description": "Mouse Redragon Cobra M711",
+            "discount": "-11%",
+            "price": "139,99",
+            "pricenow": "124,99",
+            "link": "/mouse-cobra-preto",
+            "imagem": "./images/produtos/mouse-redragon-cobra-preto.webp",
+            "class": "mouses"
+        },
+        {
+            "id": 20,
+            "name": "MOUSE GAMER",
+            "description": "Mouse Redragon Cobra FPS M711W",
+            "discount": "-8%",
+            "price": "209,99",
+            "pricenow": "194,99",
+            "link": "/mouse-cobra-fps-branco",
+            "imagem": "./images/produtos/mouse-cobra-branco.png",
+            "class": "mouses"
+        },
+        {
+            "id": 21,
+            "name": "MOUSE GAMER",
+            "description": "Mouse Redragon Cobra FPS Preto M711B",
+            "discount": "-10%",
+            "price": "219,99",
+            "pricenow": "194,99",
+            "link": "/mouse-cobra-fps-preto",
+            "imagem": "./images/produtos/mouse-redragon-cobra-FPS.png",
+            "class": "mouse-reaping"
+        },
+        {
+            "id": 22,
+            "name": "MOUSEPAD REDRAGON",
+            "description": "Mousepad Redragon Kunlun EXT Preto",
+            "discount": "-25%",
+            "price": "119,99",
+            "pricenow": "89,99",
+            "link": "/mousepad-kunlun",
+            "imagem": "./images/produtos/mousepad-kunlun.png",
+            "class": "mousepad-new"
+        },
+        {
+            "id": 23,
+            "name": "MOUSEPAD REDRAGON",
+            "description": "Mousepad Redragon Flick L Preto",
+            "discount": "-20%",
+            "price": "99,99",
+            "pricenow": "79,99",
+            "link": "/mousepad-flick",
+            "imagem": "./images/produtos/mousepad-redragon-flick.png",
+            "class": "mousepad-flick"
+        },
+        {
+            "id": 24,
+            "name": "TECLADO MECÂNICO REDRAGON",
+            "description": "Dark Avenger Rainbow - Switch Blue",
+            "discount": "-16%",
+            "price": "249,99",
+            "pricenow": "209,99",
+            "link": "/teclado-dark-switch-blue",
+            "imagem": "./images/produtos/dar-avenger-rainbow.png",
+            "class": "teclado-double-switch"
+        },
+        {
+            "id": 25,
+            "name": "TECLADO MECÂNICO REDRAGON",
+            "description": "Dark Avenger Rainbow Lunar White",
+            "discount": "-22%",
+            "price": "269,99",
+            "pricenow": "209,99",
+            "link": "/teclado-dark-white",
+            "imagem": "./images/produtos/teclado-mecanico-redragon-white.png",
+            "class": "teclado-white"
+        },
+        {
+            "id": 26,
+            "name": "MOUSE GAMER",
+            "description": "Mouse Storm RGB Lunar White",
+            "discount": "-15%",
+            "price": "189,99",
+            "pricenow": "159,99",
+            "link": "/mouse-storm-luna",
+            "imagem": "./images/produtos/mouse-storm-lunar.webp",
+            "class": "mouses"
+        },
+        {
+            "id": 27,
+            "name": "MOUSEPAD REDRAGON",
+            "description": "Mousepad EXT Taurus Speed",
+            "discount": "-27%",
+            "price": "89,99",
+            "pricenow": "64,99",
+            "link": "/mousepad-taurus",
+            "imagem": "./images/produtos/mousepad-redragon-taurus.webp",
+            "class": "mousepad-tokyo"
+        },
+        {
+            "id": 28,
+            "name": "TECLADO MECÂNICO REDRAGON",
+            "description": "Dark Avenger RGB - Switch Red",
+            "discount": "-13%",
+            "price": "299,99",
+            "pricenow": "259,99",
+            "link": "/teclado-dark-switch-red",
+            "imagem": "./images/produtos/teclado-dark-260.png",
+            "class": "teclado-double-switch"
+        }
+
+    
+    ]

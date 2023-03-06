@@ -9,7 +9,7 @@ function HeadsetHylas () {
             <Header/>
             <div className='container-headset-hylas'>
             <h1 className='title-product-headset-hylas'>Headset Gamer</h1>
-            <p className='name-product-headset-hylas'>Headset Redragon Rosa H260-P</p>
+            <p className='name-product-headset-hylas'>Headset Redragon Hylas Rosa H260-P</p>
             
             <div className='description-headset-hylas'>
                    <h2>Características:</h2>
