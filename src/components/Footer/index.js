@@ -14,7 +14,9 @@ function Footer () {
           <div className='images'>
            <img src={image1} alt='1' className='menu'/>
            <img src={image2} alt='2' className='payments'/>
+           <a target='_blank' href='https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Flojadofulano.com&hl=pt_BR'>
            <img src={image3} alt='3' className='securities'/>
+           </a>
            
            <div className='column'>
 
