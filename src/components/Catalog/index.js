@@ -7,14 +7,18 @@ import axios from 'axios'
 function Catalog() {
   const [produtos, setProdutos] = useState([])
 
-  useEffect(()=>{
-    axios.get('db.json')
+  const requisition = async function () {
+    await axios.get('db.json')
     .then((response)=>{
       setProdutos(response.data)
     })
     .catch(()=>{
       console.log('Erro na requisição do arquivo JSON')
     })
+  }
+
+  useEffect(()=>{
+    requisition()
   },[])
 
     return(
