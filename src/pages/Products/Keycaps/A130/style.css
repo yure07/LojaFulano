@@ -1,0 +1,66 @@
+.title-product-keycap-a130{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.name-product-keycap-a130{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -305px;
+}
+.description-keycap-a130{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: -385px;
+}
+
+.keycap-a130{
+    width: 440px;
+    height: 400px;
+    margin-left: 460px;
+    margin-top: 210px;
+    position: absolute;
+}
+.discount-keycap-a130{
+    width: 65px;
+    padding: 4px;
+    margin-left: -275px;
+    margin-top: 630px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .title-product-keycap-a130{
+        font-size: 30px;
+        margin-top: 150px;
+    }
+    .name-product-keycap-a130{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .description-keycap-a130{
+        margin-left: 0;
+        margin-top: 320px;
+    }
+    
+    .keycap-a130{
+        width: 320px;
+        height: 280px;
+        margin-left: 0;
+        margin-top: -270px;
+    }
+    .discount-keycap-a130{
+        margin-left: 195px;
+        margin-top: 910px;
+    }
+}

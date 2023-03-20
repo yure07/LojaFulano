@@ -1,0 +1,87 @@
+.name-product-switch-akko-rose{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -220px;
+}
+.description-switch-akko-rose{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: -270px;
+}
+.price-switch-akko-rose{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -420px;
+}
+.price-now-switch-akko-rose{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -380px;
+}
+.btn-buy-switch-akko-rose{
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+    margin-left: -290px;
+}
+.discount-switch-akko-rose{
+    width: 65px;
+    padding: 4px;
+    margin-left: -235px;
+    margin-top: 520px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+.switch-akko-rose{
+    width: 500px;
+    height: 460px;
+    margin-left: 500px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .name-product-switch-akko-rose{
+        font-size: 20px;
+        margin: 0;
+    }
+    .description-switch-akko-rose{
+        margin-left: 0;
+        margin-top: 300px;
+    }
+    .price-switch-akko-rose{
+        margin: 0;
+    }
+    .price-now-switch-akko-rose{
+        margin: 0;
+    }
+    .btn-buy-switch-akko-rose{
+        margin-left: -120px;
+    }
+    .discount-switch-akko-rose{
+        margin-left: 185px;
+        margin-top: 860px;
+    }
+    .switch-akko-rose{
+        width: 400px;
+        height: 360px;
+        margin-left: 0px;
+        margin-top: -100px;
+    }
+}

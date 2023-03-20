@@ -1,0 +1,103 @@
+.title-product-keyboard-akko-jellyw{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.name-product-keyboard-akko-jellyw{
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: -260px;
+}
+.description-keyboard-akko-jellyw{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    margin-left: -440px;
+    margin-top: 20px;
+}
+.description-keyboard-akko-jellyw p{
+    margin: 0;
+}
+.product-keyboard-akko-jellyw{
+    width: 500px;
+    height: 220px;
+    margin-left: 520px;
+    margin-top: 120px;
+    position: absolute;
+    translate: x;
+}
+
+.discount-keyboard-akko-jellyw{
+    width: 60px;
+    padding: 4px;
+    margin-left: -350px;
+    margin-top: 320px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+.price-keyboard-akko-jellyw{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -550px;
+}
+.price-now-keyboard-akko-jellyw{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -500px;
+}
+.btn-buy-keyboard-akko-jellyw{
+    width: 220px;
+    height: 50px;
+    margin-left: -370px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .title-product-keyboard-akko-jellyw{
+        font-size: 21px;
+        margin-bottom: 0;
+    }
+    .name-product-keyboard-akko-jellyw{
+        font-size: 17px;
+        margin: 0;
+    }
+    .description-keyboard-akko-jellyw{
+        margin-left: 0;
+        margin-top: 220px;
+    }
+    .product-keyboard-akko-jellyw{
+        width: 340px;
+        height: 110px;
+        margin-left: 0;
+        margin-top: -230px;
+    }
+    
+    .discount-keyboard-akko-jellyw{
+        margin-left: 190px;
+        width: 55px;
+        margin-top: 435px;
+    }
+    .price-keyboard-akko-jellyw{
+        margin: 0;
+    }
+    .price-now-keyboard-akko-jellyw{
+        margin: 0;
+    }
+    .btn-buy-keyboard-akko-jellyw{
+        margin-left: -120px;
+    }
+}

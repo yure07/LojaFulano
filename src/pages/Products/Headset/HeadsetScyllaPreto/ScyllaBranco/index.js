@@ -22,10 +22,10 @@ function HeadsetScyllaBranco () {
             </div>
 
             <div className='discount-scylla'>
-                <strong>-16%</strong>
+                <strong>-20%</strong>
             </div>
-            <p className='price-scylla'>R$ 219,99</p>
-            <strong className='price-now-scylla'>R$ 184,99</strong>
+            <p className='price-scylla'>R$ 169,99</p>
+            <strong className='price-now-scylla'>R$ 129,99</strong>
 
             <button className='headset-scylla-white-2' type='submit'></button>
 

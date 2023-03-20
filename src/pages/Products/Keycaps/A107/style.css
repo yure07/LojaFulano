@@ -1,0 +1,112 @@
+.container-keycap-a107{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.title-product-keycap-a107{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.name-product-keycap-a107{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -375px;
+}
+.description-keycap-a107{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: -335px;
+}
+.keycap-a107{
+    width: 480px;
+    height: 440px;
+    margin-left: 550px;
+    margin-top: 210px;
+    position: absolute;
+}
+.discount-keycap-a107{
+    width: 65px;
+    padding: 4px;
+    margin-left: -275px;
+    margin-top: 630px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+.price-keycap-a107{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -460px;
+}
+.price-now-keycap-a107{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -410px;
+}
+.btn-buy-keycap-a107{
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+    margin-left: -315px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .container-keycap-a107{
+        height: 1100px;
+    }
+    .title-product-keycap-a107{
+        font-size: 32px;
+        margin-top: 250px;
+    }
+    
+    .name-product-keycap-a107{
+        margin-left: 0px;
+    }
+    .description-keycap-a107{
+        margin-left: 0;
+        margin-top: 360px;
+    }
+    .keycap-a107{
+        width: 350px;
+        height: 310px;
+        margin-left: 40px;
+        margin-top: -150px;
+    }
+    .discount-keycap-a107{
+        margin-left: 195px;
+        margin-top: 1060px;
+    }
+    .price-keycap-a107{
+        margin-left: 0;
+    }
+    .price-now-keycap-a107{
+        margin-left: 0;
+    }
+    .btn-buy-keycap-a107{
+        margin-left: -120px;
+    }
+}

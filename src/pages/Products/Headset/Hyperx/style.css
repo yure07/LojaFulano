@@ -1,0 +1,57 @@
+.name-product-headset-hyperx{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -230px;
+}
+.description-headset-hyperx{
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    margin-left: -180px;
+}
+
+.hyperx-headset-product{
+    width: 450px;
+    height: 430px;
+    margin-left: 650px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.discount-hyperx{
+    width: 65px;
+    padding: 4px;
+    margin-left: -100px;
+    margin-top: 600px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .name-product-headset-hyperx{
+        font-size: 22px;
+        margin-left: 0;
+    }
+    .description-headset-hyperx{
+        margin-top: 340px;
+        margin-left: 0;
+    }
+    .hyperx-headset-product{
+        width: 350px;
+        height: 330px;
+        margin-left: 0;
+        margin-top: -230px;
+        position: absolute;
+    }
+    .discount-hyperx{
+        margin-left: 210px;
+        margin-top: 920px;
+
+    }
+}

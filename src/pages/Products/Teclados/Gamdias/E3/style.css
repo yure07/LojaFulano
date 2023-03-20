@@ -1,0 +1,52 @@
+.name-product-hermes-e3{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -520px;
+}
+
+.hermes-e3{
+    width: 540px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.discount-hermes-e3{
+    width: 65px;
+    padding: 4px;
+    margin-left: -565px;
+    margin-top: 670px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .name-product-hermes-e3{
+        font-size: 17px;
+        margin-left: 0;
+    }
+    
+    .hermes-e3{
+        width: 380px;
+        height: 370px;
+        margin-left: 0;
+        margin-top: -370px;
+        position: absolute;
+    }
+    
+    .discount-hermes-e3{
+        width: 65px;
+        padding: 4px;
+        margin-left: 200px;
+        margin-top: 820px;
+        position: absolute;
+        border-radius: 4px;
+        background-color: rgb(255, 6, 6);
+        font-size: 22px;
+    }
+}

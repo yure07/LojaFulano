@@ -1,10 +1,9 @@
 import './style.css'
 import {Link} from 'react-router-dom'
+
 import image1 from '../../images/lobby.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
-import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
-import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faInfoCircle, faPhoneFlip} from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
   return(

@@ -1,0 +1,68 @@
+.container-keyboard-tdagger{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.name-product-keyboard-tdagger{
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: -290px;
+}
+.product-keyboard-tdagger{
+    width: 490px;
+    height: 510px;
+    margin-left: 550px;
+    margin-top: 100px;
+    position: absolute;
+    translate: x;
+}
+.discount-keyboard-tdagger{
+    width: 65px;
+    padding: 4px;
+    margin-left: -250px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+    margin-top: 620px;
+}
+.btn-buy-keyboard-tdagger{
+    width: 220px;
+    height: 50px;
+    margin-left: -330px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .name-product-keyboard-tdagger{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 0;
+    }
+    .discount-keyboard-tdagger{
+        margin-left: 190px;
+        margin-top: 770px;
+    }
+    .btn-buy-keyboard-tdagger{
+        margin-left: -120px;
+    }
+    .product-keyboard-tdagger{
+        width: 350px;
+        height: 400px;
+        margin-left: 0;
+        margin-top: -280px;
+    }
+}

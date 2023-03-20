@@ -1,0 +1,81 @@
+.container-keyboard-lakshmi{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.name-product-keyboard-lakshmi{
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+.description-keyboard-lakshmi{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    margin-left: -360px;
+}
+.product-keyboard-lakshmi{
+    width: 600px;
+    height: 600px;
+    margin-left: 610px;
+    margin-top: 300px;
+    position: absolute;
+    translate: x;
+}
+.discount-keyboard-lakshmi{
+    width: 65px;
+    padding: 4px;
+    margin-left: -250px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+    margin-top: 620px;
+}
+.btn-buy-keyboard-lakshmi{
+    width: 220px;
+    height: 50px;
+    margin-left: -325px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .name-product-keyboard-lakshmi{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .description-keyboard-lakshmi{
+        margin-left: 0px;
+        margin-top: 160px;
+    }
+    .product-keyboard-lakshmi{
+        width: 350px;
+        height: 350px;
+        margin-left: 0;
+        margin-top: -230px;
+    }
+    .discount-keyboard-lakshmi{
+        width: 60px;
+        margin-left: 200px;
+        margin-top: 725px;
+    }
+    .btn-buy-keyboard-lakshmi{
+        margin-left: -115px;
+    }
+}

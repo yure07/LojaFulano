@@ -1,0 +1,107 @@
+.title-product-kit-mouse{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.name-product-kit-mouse{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -230px;
+}
+
+.description-kit-mouse{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: -490px;
+}
+.description-kit-mouse p{
+    margin-bottom: -15px;
+}
+
+.kit-product{
+    width: 500px;
+    height: 460px;
+    margin-left: 450px;
+    margin-top: 250px;
+    position: absolute;
+}
+.discount-kit-mouse{
+    width: 65px;
+    padding: 4px;
+    margin-left: -405px;
+    margin-top: 635px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+.price-kit-mouse{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -600px;
+}
+.price-now-kit-mouse{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -550px;
+}
+.btn-buy-kit-mouse{
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+    margin-left: -390px;
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .title-product-kit-mouse{
+        font-size: 25px;
+    }
+
+    .name-product-kit-mouse{
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    
+    .description-kit-mouse{
+        margin-top: 320px;
+        margin-left: 0px;
+    }
+    
+    .kit-product{
+        width: 340px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: -300px;
+    }
+    .discount-kit-mouse{
+        margin-left: 200px;
+        margin-top: 895px;
+    }
+    .price-kit-mouse{
+        margin-left: 0px;
+    }
+    .price-now-kit-mouse{
+        margin-left: 0px;
+    }
+    .btn-buy-kit-mouse{
+        margin-left: -115px;
+    }
+}

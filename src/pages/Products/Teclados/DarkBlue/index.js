@@ -19,9 +19,9 @@ export default function DarkBlue () {
             </div>
 
             <div className='discount-keyboard-dark-blue'>
-                <strong>-22%</strong>
+                <strong>-16%</strong>
             </div>
-            <p className='price-keyboard-dark-blue'>R$269,99</p>
+            <p className='price-keyboard-dark-blue'>R$249,99</p>
             <strong className='price-now-keyboard-dark-blue'>R$209,99</strong>
 
             <a target='_blank' href='https://wa.link/c3t18p'>

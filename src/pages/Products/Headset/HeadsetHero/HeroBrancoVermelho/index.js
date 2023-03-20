@@ -21,10 +21,10 @@ function HeadsetHeroBrancoVermelho () {
             </div>
 
             <div className='discount-hero-red'>
-                <strong>-14%</strong>
+                <strong>-12%</strong>
             </div>
-            <p className='price-hero'>R$ 239,99</p>
-            <strong className='price-now-hero'>R$ 204,99</strong>
+            <p className='price-hero'>R$ 299,99</p>
+            <strong className='price-now-hero'>R$ 269,99</strong>
 
             <Link to='/headset-hero'>
                 <button className='white-hero-change1' type='submit'></button>

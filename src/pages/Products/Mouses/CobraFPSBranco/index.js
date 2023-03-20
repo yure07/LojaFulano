@@ -33,10 +33,10 @@ export default function CobraFPSBranco () {
             </div>
 
             <div className='discount-mouse-cobra-fps-white'>
-                <strong>-13%</strong>
+                <strong>-8%</strong>
             </div>
-            <p className='price-mouse-redragon'>R$239,99</p>
-            <strong className='price-now-mouse-redragon'>R$209,99</strong>
+            <p className='price-mouse-redragon'>R$209,99</p>
+            <strong className='price-now-mouse-redragon'>R$194,99</strong>
 
            
             <img src={image} alt='1' className='mouse-cobra-white'/>

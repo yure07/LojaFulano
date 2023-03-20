@@ -66,8 +66,7 @@
 }
 
 /* MEDIA QUERIES */ 
-/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
-@media (width <= 420px) and (height < 920px) {
+@media (width <= 992px) {
     .container-storm{
         height: 1110px;
     }

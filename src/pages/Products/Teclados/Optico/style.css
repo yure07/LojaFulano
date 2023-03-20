@@ -1,0 +1,94 @@
+.container-keyboard-magic{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.name-product-keyboard-magic{
+    font-size: 27px;
+    margin-top: 0px;
+    margin-left: -170px;
+}
+.description-keyboard-magic{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    margin-left: -300px;
+}
+
+.product-keyboard-magic{
+    width: 500px;
+    height: 450px;
+    margin-left: 550px;
+    margin-top: 230px;
+    position: absolute;
+    translate: x;
+}
+.discount-keyboard-magic{
+    width: 55px;
+    padding: 4px;
+    margin-left: -250px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+    margin-top: 675px;
+}
+
+.price-now-keyboard-magic{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -370px;
+}
+.btn-buy-keyboard-magic{
+    width: 220px;
+    height: 50px;
+    margin-left: -305px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .container-keyboard-magic{
+        height: 1100px;
+    }
+    .name-product-keyboard-magic{
+        font-size: 18px;
+        margin: 0;
+    }
+    .description-keyboard-magic{
+        margin: 0;
+        margin-top: 200px;
+    }
+    
+    .product-keyboard-magic{
+        width: 350px;
+        height: 300px;
+        margin-left: 0;
+        margin-top: -320px;
+    }
+    .discount-keyboard-magic{
+        margin-left: 190px;
+        margin-top: 845px;
+    }
+    
+    .price-now-keyboard-magic{
+        margin: 0;
+    }
+    .btn-buy-keyboard-magic{
+        margin-left: -120px;
+    }
+}

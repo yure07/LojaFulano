@@ -1,0 +1,40 @@
+.name-product-storm-pro{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -120px;
+}
+.discount-storm-pro{
+    width: 65px;
+    padding: 4px;
+    margin-left: -220px;
+    margin-top: 590px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+.mouse-storm-pro{
+    width: 520px;
+    height: 470px;
+    margin-left: 460px;
+    margin-top: 280px;
+    position: absolute;
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .name-product-storm-pro{
+        font-size: 14px;
+        margin: 0;
+    }
+    .discount-storm-pro{
+        margin-left: 200px;
+        margin-top: 640px;
+    }
+    .mouse-storm-pro{
+        width: 320px;
+        height: 270px;
+        margin-left: 0;
+        margin-top: -410px;
+    }
+}

@@ -1,0 +1,40 @@
+.name-product-keycap-akko{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -275px;
+}
+.description-keycap-akko{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: -305px;
+}
+.discount-keycap-akko{
+    width: 65px;
+    padding: 4px;
+    margin-left: -275px;
+    margin-top: 630px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .name-product-keycap-akko{
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .description-keycap-akko{
+        margin-left: 0;
+        margin-top: 300px;
+    }
+    .discount-keycap-akko{
+        margin-left: 190px;
+        margin-top: 880px;
+    }    
+}

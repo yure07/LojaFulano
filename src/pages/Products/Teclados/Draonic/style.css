@@ -1,0 +1,85 @@
+.container-keyboard-draonic{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.name-product-keyboard-draonic{
+    font-size: 27px;
+    margin-top: 0;
+    margin-left: -115px;
+}
+.description-keyboard-draonic{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    margin-left: -350px;
+}
+
+.description-keyboard-draonic p{
+    margin-top: 10px;
+}
+
+.description-keyboard-draonic p:nth-child(7){
+    margin-bottom: 40px;
+}
+
+.description-keyboard-draonic strong{
+    color: rgb(255, 6, 6);
+}
+
+.discount-keyboard-draonic{
+    width: 65px;
+    padding: 4px;
+    margin-left: -250px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+    margin-top: 830px;
+}
+
+.product-keyboard-draonic{
+    width: 600px;
+    height: 550px;
+    margin-left: 600px;
+    margin-top: 250px;
+    position: absolute;
+    translate: x;
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .container-keyboard-draonic{
+        height: 1300px;
+    }
+    
+    .name-product-keyboard-draonic{
+        font-size: 17px;
+        margin: 0;
+    }
+    .description-keyboard-draonic{
+        margin-left: 0;
+        margin-top: 200px;
+    }
+    
+    .discount-keyboard-draonic{
+        margin-left: 190px;
+        width: 55px;
+        margin-top: 990px;
+    }
+    
+    .product-keyboard-draonic{
+        width: 350px;
+        height: 370px;
+        margin-left: 0;
+        margin-top: -450px;
+    }
+}

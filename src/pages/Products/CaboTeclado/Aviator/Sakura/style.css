@@ -1,0 +1,13 @@
+.name-product-cable-aviator-sakura{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -310px;
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .name-product-cable-aviator-sakura{
+        font-size: 14px;
+        margin: 0px;
+    }
+}

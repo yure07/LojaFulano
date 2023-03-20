@@ -1,0 +1,105 @@
+.title-product-headphone-motorola{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.name-product-headphone-motorola{
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: -300px;
+}
+.description-headphone-motorola{
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    margin-left: -360px;
+}
+
+.motorola-headphone-product{
+    width: 460px;
+    height: 440px;
+    margin-left: 400px;
+    margin-top: 220px;
+    position: absolute;
+}
+
+.discount-motorola{
+    width: 65px;
+    padding: 4px;
+    margin-left: -260px;
+    margin-top: 560px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
+
+.price-motorola{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -460px;
+}
+.price-now-motorola{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -405px;
+}
+
+.btn-buy-headphone-motorola{
+    width: 220px;
+    height: 50px;
+    margin-left: -320px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
+}
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 992px) {
+    .title-product-headphone-motorola{
+        font-size: 32px;
+    }
+    
+    .name-product-headphone-motorola{
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .description-headphone-motorola{
+        margin-left: 0;
+        margin-top: 400px;
+    }
+    
+    .motorola-headphone-product{
+        width: 360px;
+        height: 340px;
+        margin-left: 0;
+        margin-top: -230px;
+    }
+    
+    .discount-motorola{
+        margin-left: 200px;
+        margin-top: 920px;
+    }
+    
+    .price-motorola{
+        margin-left: 0;
+    }
+    .price-now-motorola{
+        margin-left: 0;
+    }
+    
+    .btn-buy-headphone-motorola{
+        margin-left: -120px;
+    }
+} 

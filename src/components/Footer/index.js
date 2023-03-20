@@ -36,7 +36,7 @@ function Footer () {
 
           <div className='credits'>
           <p>DESIGN POR: <a href='http://vstectity.com/' target='_blank'><strong>VSTECTITY</strong></a></p>
-          <p>PROGRAMAÇÃO POR: <strong>YURE RAFAEL</strong></p>
+          <p>PROGRAMAÇÃO POR: <a href='https://yurerafael.dev/' target='_blank'> <strong>YURE RAFAEL</strong></a></p>
           </div>
         </footer>
     )

@@ -3,14 +3,8 @@ import Header from '../../../components/Header/header'
 import Footer from '../../../components/Footer'
 import image1 from '../../../images/produtos/cabo-akko-pink.png'
 import { Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
-import db from '../../../data/db.json'
 
 function CaboTeclado () {
-    const [products, setProducts] = useState('')
-    useEffect(()=>{
-        setProducts(db.products)
-    },[])
 
     return(
         <div>

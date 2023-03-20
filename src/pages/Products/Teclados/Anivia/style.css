@@ -1,0 +1,68 @@
+.name-product-keyboard-anivia{
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: -80px;
+}
+
+.product-keyboard-anivia{
+    width: 600px;
+    height: 630px;
+    margin-left: 550px;
+    margin-top: 200px;
+    position: absolute;
+    translate: x;
+}
+
+.description-keyboard-anivia{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    margin-left: -350px;
+}
+
+.description-keyboard-anivia p{
+    margin-top: 5px;
+}
+
+.discount-keyboard-anivia{
+    width: 65px;
+    padding: 4px;
+    margin-left: -250px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+    margin-top: 540px;
+}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px) {
+    .name-product-keyboard-anivia{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    
+    .product-keyboard-anivia{
+        width: 350px;
+        height: 400px;
+        margin-left: 0;
+        margin-top: -230px;
+    }
+    
+    .description-keyboard-anivia{
+        margin-left: 0px;
+        margin-top: 170px;
+    }
+    
+    .description-keyboard-anivia p{
+        margin-top: 5px;
+    }
+    
+    .discount-keyboard-anivia{
+        margin-left: 200px;
+        margin-top: 670px;
+    }
+}
