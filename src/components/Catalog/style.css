@@ -187,6 +187,12 @@
     height: 210px; 
     margin-bottom: -20px;
 }
+.headset-motorola{
+    width: 200px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    height: 210px; 
+}
 
 .mouses{
     width: 220px;
@@ -312,6 +318,12 @@
         width: 130px;
         height: 110px;
         margin-bottom: -10px; 
+    }
+    .headset-motorola{
+        width: 90px;
+        height: 100px;
+        margin-top: 5px;
+        margin-bottom: -10px;
     }
 
     .mouses{

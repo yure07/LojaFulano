@@ -2,7 +2,7 @@ import './style.css'
 import Header from "../../../../components/Header/header";
 import Footer from "../../../../components/Footer";
 
-import image from '../../../../images/produtos/hedphone-motorola.png'
+import image from '../../../../images/produtos/headphone-motorola.png'
 
 export default function Motorola () {
     return(
