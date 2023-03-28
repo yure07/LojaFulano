@@ -29,7 +29,7 @@ export default function E2 () {
 
                 <img src={image} alt='1' className='hermes-e2'/>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/lqflzo'>
                 <button type='submit' className='btn-buy-hermes-e2'>COMPRAR</button>
             </a>
 

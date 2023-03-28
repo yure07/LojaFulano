@@ -29,7 +29,7 @@ export default function Hyperx () {
 
             <img src={image} alt='1' className='hyperx-headset-product'/>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/r799km'>
                 <button type='submit' className='btn-buy-headset-taurus'>COMPRAR</button>
             </a>
 

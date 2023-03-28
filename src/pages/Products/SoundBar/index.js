@@ -30,7 +30,7 @@ export default function SoundBar () {
 
                 <img src={image} alt='1' className='product-soundbar'/>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/3wlgdz'>
                 <button type='submit' className='btn-buy-keycap-a107'>COMPRAR</button>
             </a>
 

@@ -28,7 +28,7 @@ export default function HeadsetCadmus() {
 
             <img src={image} alt='1' className='headset-product-cadmus'/>
             
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/89rgxy'>
                 <button type='submit' className='btn-buy-headset-hebe'>COMPRAR</button>
             </a>
 

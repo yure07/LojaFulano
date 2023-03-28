@@ -30,7 +30,7 @@ export default function Optico () {
             <p className='price-keyboard'>R$349,99</p>
             <strong className='price-now-keyboard-magic'>R$324,99</strong>
 
-           <a target='_blank'>
+           <a target='_blank' href='https://wa.link/p20p2x'>
             <button type='submit' className='btn-buy-keyboard-magic'>COMPRAR</button>
            </a>
                 <img src={image1} alt='1' className='product-keyboard-magic'/>

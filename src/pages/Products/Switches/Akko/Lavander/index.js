@@ -28,7 +28,7 @@ export default function Lavander () {
 
                 <img src={image} alt='1' className='switch-akko-rose'/>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/205axi'>
                 <button type='submit' className='btn-buy-switch-akko-rose'>COMPRAR</button>
             </a>
 

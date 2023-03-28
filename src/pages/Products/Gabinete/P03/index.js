@@ -30,7 +30,7 @@ export default function P03 () {
             <strong className='price-now-mousepad-tokyo'>R$189,99</strong>
 
             <img src={image} alt='1' className='product-gabinete-p03'/>
-           <a target='_blank'>
+           <a target='_blank' href='https://wa.link/yfo645'>
             <button type='submit' className='buy-buy'>COMPRAR</button>
            </a>
             </div>

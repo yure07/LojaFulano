@@ -29,7 +29,7 @@ export default function A107 () {
 
                 <img src={image} alt='1' className='keycap-a107'/>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/1me65r'>
                 <button type='submit' className='btn-buy-keycap-a107'>COMPRAR</button>
             </a>
 

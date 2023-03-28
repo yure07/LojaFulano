@@ -27,7 +27,7 @@ export default function Anivia () {
             <p className='price-keyboard'>R$279,99</p>
             <strong className='price-now-keyboard'>R$249,99</strong>
 
-           <a target='_blank'>
+           <a target='_blank' href='https://wa.link/5cd2vw'>
             <button type='submit' className='btn-buy-keyboard'>COMPRAR</button>
            </a>
                 <img src={image1} alt='1' className='product-keyboard-anivia'/>

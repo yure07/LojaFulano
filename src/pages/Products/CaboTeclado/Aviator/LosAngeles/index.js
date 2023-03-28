@@ -29,7 +29,7 @@ export default function LosAngeles () {
             <p className='price-cable'>R$109,99</p>
             <strong className='price-now-cable'>R$98,99</strong>
 
-           <a target='_blank' >
+           <a target='_blank' href='https://wa.link/tp9ipi'>
             <button type='submit' className='btn-buy-cable'>COMPRAR</button>
            </a>
 

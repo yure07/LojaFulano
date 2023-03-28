@@ -29,7 +29,7 @@ export default function Lakshmi () {
             <p className='price-keyboard'>R$249,99</p>
             <strong className='price-now-keyboard'>R$218,99</strong>
 
-           <a target='_blank'>
+           <a target='_blank' href='https://wa.link/3slz22'>
             <button type='submit' className='btn-buy-keyboard-lakshmi'>COMPRAR</button>
            </a>
                 <img src={image1} alt='1' className='product-keyboard-lakshmi'/>

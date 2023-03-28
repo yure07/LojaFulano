@@ -29,7 +29,7 @@ export default function Akko () {
 
                 <img src={image} alt='1' className='keycap-a130'/>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/mw6wql'>
                 <button type='submit' className='btn-buy-keycap-a107'>COMPRAR</button>
             </a>
 

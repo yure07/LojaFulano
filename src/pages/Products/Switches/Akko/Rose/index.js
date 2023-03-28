@@ -29,7 +29,7 @@ export default function Rose () {
 
                 <img src={image} alt='1' className='switch-akko-rose'/>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/o74re5'>
                 <button type='submit' className='btn-buy-switch-akko-rose'>COMPRAR</button>
             </a>
 

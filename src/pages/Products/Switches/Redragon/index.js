@@ -29,7 +29,7 @@ export default function Redragon () {
 
                 <img src={image} alt='1' className='switch-redragon'/>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/3vzbo6'>
                 <button type='submit' className='btn-buy-keycap-a107'>COMPRAR</button>
             </a>
 

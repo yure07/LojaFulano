@@ -23,7 +23,7 @@ export default function JellyWhite () {
             <p className='price-keyboard-akko-jellyw'>R$529,99</p>
             <strong className='price-now-keyboard-akko-jellyw'>R$499,99</strong>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/s3v3ly'>
                 <button type='submit' className='btn-buy-keyboard-akko-jellyw'>COMPRAR</button>
             </a>
 

@@ -31,7 +31,7 @@ export default function StormPro () {
 
             <img src={image} alt='1' className='mouse-storm-pro' />
 
-           <a target='_blank'>
+           <a target='_blank' href='https://wa.link/092crd'>
             <button type='submit' className='btn-buy-mouse-storm'>COMPRAR</button>
            </a>
 

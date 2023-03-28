@@ -9,7 +9,7 @@ export default function E3 () {
             <Header/>
             <div className='container-hermes-e2'>
                 <h1 className='title-product-hermes-e2'>TECLADO GAMER HERMES E3</h1>
-                <p className='name-product-hermes-e3'> Gamdias Hermes E2 - Switch Brown</p>
+                <p className='name-product-hermes-e3'> Gamdias Hermes E3 - Switch Brown</p>
                 
                 <div className='description-hermes-e2'>
                     <p>Teclado Gamer Gamdias Hermes E3 - Switch Brown. 
@@ -29,7 +29,7 @@ export default function E3 () {
 
                 <img src={image} alt='1' className='hermes-e3'/>
 
-            <a target='_blank'>
+            <a target='_blank' href='https://wa.link/gwjkdu'>
                 <button type='submit' className='btn-buy-hermes-e2'>COMPRAR</button>
             </a>
 
