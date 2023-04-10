@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "KIT SWITCH REDRAGON TACTILE",
+        "description": "Switch Para Teclado Mecânico - A113B",
+        "discount": "-20%",
+        "price": "89,99",
+        "pricenow": "71,50",
+        "link": "/switch-redragon",
+        "imagem": "../images/produtos/kit-tactile.png",
+        "class": "kit-mouse-pad"
+    },
+    {
+        "id": 2,
+        "name": "KIT SWITCH AKKO ROSE RED",
+        "description": "Switch Para Teclado Mecânico Akko.",
+        "discount": "-20%",
+        "price": "89,99",
+        "pricenow": "71,99",
+        "link": "/switch-akko-rose-red",
+        "imagem": "../images/produtos/switch-rose-red.png",
+        "class": "switches"
+    },
+    {
+        "id": 3,
+        "name": "KIT SWITCH AKKO MATCHA GREEN",
+        "description": "Switch Para Teclado Mecânico Akko.",
+        "discount": "-20%",
+        "price": "89,99",
+        "pricenow": "71,99",
+        "link": "/switch-akko-matcha-green",
+        "imagem": "../images/produtos/switch-matcha.png",
+        "class": "switches"
+    },
+    {
+        "id": 4,
+        "name": "KIT SWITCH AKKO VINTAGE WHITE",
+        "description": "Switch Para Teclado Mecânico Akko.",
+        "discount": "-12%",
+        "price": "85,99",
+        "pricenow": "74,99",
+        "link": "/switch-akko-vintage-white",
+        "imagem": "../images/produtos/switch-vintage.png",
+        "class": "switches"
+    },
+    {
+        "id": 5,
+        "name": "KIT SWITCH AKKO LAVANDER PURPLE",
+        "description": "Switch Para Teclado Mecânico Akko.",
+        "discount": "-20%",
+        "price": "89,99",
+        "pricenow": "71,99",
+        "link": "/switch-akko-lavander",
+        "imagem": "../images/produtos/switch-lavander.png",
+        "class": "switches"
+    }
+]

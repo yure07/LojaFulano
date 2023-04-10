@@ -126,17 +126,17 @@
 }
 
 /* -- TABLETS -- */
-@media (width <= 900px) 
-and (height >= 1000px ) {
+@media screen and (min-width: 600px) and (max-width: 1024px) {
     .menu{
         display: flex;
-        height: 65px;
-        width: 170px;
-        margin-left: 170px;
+        height: 45px;
+        width: 120px;
+        margin-left: 150px;
     }
     
     .payments{
-        height: 110px;
+        height: 80px;
+        width: 130px;
         margin-left: 50px;
     }
     
@@ -148,19 +148,19 @@ and (height >= 1000px ) {
     
     .discord-icon{
         margin-left: 10px;
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
     }
     .column{
         display: flex;
         flex-direction: column;
+        row-gap: 10px;
         margin-left: 50px;
         margin-top: 10px;
-        
     }
     .contact{
         margin-left: 10px;
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
     }
 }

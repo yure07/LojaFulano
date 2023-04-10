@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "name": "TECLADO MECÂNICO REDRAGON",
+        "description": "Switch Azul K606R (PT-BLUE) Preto",
+        "discount": "-25%",
+        "price": "274,99",
+        "pricenow": "204,99",
+        "link": "/produto-teclado-redragon",
+        "imagem": "../images/produtos/produto-teclado.png",
+        "class": "teclado"
+    },
+    {
+        "id": 2,
+        "name":"TECLADO MECÂNICO AKKO",
+        "description":"Switch Akko Pink World Tour Tokio R1",
+        "discount": "-17%",
+        "price": "726,90",
+        "pricenow": "599,99",
+        "link": "/produto-teclado-akko",
+        "imagem": "../images/produtos/teclado-akko.jpg",
+        "class": "teclado"
+    },
+    {
+        "id": 3,
+        "name": "TECLADO MECÂNICO REDRAGON",
+        "description": "Dark Avenger Rainbow - Switch Blue",
+        "discount": "-16%",
+        "price": "249,99",
+        "pricenow": "209,99",
+        "link": "/teclado-dark-switch-blue",
+        "imagem": "../images/produtos/dar-avenger-rainbow.png",
+        "class": "teclado-double-switch"
+    },
+    {
+        "id": 4,
+        "name": "TECLADO MECÂNICO REDRAGON",
+        "description": "Dark Avenger Rainbow Lunar White",
+        "discount": "-22%",
+        "price": "269,99",
+        "pricenow": "209,99",
+        "link": "/teclado-dark-white",
+        "imagem": "../images/produtos/teclado-mecanico-redragon-white.png",
+        "class": "teclado-white"
+    },
+    {
+        "id": 5,
+        "name": "TECLADO MECÂNICO REDRAGON",
+        "description": "Dark Avenger RGB - Switch Red",
+        "discount": "-13%",
+        "price": "299,99",
+        "pricenow": "259,99",
+        "link": "/teclado-dark-switch-red",
+        "imagem": "../images/produtos/teclado-dark-260.png",
+        "class": "teclado-double-switch"
+    },
+    {
+        "id": 6,
+        "name": "TECLADO GAMER HERMES E2",
+        "description": "Teclado Gamer Gamdias Hermes E2 - Switch Blue",
+        "discount": "-20%",
+        "price": "199,99",
+        "pricenow": "159,99",
+        "link": "/gamdias-e2",
+        "imagem": "../images/produtos/gamdias-02.png",
+        "class": "teclado"
+    },
+    {
+        "id": 7,
+        "name": "TECLADO GAMER HERMES E3",
+        "description": "Teclado Gamer Gamdias Hermes E3 - Switch Brown",
+        "discount": "-12%",
+        "price": "399,99",
+        "pricenow": "349,99",
+        "link": "/gamdias-e3",
+        "imagem": "../images/produtos/gamdias-03.png",
+        "class": "teclado-gamdias"
+    },
+    {
+        "id": 8,
+        "name": "TECALDO GAMER TDAGGER",
+        "description": "Teclado Gamer TDAGGER Bora RGB",
+        "discount": "-17%",
+        "price": "279,99",
+        "pricenow": "229,99",
+        "link": "/teclado-tdagger-bora",
+        "imagem": "../images/produtos/teclado-bora.png",
+        "class": "teclado-gamdias"
+    },
+    {
+        "id": 9,
+        "name": "TECLADO MECÂNICO AKKO 3068 V2",
+        "description": "Switch Jelly Pink - 65% RGB White",
+        "discount": "-5%",
+        "price": "529,99",
+        "pricenow": "499,99",
+        "link": "/teclado-akko-jelly-white",
+        "imagem": "../images/produtos/akko-jelly-pink.jpg",
+        "class": "teclado-jelly"
+    },
+    {
+        "id": 10,
+        "name": "TECLADO MECÂNICO AKKO 3068 V2",
+        "description": "Switch Jelly Pink - 65% RGB Black",
+        "discount": "-5%",
+        "price": "529,99",
+        "pricenow": "499,99",
+        "link": "/teclado-akko-jelly-black",
+        "imagem": "../images/produtos/akko-jelly-black.jpg",
+        "class": "teclado-jelly"
+    },
+    {
+        "id": 11,
+        "name": "TECLADO MECÂNICO REDRAGON",
+        "description": "Teclado Redragon Draconic Pro Branco e Rosa ",
+        "discount": "-7%",
+        "price": "379,99",
+        "pricenow": "349,99",
+        "link": "/teclado-redragon-draonic-pro",
+        "imagem": "../images/produtos/teclado-draconic.png",
+        "class": "teclado-draonic"
+    },
+    {
+        "id": 12,
+        "name": "TECLADO MECÂNICO REDRAGON",
+        "description": "Teclado Redragon Anivia Low Profile RGB ",
+        "discount": "-10%",
+        "price": "279,99",
+        "pricenow": "249,99",
+        "link": "/teclado-redragon-anivia",
+        "imagem": "../images/produtos/teclado-anivia.png",
+        "class": "teclado-gamdias"
+    },
+    {
+        "id": 13,
+        "name": "TECLADO GAMER ÓPTICO",
+        "description": "Teclado Óptico Magic-Wand Branco - Pro RGB",
+        "discount": "-7%",
+        "price": "349,99",
+        "pricenow": "324,99",
+        "link": "/teclado-redragon-optico",
+        "imagem": "../images/produtos/teclado-optico.png",
+        "class": "teclado-optic"
+    },
+    {
+        "id": 14,
+        "name": "TECLADO MECÂNICO REDRAGON",
+        "description": "Teclado Redragon Lakshmi 60% - Branco e Rosa",
+        "discount": "-12%",
+        "price": "249,99",
+        "pricenow": "218,99",
+        "link": "/teclado-redragon-lakshmi",
+        "imagem": "../images/produtos/teclado-lakshmi.png",
+        "class": "teclado-lakshmi"
+    }
+]

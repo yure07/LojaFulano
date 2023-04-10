@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "KIT MOUSE E MOUSEPAD REDRAGON",
+        "description": "M607-BA Kit mouse e mousepad P003",
+        "discount": "-15%",
+        "price": "189,99",
+        "pricenow": "159,99",
+        "link": "/kit-mouse-pad",
+        "imagem": "../images/produtos/mousepad-mouse.png",
+        "class": "kit-mouse-pad"
+    },
+    {
+        "id": 2,
+        "name": "KIT KEYCAPS REDRAGON PRETO",
+        "description": "Kit Completo de Teclas Redragon Preto - A107",
+        "discount": "-35%",
+        "price": "99,99",
+        "pricenow": "64,99",
+        "link": "/keycaps-a107",
+        "imagem": "../images/produtos/keycaps-a107.png",
+        "class": "keycaps"
+    },
+    {
+        "id": 3,
+        "name": "KIT KEYCAPS REDRAGON SCARAB",
+        "description": "Kit Completo de Teclas Redragon Scarab - A130",
+        "discount": "-20%",
+        "price": "89,99",
+        "pricenow": "71,50",
+        "link": "/keycaps-a130",
+        "imagem": "../images/produtos/keycaps-a130.png",
+        "class": "keycaps"
+    },
+    {
+        "id": 4,
+        "name": "KIT KEYCAPS AKKO RETRO",
+        "description": "Keycaps Profile OEM Retro R2 (38-Key)",
+        "discount": "-28%",
+        "price": "69,99",
+        "pricenow": "49,99",
+        "link": "/keycaps-akko-retro",
+        "imagem": "../images/produtos/keycap-oem.png",
+        "class": "kit-mouse-pad"
+    }
+]

@@ -8,7 +8,7 @@ function Catalog() {
   const [produtos, setProdutos] = useState([])
 
   const requisition = async function () {
-    await axios.get('db.json')
+    await axios.get('../data/db.json')
     .then((response)=>{
       setProdutos(response.data)
     })

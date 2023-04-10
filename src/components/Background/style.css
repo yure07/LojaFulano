@@ -8,7 +8,7 @@
 .galery{
     width: 1100px;
     overflow: hidden;
-    margin-top: 140px;
+    margin-top: 220px;
     position: absolute;
     height: 400px;
 }
@@ -54,8 +54,7 @@ and (height <= 950px ) {
 }
 
 /* -- TABLETS -- */
-@media (width <= 900px) 
-and (height >= 1000px ) {
+@media screen and (min-width: 992px) and (max-width: 1023px){
     .galery{
         width: 100%;
         margin-left: 0;
@@ -64,6 +63,6 @@ and (height >= 1000px ) {
     }
 
     .carousel{
-        height: 320px;
+        height: 280px;
     }
 }

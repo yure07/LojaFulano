@@ -1,0 +1,85 @@
+.container-filter{
+    display: flex;
+    border-bottom: 2px solid red;
+    width: 100vw;
+    margin-top: 8.5em;
+}
+.container-filter > ul{
+    list-style: none;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    padding: 0 9.5%;
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+}
+
+.container-filter > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-filter > ul > hr{
+    height: 25px;
+    border: 1px solid red;
+}
+
+.container-filter > ul > li > a:hover{
+    color: #a5a5a5;
+    transition: all 0.3s;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .container-filter{
+        margin-top: 8.7em;
+        height: 80px;
+        overflow: auto;
+    }
+    .container-filter::-webkit-scrollbar {
+        height: 6px;
+    }
+    .container-filter > ul{
+        padding: 0;
+        font-size: 1em;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
+    .container-filter > ul > li{
+        display: flex;
+        text-align: center;
+    }
+    .container-filter > ul > li > a{
+        width: 8em;
+        display: block;
+    }
+}
+
+/* --- MEDIA QUERIES --- */
+@media (width <= 500px) {
+    .container-filter{
+        margin-top: 16em;
+        height: 80px;
+        overflow: auto;
+    }
+    .container-filter::-webkit-scrollbar {
+        display: none;
+    }
+
+    .container-filter > ul{
+        padding: 0;
+        font-size: 1em;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
+
+    .container-filter > ul > li{
+        display: flex;
+        text-align: center;
+    }
+    .container-filter > ul > li > a{
+        width: 8em;
+        display: block;
+    }
+}

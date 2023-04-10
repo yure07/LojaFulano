@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "MOUSE GAMER",
+        "description": "Mouse Readragon Reaping Elite Preto",
+        "discount": "-13%",
+        "price": "239,99",
+        "pricenow": "209,99",
+        "link": "/mouse-reaping",
+        "imagem": "../images/produtos/mouse_reaping.png",
+        "class": "mouse-reaping"
+    },
+    {
+        "id": 2,
+        "name": "MOUSE GAMER",
+        "description": "Mouse Redragon Storm Elite",
+        "discount": "-11%",
+        "price": "219,99",
+        "pricenow": "194,99",
+        "link": "/mouse-storm",
+        "imagem": "../images/produtos/mouse_gamer_rmouse_storm.png",
+        "class": "mouses"
+    },
+    {
+        "id": 3,
+        "name": "MOUSE GAMER",
+        "description": "Mouse Imperial T-DAGGER Preto",
+        "discount": "-21%",
+        "price": "139,99",
+        "pricenow": "109,99",
+        "link": "/mouse-imperial",
+        "imagem": "../images/produtos/mouse_imperial.webp",
+        "class": "mouses"
+    },
+    {
+        "id": 4,
+        "name": "MOUSE GAMER",
+        "description": "Mouse Redragon Cobra M711",
+        "discount": "-11%",
+        "price": "139,99",
+        "pricenow": "124,99",
+        "link": "/mouse-cobra-preto",
+        "imagem": "../images/produtos/mouse-redragon-cobra-preto.webp",
+        "class": "mouses"
+    },
+    {
+        "id": 5,
+        "name": "MOUSE GAMER",
+        "description": "Mouse Redragon Cobra FPS M711W",
+        "discount": "-8%",
+        "price": "209,99",
+        "pricenow": "194,99",
+        "link": "/mouse-cobra-fps-branco",
+        "imagem": "../images/produtos/mouse-cobra-branco.png",
+        "class": "mouses"
+    },
+    {
+        "id": 6,
+        "name": "MOUSE GAMER",
+        "description": "Mouse Redragon Cobra FPS Preto M711B",
+        "discount": "-10%",
+        "price": "219,99",
+        "pricenow": "194,99",
+        "link": "/mouse-cobra-fps-preto",
+        "imagem": "../images/produtos/mouse-redragon-cobra-FPS.png",
+        "class": "mouse-reaping"
+    },
+    {
+        "id": 7,
+        "name": "MOUSE GAMER",
+        "description": "Mouse Storm RGB Lunar White",
+        "discount": "-15%",
+        "price": "189,99",
+        "pricenow": "159,99",
+        "link": "/mouse-storm-lunar",
+        "imagem": "../images/produtos/mouse-storm-lunar.webp",
+        "class": "mouses"
+    },
+    {
+        "id": 8,
+        "name": "MOUSE GAMER",
+        "description": "Mouse Redragon Storm Pro Wireless Preto",
+        "discount": "-11%",
+        "price": "269,99",
+        "pricenow": "239,99",
+        "link": "/mouse-storm-pro-wireless",
+        "imagem": "../images/produtos/mouse-storm-preto.png",
+        "class": "mouses"
+    }
+]

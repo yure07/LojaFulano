@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "MOUSEPAD AKKO",
+        "description": "World Tour Tokio R2",
+        "discount": "-12%",
+        "price": "175,99",
+        "pricenow": "154,99",
+        "link": "/mousepad-tokyo",
+        "imagem": "../images/produtos/Tokyo-Mouse-Pad.png",
+        "class": "mousepad-tokyo"
+    },
+    {
+        "id": 2,
+        "name": "MOUSEPAD AKKO",
+        "description": "Dracula Castle",
+        "discount": "-12%",
+        "price": "175,99",
+        "pricenow": "154,99",
+        "link": "/mousepad-dracula",
+        "imagem": "../images/produtos/Tokyo-Mouse-Pad-Dracula.png",
+        "class": "mousepad-dracula-london"
+    },
+    {
+        "id": 3,
+        "name":"MOUSEPAD AKKO",
+        "description": "World Tour London",
+        "discount": "-12%",
+        "price": "175,99",
+        "pricenow": "154,99",
+        "link": "/mousepad-london",
+        "imagem": "../images/produtos/Tokyo-Mouse-Pad-London.png",
+        "class": "mousepad-dracula-london"
+    },
+    {
+        "id": 4,
+        "name": "MOUSEPAD REDRAGON",
+        "description": "Mousepad Redragon Kunlun EXT Preto",
+        "discount": "-25%",
+        "price": "119,99",
+        "pricenow": "89,99",
+        "link": "/mousepad-kunlun",
+        "imagem": "../images/produtos/mousepad-kunlun.png",
+        "class": "mousepad-new"
+    },
+    {
+        "id": 5,
+        "name": "MOUSEPAD REDRAGON",
+        "description": "Mousepad Redragon Flick L Preto",
+        "discount": "-20%",
+        "price": "99,99",
+        "pricenow": "79,99",
+        "link": "/mousepad-flick",
+        "imagem": "../images/produtos/mousepad-redragon-flick.png",
+        "class": "mousepad-flick"
+    },
+    {
+        "id": 6,
+        "name": "MOUSEPAD REDRAGON",
+        "description": "Mousepad EXT Taurus Speed",
+        "discount": "-27%",
+        "price": "89,99",
+        "pricenow": "64,99",
+        "link": "/mousepad-taurus",
+        "imagem": "../images/produtos/mousepad-redragon-taurus.webp",
+        "class": "mousepad-tokyo"
+    }
+]

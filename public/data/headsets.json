@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "name": "HEADSET GAMER",
+        "description": "Headset Gamer Hebe E2",
+        "discount": "-11%",
+        "price": "179,99",
+        "pricenow": "159,99",
+        "link": "/headset-hebe",
+        "imagem": "../images/produtos/headset-hebe.png",
+        "class": "headset"
+    },
+    {
+        "id": 2,
+        "description": "Headset Scylla Preto H901",
+        "name": "HEADSET GAMER",
+        "discount": "-20%",
+        "price": "149,99",
+        "pricenow": "119,99",
+        "link": "/headset-scylla",
+        "imagem": "../images/produtos/headset-scylla-preto.png",
+        "class": "headset"
+    },
+    {
+        "id": 3,
+        "description": "Headset Minos Preto H210",
+        "name": "HEADSET GAMER",
+        "discount": "-10%",
+        "price": "199,99",
+        "pricenow": "179,99",
+        "link": "/headset-minos",
+        "imagem": "../images/produtos/headset-minos-preto.png",
+        "class": "headset"
+    },
+    {
+        "id": 4,
+        "name": "HEADSET GAMER",
+        "description": "Headset Hylas Rosa H260-P",
+        "discount": "-16%",
+        "price": "149,99",
+        "pricenow": "124,99",
+        "link": "/headset-hylas",
+        "imagem": "../images/produtos/Hylas.png",
+        "class": "headset"
+    },
+    {
+        "id": 5,
+        "name": "HEADSET GAMER",
+        "description": "Headset Taurus E1",
+        "discount": "-20%",
+        "price": "99,99",
+        "pricenow": "79,99",
+        "link": "/headset-taurus",
+        "imagem": "../images/produtos/headset-taurus.png",
+        "class": "headset"
+    },
+    {
+        "id": 6,
+        "name":"HEADSET GAMER",
+        "description": "Headset Hero Branco H530",
+        "discount": "-12%",
+        "price": "299,99",
+        "pricenow": "269,99",
+        "link": "/headset-hero",
+        "imagem": "../images/produtos/hero-branco.webp",
+        "class": "headset"
+    },
+    {
+        "id": 7,
+        "name": "HEADSET GAMER",
+        "description": "Headset HyperX Cloud Stinger Core",
+        "discount": "-19%",
+        "price": "209,99",
+        "pricenow": "169,99",
+        "link": "/headset-hyperx",
+        "imagem": "../images/produtos/headset-hyperx.png",
+        "class": "headset"
+    },
+    {
+        "id": 8,
+        "name": "HEADPHONE MOTOROLA",
+        "description": "Headphone Motorola Pulse 120",
+        "discount": "-26%",
+        "price": "149,99",
+        "pricenow": "109,99",
+        "link": "/headphone-motorola",
+        "imagem": "../images/produtos/headphone-motorola.png",
+        "class": "headset-motorola"
+    },
+    {
+        "id": 9,
+        "name": "HEADSET GAMER",
+        "description": "Headset Hero Branco com Vermelho H530-WP",
+        "discount": "-12%",
+        "price": "299,99",
+        "pricenow": "269,99",
+        "link": "/headset-hero-branco-vermelho",
+        "imagem": "../images/produtos/hero-branco-vermelho.webp",
+        "class": "headset-hero"
+    },
+    {
+        "id": 10,
+        "name": "HEADSET GAMER",
+        "description": "Headset Redragon Diomedes Preto",
+        "discount": "-12%",
+        "price": "269,99",
+        "pricenow": "234,99",
+        "link": "/headset-diomedes",
+        "imagem": "../images/produtos/headset-diomedes.png",
+        "class": "headset"
+    },
+    {
+        "id": 11,
+        "name": "HEADSET GAMER",
+        "description": "Headset Redragon Cadmus RGB",
+        "discount": "-11%",
+        "price": "259,99",
+        "pricenow": "229,99",
+        "link": "/headset-cadmus",
+        "imagem": "../images/produtos/headset-cadmus.png",
+        "class": "headset"
+    },
+    {
+        "id": 12,
+        "name": "HEADSET GAMER",
+        "description": "Headset Scylla Branco H210",
+        "discount": "-20%",
+        "price": "169,99",
+        "pricenow": "129,99",
+        "link": "/headset-scylla-branco",
+        "imagem": "../images/produtos/headset-scylla-branco.webp",
+        "class": "headset"
+    },
+    {
+        "id": 13,
+        "name": "HEADSET GAMER",
+        "description": "Headset Hero Branco com Roxo H530-WP",
+        "discount": "-14%",
+        "price": "239,99",
+        "pricenow": "204,99",
+        "link": "/headset-hero-branco-roxo",
+        "imagem": "../images/produtos/hero-branco-roxo.webp",
+        "class": "headset-hero"
+    },
+    {
+        "id": 14,
+        "name": "HEADSET GAMER",
+        "description": "Headset Minos Branco H210W",
+        "discount": "-16%",
+        "price": "219,99",
+        "pricenow": "184,99",
+        "link": "/headset-minos-branco",
+        "imagem": "../images/produtos/headset-minos-branco.webp",
+        "class": "headset"
+    } 
+]
