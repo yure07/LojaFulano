@@ -19,11 +19,23 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 430px;
+    margin-top: 370px;
 }
 
 /* MEDIA QUERIES */ 
-@media (width <= 992px) {
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ){
+    .headset-product-diomedes{
+        width: 330px;
+        height: 270px;
+        margin-left: 450px;
+        margin-top: 00px;
+    }
+}
+
+@media (width <= 600px) {
     .name-product-headset-diomedes{
         font-size: 14px;
     }
@@ -37,6 +49,6 @@
     
     .discount-diomedes{
         margin-left: 200px;
-        margin-top: 630px;
+        margin-top: 590px;
     }
 }

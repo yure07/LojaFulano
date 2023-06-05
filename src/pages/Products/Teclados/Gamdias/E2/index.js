@@ -26,6 +26,9 @@ export default function E2 () {
                 </div>
                 <p className='price-hermes-e2'>R$199,99</p>
                 <strong className='price-now-hermes-e2'>R$159,99</strong>
+                <div className='parcelado-teclado-e2'>
+                    <p>em até 6x de R$ 29,08</p>
+                </div>
 
                 <img src={image} alt='1' className='hermes-e2'/>
 

@@ -40,7 +40,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -275px;
-    margin-top: 630px;
+    margin-top: 580px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -71,6 +71,11 @@
     background-color: rgb(39, 185, 39);
     margin-left: -315px;
 }
+.parcelado-kit-a107{
+    font-size: 18px;
+    margin: 10px 0 20px -415px;
+}
+.parcelado-kit-a107 p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -94,11 +99,11 @@
         width: 350px;
         height: 310px;
         margin-left: 40px;
-        margin-top: -150px;
+        margin-top: -190px;
     }
     .discount-keycap-a107{
         margin-left: 195px;
-        margin-top: 1060px;
+        margin-top: 1000px;
     }
     .price-keycap-a107{
         margin-left: 0;
@@ -108,5 +113,8 @@
     }
     .btn-buy-keycap-a107{
         margin-left: -120px;
+    }
+    .parcelado-kit-a107{
+        margin: 10px 0 20px 0;
     }
 }

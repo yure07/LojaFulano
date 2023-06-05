@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 800px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -25,7 +25,7 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 555px;
+    margin-top: 505px;
 }
 
 .product-mousepad-flick{
@@ -48,7 +48,7 @@
         width: 240px;
         height: 200px;
         margin-left: 0px;
-        margin-top: -100px;
+        margin-top: -130px;
     }
 
     .discount-mousepad-flick{
@@ -70,14 +70,14 @@ and (height >= 1000px ) {
     
     .discount-mousepad-flick{
         margin-left: 190px;
-        margin-top: 805px;
+        margin-top: 775px;
     }
     
     .product-mousepad-flick{
         width: 280px;
         height: 240px;
         margin-left: 0px;
-        margin-top: 40px;
+        margin-top: 0px;
         position: absolute;
     }
 }

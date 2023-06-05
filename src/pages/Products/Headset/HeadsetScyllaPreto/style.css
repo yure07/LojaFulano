@@ -19,7 +19,7 @@
 .name-product-headset-scylla{
     font-size: 22px;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-left: -60px;
 }
 .description-headset-scylla{
@@ -42,7 +42,7 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 510px;
+    margin-top: 460px;
 }
 
 .price-scylla{
@@ -84,7 +84,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-top: -128px;
+    margin-top: -140px;
     margin-left: 250px;
     background-color: #fff;
 }
@@ -122,7 +122,7 @@
         width: 265px;
         height: 230px;
         margin-left: 0px;
-        margin-top: -390px;
+        margin-top: -420px;
     }
     .price-now-scylla{
         margin-left: 0;
@@ -134,25 +134,25 @@
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 720px;
+        margin-top: 680px;
         font-size: 18px;
     }
     .btn-buy-headset-scylla{
         width: 200px;
         height: 50px;
-        margin-left: -100px;
+        margin-left: -110px;
         margin-top: 30px;
     }
     .headset-scylla-white{
         width: 40px;
         height: 40px;
         margin-left: 20px;
-        margin-top: -510px;
+        margin-top: -530px;
     }
     .headset-scylla-black{
         width: 40px;
         height: 40px;
         margin-left: -100px;
-        margin-top: -105px;
+        margin-top: -140px;
     }
 }

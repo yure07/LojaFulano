@@ -11,8 +11,46 @@
     margin-top: 250px;
     position: absolute;
 }
+.price-mouse-storm-lunar{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -420px;
+}
+.discount-storm-lunar{
+    width: 65px;
+    padding: 4px;
+    margin-left: -220px;
+    margin-top: 540px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    font-size: 22px;
+}
 
 /* MEDIA QUERIES */ 
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ){
+    .mouse-storm-lunar{
+        width: 370px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: -260px;
+    }
+    .price-mouse-storm-lunar{
+        margin: 0;
+    }
+    .discount-storm-lunar{
+        width: 65px;
+        padding: 4px;
+        margin-left: 190px;
+        margin-top: 810px;
+    }
+}
+
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
     .name-product-storm-lunar{
@@ -24,6 +62,15 @@
         width: 320px;
         height: 260px;
         margin-left: 0px;
-        margin-top: -420px;
+        margin-top: -450px;
+    }
+    .price-mouse-storm-lunar{
+        margin: 0;
+    }
+    .discount-storm-lunar{
+        width: 65px;
+        padding: 4px;
+        margin-left: 190px;
+        margin-top: 590px;
     }
 }

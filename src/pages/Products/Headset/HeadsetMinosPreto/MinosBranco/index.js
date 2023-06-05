@@ -24,6 +24,9 @@ function HeadsetMinosBranco () {
             </div>
             <p className='price-minos-white'>R$ 219,99</p>
             <strong className='price-now-minos-white'>R$ 184,99</strong>
+            <div className='parcelado-headset-hebe'>
+                <p>em até 10x de R$ 20,80</p>
+            </div>
 
             <a href='https://api.whatsapp.com/send?phone=5574999089728&text=Ol%C3%A1%20Fulano%2C%20Estou%20interessado%20em%20comprar%20um%20produto%20que%20vi%20na%20sua%20loja%2C%20Headset%20Gamer%20Minos%2C%20Redragon%2C%20Branco-%20H210W.%20Acredito%20que%20ele%20atender%C3%A1%20perfeitamente%20minhas%20necessidades.' target='_blank'>
                 <button type='submit' className='btn-buy-headset-minos-white'>COMPRAR</button>

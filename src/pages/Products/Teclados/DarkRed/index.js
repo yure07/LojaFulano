@@ -24,6 +24,9 @@ export default function DarkRed () {
             </div>
             <p className='price-keyboard-dark-red'>R$299,99</p>
             <strong className='price-now-keyboard-dark-blue'>R$259,99</strong>
+            <div className='parcelado-teclado-rgb'>
+                <p>em até 10x de R$ 29,24</p>
+            </div>
 
             <a target='_blank' href='https://wa.link/jqgada'>
                 <button type='submit' className='btn-buy-keyboard-dark-blue'>COMPRAR</button>

@@ -29,6 +29,9 @@ export default function Sakura () {
             </div>
             <p className='price-cable'>R$109,99</p>
             <strong className='price-now-cable'>R$98,99</strong>
+            <div className='parcelado-cable-av'>
+                <p>em até 2x de R$ 52,32</p>
+            </div>
 
            <a target='_blank' href='https://wa.link/6p9y2x'>
             <button type='submit' className='btn-buy-cable'>COMPRAR</button>

@@ -26,6 +26,9 @@ function HeadsetTaurus () {
             </div>
             <p className='price-taurus'>R$ 99,99</p>
             <strong className='price-now-taurus'>R$ 79,99</strong>
+            <div className='parcelado-headset'>
+                <p>em até 2x de R$ 42,28</p>
+            </div>
 
             <img src={image} alt='1' className='taurus-headset-product'/>
 

@@ -40,7 +40,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -565px;
-    margin-top: 740px;
+    margin-top: 690px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -72,6 +72,11 @@
     background-color: rgb(39, 185, 39);
     margin-left: -465px;
 }
+.parcelado-teclado-e2{
+    font-size: 18px;
+    margin: 10px 0 20px -710px;
+}
+.parcelado-teclado-e2 p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -82,7 +87,7 @@
     
     .title-product-hermes-e2{
         font-size: 22px;
-        margin-top: 150px;
+        margin-top: 190px;
     }
     
     .name-product-hermes-e2{
@@ -101,7 +106,7 @@
     }
     .discount-hermes-e2{
         margin-left: 200px;
-        margin-top: 880px;
+        margin-top: 870px;
     }
     
     .price-hermes-e2{
@@ -112,5 +117,8 @@
     }
     .btn-buy-hermes-e2{
         margin-left: -115px;
+    }
+    .parcelado-teclado-e2{
+        margin: 10px 0 20px 0;
     }
 }

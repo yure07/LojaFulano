@@ -32,7 +32,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -270px;
-    margin-top: 435px;
+    margin-top: 370px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -72,6 +72,11 @@
     margin-top: 100px;
     position: absolute;
 }
+.parcelado-teclado-rainbow{
+    font-size: 18px;
+    margin: 10px 0 20px -450px;
+}
+.parcelado-teclado-rainbow p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -94,7 +99,7 @@
     
     .discount-keyboard-dark-blue{
         margin-left: 195px;
-        margin-top: 590px;
+        margin-top: 530px;
     }
     
     .price-keyboard-dark-blue{
@@ -112,6 +117,9 @@
         height: 350px;
         margin-left: 0px;
         margin-top: -300px;
+    }
+    .parcelado-teclado-rainbow{
+        margin: 10px 10px 20px 0;
     }
 }
 
@@ -137,7 +145,7 @@ and (height >= 1000px ) {
 
     .discount-keyboard-dark-blue{
         margin-left: 200px;
-        margin-top: 700px;
+        margin-top: 650px;
     }
     
     .price-keyboard-dark-blue{
@@ -154,7 +162,10 @@ and (height >= 1000px ) {
         width: 560px;
         height: 520px;
         margin-left: 0px;
-        margin-top: -160px;
+        margin-top: -180px;
         position: absolute;
+    }
+    .parcelado-teclado-rainbow{
+        margin: 10px 0 20px 0;
     }
 }

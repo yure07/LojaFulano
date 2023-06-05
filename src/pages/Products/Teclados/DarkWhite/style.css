@@ -8,7 +8,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -270px;
-    margin-top: 415px;
+    margin-top: 350px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -33,14 +33,14 @@
     
     .discount-keyboard-dark-white{
         margin-left: 195px;
-        margin-top: 565px;
+        margin-top: 510px;
     }
     
     .product-keyboard-dark-white{
         width: 360px;
         height: 350px;
         margin-left: 0px;
-        margin-top: -270px;
+        margin-top: -310px;
     }
 }
 
@@ -53,7 +53,7 @@ and (height >= 1000px ) {
     
     .discount-keyboard-dark-white{
         margin-left: 200px;
-        margin-top: 685px;
+        margin-top: 625px;
     }
     
     .product-keyboard-dark-white{

@@ -3,7 +3,7 @@
 .container-headset-hylas{
     width: 100vw;
     display: flex;
-    height: 900px;
+    height: 1000px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
 
 .title-product-headset-hylas{
     font-size: 60px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .name-product-headset-hylas{
@@ -46,7 +46,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -80px;
-    margin-top: 560px;
+    margin-top: 500px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -110,7 +110,7 @@
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 770px;
+        margin-top: 730px;
         font-size: 18px;
     }
     .price-hylas{

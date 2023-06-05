@@ -18,12 +18,17 @@
     width: 60px;
     padding: 4px;
     margin-left: -230px;
-    margin-top: 530px;
+    margin-top: 480px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
 }
+.parcelado-mouse-cobra{
+    font-size: 18px;
+    margin: 10px 0 20px -390px;
+}
+.parcelado-mouse-cobra p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -36,10 +41,13 @@
     }
     .discount-mouse-cobra-black{
         margin-left: 190px;
-        margin-top: 610px;
+        margin-top: 580px;
     }
     .name-product-cobra-black{
         margin-left: 0;
         font-size: 19px;
+    }
+    .parcelado-mouse-cobra{
+        margin: 10px 0 -5px -20px;
     }
 }

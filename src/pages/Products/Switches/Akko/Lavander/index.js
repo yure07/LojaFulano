@@ -1,3 +1,4 @@
+import './style.css'
 import Header from '../../../../../components/Header/header'
 import Footer from '../../../../../components/Footer'
 import image from '../../../../../images/produtos/switch-lavander.png'
@@ -25,6 +26,9 @@ export default function Lavander () {
                 </div>
                 <p className='price-switch-akko-rose'>R$89,99</p>
                 <strong className='price-now-switch-akko-rose'>R$71,99</strong>
+                <div className='parcelado-switches'>
+                    <p>em até 2x de R$ 39,99</p>
+                </div>
 
                 <img src={image} alt='1' className='switch-akko-rose'/>
 

@@ -36,7 +36,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -405px;
-    margin-top: 635px;
+    margin-top: 580px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -68,7 +68,54 @@
     margin-left: -390px;
 }
 
+.parcelado-kit{
+    font-size: 18px;
+    margin: 10px 0 20px -560px;
+}
+.parcelado-kit p{margin: 0;}
+
 /* MEDIA QUERIES */ 
+@media (width <= 900px) and (height >= 1000px ){
+    .title-product-kit-mouse{
+        font-size: 25px;
+        margin-top: 290px;
+    }
+
+    .name-product-kit-mouse{
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    
+    .description-kit-mouse{
+        margin-top: 250px;
+        margin-left: 0px;
+    }
+    
+    .kit-product{
+        width: 300px;
+        height: 260px;
+        margin-left: 0px;
+        margin-top: -210px;
+    }
+    .discount-kit-mouse{
+        margin-left: 200px;
+        margin-top: 920px;
+    }
+    .price-kit-mouse{
+        margin-left: 0px;
+    }
+    .price-now-kit-mouse{
+        margin-left: 0px;
+    }
+    .btn-buy-kit-mouse{
+        margin-left: -115px;
+    }
+    .parcelado-kit{
+        margin: 10px 0 10px 0;
+    }
+}
+
+
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
     .title-product-kit-mouse{
@@ -89,11 +136,11 @@
         width: 340px;
         height: 300px;
         margin-left: 0px;
-        margin-top: -300px;
+        margin-top: -340px;
     }
     .discount-kit-mouse{
         margin-left: 200px;
-        margin-top: 895px;
+        margin-top: 845px;
     }
     .price-kit-mouse{
         margin-left: 0px;
@@ -103,5 +150,8 @@
     }
     .btn-buy-kit-mouse{
         margin-left: -115px;
+    }
+    .parcelado-kit{
+        margin: 10px 0 20px 0;
     }
 }

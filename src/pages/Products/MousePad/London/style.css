@@ -29,7 +29,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -260px;
-    margin-top: 490px;
+    margin-top: 430px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -86,7 +86,7 @@ button{
     #a11e2a 50%,
     #575d5e 50%);
     margin-left: 220px;
-    margin-top: -78px;
+    margin-top: -105px;
     border-radius: 50%;
 }
 .london-mousepad-london{
@@ -103,7 +103,7 @@ button{
 .tokyo-mousepad-london{
     width: 50px;
     height: 50px;
-    margin-top: -78px;
+    margin-top: -105px;
     border-radius: 50%;
     background: linear-gradient(120deg,
     rgb(223, 89, 111) 50%,
@@ -129,25 +129,25 @@ button{
         width: 350px;
         height: 240px;
         margin-left: 0px;
-        margin-top: -180px;
+        margin-top: -200px;
     }
     .dracula-mousepad-london {
         width: 40px;
         height: 40px;
         margin-left: -20px;
-        margin-top: -390px;
+        margin-top: -420px;
     }
     .london-mousepad-london{
         width: 40px;
         height: 40px;
-        margin-top: 75px;
+        margin-top: 45px;
         margin-left: 195px;
     }
     .tokyo-mousepad-london{
         width: 40px;
         height: 40px;
         margin-left: -110px;
-        margin-top: -390px;
+        margin-top: -420px;
     }
     .description-mousepad-london{
         padding-bottom: 30px;
@@ -168,12 +168,12 @@ button{
         margin: 0;
     }
     .discount-mousepad-london{
-        margin-top: 675px;
+        margin-top: 635px;
     }
     .btn-buy-mousepad-london{
         width: 200px;
         height: 50px;
-        margin-left: -100px;
+        margin-left: -110px;
         margin-top: 20px;
     }
 }
@@ -191,14 +191,14 @@ and (height >= 1000px ) {
 
     .dracula-mousepad-london {
         margin-left: 150px;
-        margin-top: -78px;
+        margin-top: -105px;
     }
     .london-mousepad-london{
         margin-top: 520px;
         margin-left: 570px;
     }
     .tokyo-mousepad-london{
-        margin-top: -78px;
+        margin-top: -105px;
         margin-left: 40px;
     }
 }

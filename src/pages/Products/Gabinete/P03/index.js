@@ -28,6 +28,9 @@ export default function P03 () {
             </div>
             <p className='price-mousepad-tokyo'>R$219,99</p>
             <strong className='price-now-mousepad-tokyo'>R$189,99</strong>
+            <div className='parcelado-gabinete'>
+                <p>em até 10x de R$ 21,36</p>
+            </div>
 
             <img src={image} alt='1' className='product-gabinete-p03'/>
            <a target='_blank' href='https://wa.link/yfo645'>

@@ -26,11 +26,14 @@ export default function Draonic () {
             <div className='discount-keyboard-draonic'>
                 <strong>-7%</strong>
             </div>
-            <p className='price-keyboard'>R$379,99</p>
-            <strong className='price-now-keyboard'>R$349,99</strong>
+            <p className='price-keyboard-draonic'>R$379,99</p>
+            <strong className='price-now-keyboard-draonic'>R$349,99</strong>
+            <div className='parcelado-teclado-rainbow'>
+                <p>em até 10x de R$ 39,36</p>
+            </div>
 
            <a target='_blank' href='https://wa.link/8cn07t'>
-            <button type='submit' className='btn-buy-keyboard'>COMPRAR</button>
+            <button type='submit' className='btn-buy-keyboard-draonic'>COMPRAR</button>
            </a>
                 <img src={image1} alt='1' className='product-keyboard-draonic'/>
 

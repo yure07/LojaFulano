@@ -38,7 +38,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -175px;
-    margin-top: 610px;
+    margin-top: 560px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -69,13 +69,18 @@
     background-color: rgb(39, 185, 39);
     margin-left: -275px;
 }
+.parcelado-mouse-imperial{
+    font-size: 18px;
+    margin: 10px 0 20px -340px;
+}
+.parcelado-mouse-imperial p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
     .title-product-imperial{
         font-size: 33px;
-        margin-top: 150px;
+        margin-top: 180px;
         margin-bottom: 0;
     }
     .name-product-imperial{
@@ -90,12 +95,12 @@
         width: 260px;
         height: 220px;
         margin-left: 0px;
-        margin-top: -280px;
+        margin-top: -300px;
         position: absolute;
     }
     .discount-imperial-mouse{
         margin-left: 190px;
-        margin-top: 785px;
+        margin-top: 765px;
     }
     .price-mouse-imperial{
         margin-left: 0px;
@@ -105,5 +110,8 @@
     }
     .btn-buy-mouse-imperial{
         margin-left: -120px;
+    }
+    .parcelado-mouse-imperial{
+        margin: 10px 0 20px -20px;
     }
 }

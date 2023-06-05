@@ -5,12 +5,10 @@ import Footer from '../../../components/Footer'
 
 
 function KitMousePad () {
-    
-
     return(
         <div>
             <Header/>
-            <div className='container-redragon'>
+            <div className='container-headset-hebe'>
             <h1 className='title-product-kit-mouse'>KIT MOUSE E MOUSEPAD</h1>
                 <p className='name-product-kit-mouse'>M607-BA Kit mouse e mousepad Redragon P003</p>
                 
@@ -28,7 +26,9 @@ function KitMousePad () {
                 </div>
                 <p className='price-kit-mouse'>R$189,99</p>
                 <strong className='price-now-kit-mouse'>R$159,99</strong>
-
+                <div className='parcelado-kit'>
+                    <p>em até 6x de R$ 29,08</p>
+                </div>
             
                 <img src={image} alt='1' className='kit-product'/>
                 

@@ -1,11 +1,14 @@
 import {BrowserRouter} from 'react-router-dom'
 import RoutesApp from './routes';
+import { DataProvider } from './context/Dataprovider';
 
 function App() {
   return (
-    <BrowserRouter>
-     <RoutesApp/>
-    </BrowserRouter>
+    <DataProvider>
+      <BrowserRouter>
+      <RoutesApp/>
+      </BrowserRouter>
+    </DataProvider>
   );
 }
 

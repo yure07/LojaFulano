@@ -5,15 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 // -- PRINCIPAIS -- //
 import Home from '../pages/Home'
 import About from '../pages/About'
-import Headsets from '../pages/Filters/Headsets'
-import Mouses from '../pages/Filters/Mouses'
-import Teclados from '../pages/Filters/Teclados'
-import MousePads from '../pages/Filters/Mousepads'
-import Gabinetes from '../pages/Filters/Gabinetes'
-import Switches from '../pages/Filters/Switches'
-import Cabos from '../pages/Filters/Cabos'
-import Kits from '../pages/Filters/Kits'
-import SoundBars from '../pages/Filters/SoundBars'
+import Geral from '../pages/Filters/geral'
 
 // --CABO TECLADO -- //
 import CaboTeclado from '../pages/Products/CaboTeclado'
@@ -100,15 +92,7 @@ import SoundBar from '../pages/Products/SoundBar'
     <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/sobre' element={<About/>}/>
-        <Route path='/filter/headsets' element={<Headsets/>}/>
-        <Route path='/filter/mouses' element={ <Mouses/> }/>
-        <Route path='/filter/teclados' element={ <Teclados/> }/>
-        <Route path='/filter/mousepads' element={ <MousePads/> }/>
-        <Route path='/filter/gabinetes' element={ <Gabinetes/> }/>
-        <Route path='/filter/switches' element={ <Switches/> }/>
-        <Route path='/filter/cabo-teclado' element={ <Cabos/> }/>
-        <Route path='/filter/kits' element={ <Kits/> }/>
-        <Route path='/filter/soundbar' element={ <SoundBars/> }/>
+        <Route path="/filter/:name" element={ <Geral/> }/>
 
         <Route path='/keyboard-cable-pink' element={<CaboTeclado/>}/>
         <Route path='/keyboard-cable-blue' element={<CaboBlue/>}/>
@@ -180,6 +164,7 @@ import SoundBar from '../pages/Products/SoundBar'
         <Route path='/switch-akko-lavander' element={ <Lavander/> }/>
 
         <Route path='/soundbar' element={ <SoundBar/> }/>
+
     </Routes>
     )
 }

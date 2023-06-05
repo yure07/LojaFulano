@@ -19,7 +19,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -255px;
-    margin-top: 700px;
+    margin-top: 650px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -35,7 +35,18 @@
 }
 
 /* MEDIA QUERIES */ 
-@media (width <= 992px) {
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ){
+    .product-gabinete-p03{
+        width: 370px;
+        height: 390px;
+        margin-left: 320px;
+    }
+}
+
+@media (width <= 600px) {
     .container-gabinete-p03{
         height: 1200px;
         margin-top: -50px;
@@ -47,13 +58,13 @@
     
     .discount-gabinete-p03{
         margin-left: 200px;
-        margin-top: 890px;
+        margin-top: 850px;
     }
     
     .product-gabinete-p03{
         width: 260px;
         height: 280px;
         margin-left: 0;
-        margin-top: -320px;
+        margin-top: -350px;
     }
 }

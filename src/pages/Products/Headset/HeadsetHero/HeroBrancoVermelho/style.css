@@ -31,7 +31,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -50px;
-    margin-top: 410px;
+    margin-top: 360px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -60,7 +60,7 @@
     height: 50px;
     border-radius: 50%;
     margin-left: 810px;
-    margin-top: 500px;
+    margin-top: 540px;
     background: linear-gradient(120deg, #fff 50%, red 50%);
     border: 3px solid rgba(72, 255, 0, 0.756);
 }
@@ -109,34 +109,34 @@
         width: 225px;
         height: 240px;
         margin-left: 0px;
-        margin-top: -325px;
+        margin-top: -365px;
     }
     .btn-buy-headset-hero-red{
-        margin-left: -100px;
+        margin-left: -110px;
         margin-top: 30px;
     }
     .white-hero-change1{
         width: 40px;
         height: 40px;
         margin-left: -80px;
-        margin-top: -435px;
+        margin-top: -470px;
     }
     
     .white-purple-hero-change1{
         width: 40px;
         height: 40px;
         margin-left: -10px;
-        margin-top: -435px;
+        margin-top: -470px;
     }
     
     .white-red-hero-change1{
         width: 40px;
         height: 40px;
         margin-left: 160px;
-        margin-top: -40px;
+        margin-top: -90px;
     }
     .discount-hero-red{
-        margin-top: 640px;
+        margin-top: 600px;
         margin-left: 200px;
     }
 }
@@ -170,7 +170,7 @@ and (height >= 1000px ) {
     
     .white-red-hero-change1{
         margin-left: 630px;
-        margin-top: 525px;
+        margin-top: 535px;
         background: linear-gradient(120deg, #fff 50%, red 50%);
     }
 }

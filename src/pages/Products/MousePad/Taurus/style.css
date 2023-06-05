@@ -33,8 +33,13 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 620px;
+    margin-top: 570px;
 }
+.parcelado-mousepad-taurus{
+    font-size: 18px;
+    margin: 10px 0 20px -630px;
+}
+.parcelado-mousepad-taurus p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -54,6 +59,9 @@
     .discount-mousepad-taurus{
         margin-left: 195px;
         margin-top: 820px;
+    }
+    .parcelado-mousepad-taurus{
+        margin: 5px 0 15px 0;
     }
 }
 
@@ -75,6 +83,9 @@ and (height >= 1000px ) {
     
     .discount-mousepad-taurus{
         margin-left: 190px;
-        margin-top: 840px;
+        margin-top: 800px;
+    }
+    .parcelado-mousepad-taurus{
+        margin: 10px 0 20px 0;
     }
 }

@@ -33,7 +33,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -220px;
-    margin-top: 590px;
+    margin-top: 540px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -64,9 +64,55 @@
     background-color: rgb(39, 185, 39);
     margin-left: -300px;
 }
+.parcelado-mouse{
+    font-size: 18px;
+    margin: 10px 0 20px -390px;
+}
+.parcelado-mouse p{margin: 0;}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ){
+    .container-storm{
+        height: 1110px;
+    }
+    .name-product-storm{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    .description-mouse-storm{
+        margin-top: 280px;
+        margin-left: 0px;
+    }
+    .mouse-storm{
+        width: 325px;
+        height: 290px;
+        margin-left: 0px;
+        margin-top: -300px;
+    }
+    .discount-storm{
+        margin-left: 185px;
+        margin-top: 830px;
+        width: 50px;
+        font-size: 18px;
+    }
+    .price-mouse-storm{
+        margin-left: 0px;
+    }
+    .price-now-mouse-storm{
+        margin-left: 0px;
+    }
+    .btn-buy-mouse-storm{
+        margin-left: -120px;
+        margin-top: 20px;
+    }
+    .parcelado-mouse{
+        margin: 10px 0 0px -30px;
+    }
+}
 
 /* MEDIA QUERIES */ 
-@media (width <= 992px) {
+@media (width <= 600px) {
     .container-storm{
         height: 1110px;
     }
@@ -82,15 +128,15 @@
         width: 325px;
         height: 290px;
         margin-left: 0px;
-        margin-top: -420px;
+        margin-top: -450px;
     }
     .discount-storm{
         margin-left: 185px;
-        margin-top: 655px;
+        margin-top: 615px;
         width: 50px;
         font-size: 18px;
     }
-    .price-mouse-storm{
+    .price-mousestorm{
         margin-left: 0px;
     }
     .price-now-mouse-storm{
@@ -98,5 +144,9 @@
     }
     .btn-buy-mouse-storm{
         margin-left: -120px;
+        margin-top: 20px;
+    }
+    .parcelado-mouse{
+        margin: 10px 0 0px -30px;
     }
 }

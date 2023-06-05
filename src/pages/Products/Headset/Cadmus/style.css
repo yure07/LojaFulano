@@ -20,11 +20,23 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 450px;
+    margin-top: 400px;
 }
 
 /* MEDIA QUERIES */ 
-@media (width <= 992px) {
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ){
+    .headset-product-cadmus{
+        width: 300px;
+        height: 240px;
+        margin-left: 460px;
+        margin-top: 0px;
+    }
+}
+
+@media (width <= 600px) {
     .name-product-headset-cadmus{
         font-size: 15px;
         margin: 0;
@@ -34,11 +46,11 @@
         width: 300px;
         height: 240px;
         margin-left: 0;
-        margin-top: -330px;
+        margin-top: -380px;
     }
     
     .discount-cadmus{
         margin-left: 200px;
-        margin-top: 650px;
+        margin-top: 600px;
     }
 }

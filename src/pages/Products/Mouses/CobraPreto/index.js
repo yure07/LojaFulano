@@ -25,6 +25,9 @@ export default function CobraPreto () {
             </div>
             <p className='price-mouse-redragon'>R$139,99</p>
             <strong className='price-now-mouse-redragon'>R$124,99</strong>
+            <div className='parcelado-mouse-cobra'>
+                <p>em até 6x de R$ 22,71</p>
+            </div>
 
             <img src={image} alt='1' className='mouse-cobra-black'/>
 

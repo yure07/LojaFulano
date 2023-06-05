@@ -50,7 +50,7 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 470px;
+    margin-top: 430px;
 }
 
 .price-hebe{
@@ -79,6 +79,11 @@
     border-radius: 10px;
     background-color: rgb(39, 185, 39);
 }
+.parcelado-headset-hebe{
+    font-size: 18px;
+    margin: 10px 0 10px -260px;
+}
+.parcelado-headset-hebe p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -110,7 +115,7 @@
         width: 50px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 690px;
+        margin-top: 640px;
         font-size: 18px;
     }
     .price-hebe{
@@ -122,8 +127,11 @@
     .btn-buy-headset-hebe{
         width: 200px;
         height: 50px;
-        margin-left: -100px;
+        margin-left: -110px;
         margin-top: 30px;
+    }
+    .parcelado-headset-hebe{
+        margin: 10px 0 0px -30px;
     }
 }
 

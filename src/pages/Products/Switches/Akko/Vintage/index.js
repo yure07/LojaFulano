@@ -26,6 +26,9 @@ export default function Vintage () {
                 </div>
                 <p className='price-switch-akko-rose'>R$85,99</p>
                 <strong className='price-now-switch-akko-rose'>R$74,99</strong>
+                <div className='parcelado-switches'>
+                    <p>em até 2x de R$ 39,64</p>
+                </div>
 
                 <img src={image} alt='1' className='switch-akko-rose'/>
 

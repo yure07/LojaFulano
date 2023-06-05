@@ -24,6 +24,9 @@ function HeadsetHero () {
             </div>
             <p className='price-hero'>R$ 299,99</p>
             <strong className='price-now-hero'>R$ 269,99</strong>
+            <div className='parcelado-headset-hebe'>
+                <p>em até 10x de R$ 30,36</p>
+            </div>
 
             <button className='white-hero' type='submit'></button>
 

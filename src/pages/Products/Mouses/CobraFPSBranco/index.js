@@ -37,6 +37,9 @@ export default function CobraFPSBranco () {
             </div>
             <p className='price-mouse-redragon'>R$209,99</p>
             <strong className='price-now-mouse-redragon'>R$194,99</strong>
+            <div className='parcelado-mouse-cobra'>
+                <p>em até 10x de R$ 21,93</p>
+            </div>
 
            
             <img src={image} alt='1' className='mouse-cobra-white'/>

@@ -27,6 +27,9 @@ export default function SoundBar () {
                 </div>
                 <p className='price-keycap-a107'>R$149,99</p>
                 <strong className='price-now-keycap-a107'>R$129,99</strong>
+                <div className='parcelado-kit-a107'>
+                    <p>em até 6x de R$ 23,62</p>
+                </div>
 
                 <img src={image} alt='1' className='product-soundbar'/>
 

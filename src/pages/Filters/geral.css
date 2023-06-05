@@ -1,0 +1,174 @@
+.container-filter2{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7em;
+}
+.card-product-filter{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    margin-top: 5rem;
+    background-color: #ff000015;
+    text-align: center;
+    border: 3px solid #ff000015;
+    border-radius: 25px;
+    cursor: pointer; 
+    transition: all 0.4s;
+    font-size: 18px;
+    font-weight: 700;
+}
+.card-product-filter a{
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    flex-direction: column;
+}
+.card-product-filter:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 4px 4px #ff00008f;
+}
+
+.card-product-filter strong{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 0px;
+    font-weight: bolder; 
+    margin-top: 30px;
+}
+
+.card-product-filter p:nth-child(3){
+    margin-top: 1px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #ffffff8a;
+}
+
+.card-product-filter p:nth-child(5){
+    font-size: 22px;
+    margin-top: 50px;
+    text-decoration: line-through;
+    color: rgb(255, 0, 0);
+}
+.card-product-filter p:nth-child(6){
+    font-size: 32px;
+    margin: 0;
+}
+
+.discount-filter{
+    width: 65px;
+    margin-bottom: -70px;
+    margin-top: 50px;
+    margin-left: 190px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(255, 6, 6);
+    color: #fff;
+}
+
+/* --- Grandes Telas --- */
+@media screen and (min-width: 1024px) and (max-width: 1268px){
+    .card-product-filter{
+        width: 300px;
+        height: 350px;
+    }
+
+    .image-product-filter{
+        width: 160px;
+        height: 200px;
+    }
+}
+
+/* --- Médias Telas --- */
+@media screen and (min-width: 668px) and (max-width: 1023px) {
+    .container-filter2{
+        grid-template-columns: auto auto;
+    }
+    .card-product-filter{
+        width: 300px;
+        height: 430px;
+    }
+    .card-product-filter strong{
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .card-product-filter p:nth-child(3){
+        font-size: 0.6em;
+    }
+    
+    .card-product-filter p:nth-child(5){
+        margin-top: 0px;
+    }
+    .card-product-filter p:nth-child(6){
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .discount-filter{
+        width: 50px;
+        margin-bottom: -20px;
+        margin-top: 40px;
+        margin-left: 170px;
+        padding: 2px;
+    }
+    .discount-filter strong{
+        font-size: 16px;
+    }
+    
+}
+
+/* --- Mobiles --- */
+@media screen and (max-width: 500px) {
+    .container-filter2{
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .card-product-filter{
+        width: 170px;
+        height: 210px;
+        margin-top: 1.5em;
+    }
+    .card-product-filter strong{
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+    .image-product-filter{
+        width: 100px;
+        height: 13vh;
+    }
+
+    .card-product-filter strong{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .card-product-filter p:nth-child(3){
+        font-size: 11px;
+    }
+    
+    .card-product-filter p:nth-child(5){
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .card-product-filter p:nth-child(6){
+        font-size: 22px;
+        margin: 0;
+    }
+    .discount-filter{
+        width: 30px;
+        margin-bottom: -20px;
+        margin-top: 10px;
+        margin-left: 120px;
+        padding: 0;
+    }
+    .discount-filter strong{
+        font-size: 11px;
+    }
+}

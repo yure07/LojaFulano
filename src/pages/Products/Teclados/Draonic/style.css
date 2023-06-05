@@ -43,7 +43,7 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 830px;
+    margin-top: 820px;
 }
 
 .product-keyboard-draonic{
@@ -53,6 +53,31 @@
     margin-top: 250px;
     position: absolute;
     translate: x;
+}
+.price-keyboard-draonic{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -450px;
+}
+.price-now-keyboard-draonic{
+    font-size: 45px;
+    padding-right: 20px;
+    margin-left: -420px;
+}
+.btn-buy-keyboard-draonic{
+    width: 220px;
+    height: 50px;
+    margin-left: -330px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 39);
 }
 
 /* MEDIA QUERIES */ 
@@ -73,7 +98,7 @@
     .discount-keyboard-draonic{
         margin-left: 190px;
         width: 55px;
-        margin-top: 990px;
+        margin-top: 960px;
     }
     
     .product-keyboard-draonic{
@@ -81,5 +106,11 @@
         height: 370px;
         margin-left: 0;
         margin-top: -450px;
+    }
+    .price-keyboard-draonic, .price-now-keyboard-draonic{
+        margin: 0;
+    }
+    .btn-buy-keyboard-draonic{
+        margin-left: -110px;
     }
 }

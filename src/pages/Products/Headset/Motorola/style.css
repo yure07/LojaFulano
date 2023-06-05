@@ -30,7 +30,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -260px;
-    margin-top: 560px;
+    margin-top: 500px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -63,6 +63,11 @@
     border-radius: 10px;
     background-color: rgb(39, 185, 39);
 }
+.parcelado-headset-motorola{
+    font-size: 18px;
+    margin: 10px 0 20px -430px;
+}
+.parcelado-headset-motorola p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -89,7 +94,7 @@
     
     .discount-motorola{
         margin-left: 200px;
-        margin-top: 920px;
+        margin-top: 870px;
     }
     
     .price-motorola{
@@ -101,5 +106,8 @@
     
     .btn-buy-headphone-motorola{
         margin-left: -120px;
+    }
+    .parcelado-headset-motorola{
+        margin: 10px 0 10px 0;
     }
 } 

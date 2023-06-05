@@ -27,12 +27,17 @@
     width: 65px;
     padding: 4px;
     margin-left: -355px;
-    margin-top: 630px;
+    margin-top: 580px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
 }
+.parcelado-cable-av{
+    font-size: 18px;
+    margin: 10px 0 20px -500px;
+}
+.parcelado-cable-av p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 @media (width <= 992px) {
@@ -49,11 +54,15 @@
         width: 340px;
         height: 340px;
         margin-left: 0;
-        margin-top: -260px;
+        margin-top: -310px;
     }
     
     .discount-cable-aviator{
         margin-left: 195px;
-        margin-top: 870px;
+        margin-top: 830px;
+    }
+
+    .parcelado-cable-av{
+        margin: 10px 0 0 0;
     }
 }

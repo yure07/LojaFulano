@@ -1,3 +1,13 @@
+.container-keyboard-anivia{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 .name-product-keyboard-anivia{
     font-size: 27px;
     margin-top: 0;
@@ -39,7 +49,12 @@
 }
 
 /* MEDIA QUERIES */ 
-@media (width <= 992px) {
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px){
+    .container-keyboard-anivia{
+        height: 900px;
+    }
     .name-product-keyboard-anivia{
         font-size: 15px;
         margin-left: 0px;
@@ -64,5 +79,35 @@
     .discount-keyboard-anivia{
         margin-left: 200px;
         margin-top: 670px;
+    }
+}
+@media (width <= 600px) {
+    .container-keyboard-anivia{
+        height: 800px;
+    }
+    .name-product-keyboard-anivia{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    
+    .product-keyboard-anivia{
+        width: 350px;
+        height: 400px;
+        margin-left: 0;
+        margin-top: -230px;
+    }
+    
+    .description-keyboard-anivia{
+        margin-left: 0px;
+        margin-top: 170px;
+    }
+    
+    .description-keyboard-anivia p{
+        margin-top: 5px;
+    }
+    
+    .discount-keyboard-anivia{
+        margin-left: 200px;
+        margin-top: 630px;
     }
 }

@@ -44,7 +44,7 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 530px;
+    margin-top: 480px;
 }
 
 .price-mousepad-kunlun{
@@ -81,6 +81,11 @@
     margin-top: 200px;
     position: absolute;
 }
+.parcelado-mousepad-kunlun{
+    font-size: 18px;
+    margin: 10px 0 20px -620px;
+}
+.parcelado-mousepad-kunlun p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -120,6 +125,10 @@
         height: 380px;
         margin-left: 0px;
         margin-top: -70px;
+    }
+    .parcelado-mousepad-kunlun{
+        font-size: 18px;
+        margin: 5px 0 10px -20px;
     }
 }
 
@@ -164,6 +173,10 @@ and (height >= 1000px ) {
     }
     .discount-mousepad-kunlun{
         margin-left: 190px;
-        margin-top: 825px;
+        margin-top: 785px;
+    }
+    .parcelado-mousepad-kunlun{
+        font-size: 18px;
+        margin: 5px 0 10px -20px;
     }
 }

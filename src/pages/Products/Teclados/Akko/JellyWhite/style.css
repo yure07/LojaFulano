@@ -33,7 +33,7 @@
     width: 60px;
     padding: 4px;
     margin-left: -350px;
-    margin-top: 320px;
+    margin-top: 270px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -64,6 +64,11 @@
     border-radius: 10px;
     background-color: rgb(39, 185, 39);
 }
+.parcelado-teclado-3068{
+    font-size: 18px;
+    margin: 10px 0 20px -520px;
+}
+.parcelado-teclado-3068 p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 @media (width <= 992px) {
@@ -83,13 +88,13 @@
         width: 340px;
         height: 110px;
         margin-left: 0;
-        margin-top: -230px;
+        margin-top: -280px;
     }
     
     .discount-keyboard-akko-jellyw{
         margin-left: 190px;
         width: 55px;
-        margin-top: 435px;
+        margin-top: 380px;
     }
     .price-keyboard-akko-jellyw{
         margin: 0;
@@ -99,5 +104,8 @@
     }
     .btn-buy-keyboard-akko-jellyw{
         margin-left: -120px;
+    }
+    .parcelado-teclado-3068{
+        margin: 10px 0 20px 0;
     }
 }

@@ -33,7 +33,7 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 510px;
+    margin-top: 460px;
 }
 
 .price-mousepad-tokyo{
@@ -86,7 +86,7 @@ button{
     #a11e2a 50%,
     #575d5e 50%);
     margin-left: 220px;
-    margin-top: -90px;
+    margin-top: -115px;
     border-radius: 50%;
 }
 .london-mousepad{
@@ -98,7 +98,7 @@ button{
     border-radius: 50%;
     margin-right: 20px;
     margin-left: 320px;
-    margin-top: -90px;
+    margin-top: -115px;
 }
 .tokyo-mousepad{
     width: 50px;
@@ -110,6 +110,13 @@ button{
     margin-left: 290px;
     margin-top: 520px;
     border: 3px solid rgba(72, 255, 0, 0.756);
+}
+.parcelado-mousepad{
+    font-size: 18px;
+    margin: 10px 0 20px -430px;
+}
+.parcelado-mousepad p{
+    margin: 0;
 }
 
 /* MEDIA QUERIES */ 
@@ -140,7 +147,7 @@ button{
         width: 300px;
         height: 160px;
         margin-left: 0px;
-        margin-top: -180px;
+        margin-top: -230px;
     }
     .price-mousepad-tokyo{
         margin-left: 0;
@@ -152,32 +159,35 @@ button{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 705px;
+        margin-top: 660px;
         font-size: 18px;
     }
     .buy-buy{
         width: 200px;
         height: 50px;
-        margin-left: -100px;
+        margin-left: -110px;
         margin-top: 20px;
     }
     .dracula-mousepad{
         width: 40px;
         height: 40px;
         margin-left: -20px;
-        margin-top: -410px;
+        margin-top: -450px;
     }
     .london-mousepad{
         width: 40px;
         height: 40px;
-        margin-top: -410px;
+        margin-top: -450px;
         margin-left: 70px;
     }
     .tokyo-mousepad{
         width: 40px;
         height: 40px;
         margin-left: -170px;
-        margin-top: 60px;
+        margin-top: 10px;
+    }
+    .parcelado-mousepad{
+        margin: 10px 0 0px -20px;
     }
 }
 
@@ -193,12 +203,12 @@ and (height >= 1000px ) {
     }
     .dracula-mousepad{
         margin-left: 160px;
-        margin-top: -130px;
+        margin-top: -155px;
     }
     .london-mousepad{
         margin-right: 20px;
         margin-left: 270px;
-        margin-top: -130px;
+        margin-top: -155px;
     }
     .tokyo-mousepad{
         margin-left: 160px;

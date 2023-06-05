@@ -24,6 +24,9 @@ export default function Taurus () {
             </div>
             <p className='price-mousepad-kunlun'>R$89,99</p>
             <strong className='price-now-mousepad-kunlun'>R$64,99</strong>
+            <div className='parcelado-mousepad-taurus'>
+                <p>em até 2x de R$ 34,35</p>
+            </div>
 
            <a target='_blank' href='https://wa.link/rh96bj'>
             <button type='submit' className='btn-buy-mousepad-kunlun'>COMPRAR</button>

@@ -18,7 +18,7 @@
     width: 60px;
     padding: 4px;
     margin-left: -230px;
-    margin-top: 600px;
+    margin-top: 550px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -43,6 +43,6 @@ button{
     }
     .discount-mouse-cobra-fps-white{
         margin-left: 190px;
-        margin-top: 675px;
+        margin-top: 645px;
     }
 }

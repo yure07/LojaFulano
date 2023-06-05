@@ -26,6 +26,9 @@ export default function Hyperx () {
             </div>
             <p className='price-taurus'>R$ 209,99</p>
             <strong className='price-now-taurus'>R$ 169,99</strong>
+            <div className='parcelado-headset'>
+                <p>em até 6x de R$ 30,89</p>
+            </div>
 
             <img src={image} alt='1' className='hyperx-headset-product'/>
 

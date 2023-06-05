@@ -59,8 +59,14 @@
     border-radius: 10px;
     background-color: rgb(39, 185, 39);
 }
+.parcelado-teclado-magic{
+    font-size: 18px;
+    margin: 10px 0 20px -390px;
+}
+.parcelado-teclado-magic p{margin: 0;}
 
 /* MEDIA QUERIES */ 
+
 @media (width <= 992px) {
     .container-keyboard-magic{
         height: 1100px;
@@ -78,11 +84,11 @@
         width: 350px;
         height: 300px;
         margin-left: 0;
-        margin-top: -320px;
+        margin-top: -280px;
     }
     .discount-keyboard-magic{
         margin-left: 190px;
-        margin-top: 845px;
+        margin-top: 805px;
     }
     
     .price-now-keyboard-magic{
@@ -90,5 +96,8 @@
     }
     .btn-buy-keyboard-magic{
         margin-left: -120px;
+    }
+    .parcelado-teclado-magic{
+        margin-left: 0;
     }
 }

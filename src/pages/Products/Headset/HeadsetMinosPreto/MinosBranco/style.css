@@ -46,7 +46,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -80px;
-    margin-top: 430px;
+    margin-top: 390px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -92,7 +92,7 @@
     height: 50px;
     border-radius: 50%;
     margin-left: 200px;
-    margin-top: -62px;
+    margin-top: -80px;
     background: #575d5e;
 }
 
@@ -119,13 +119,13 @@
         width: 285px;
         height: 230px;
         margin-left: 0px;
-        margin-top: -350px;
+        margin-top: -380px;
     }
     .discount-minos-white{
         width: 50px;
         padding: 4px;
         margin-left: 195px;
-        margin-top: 670px;
+        margin-top: 630px;
         font-size: 18px;
     }
     .price-minos-white{
@@ -142,13 +142,13 @@
         width: 40px;
         height: 40px;
         margin-left: 85px;
-        margin-top: -80px;
+        margin-top: -90px;
     }
     .headset-minos-black-change{
         width: 40px;
         height: 40px;
         margin-left: -60px;
-        margin-top: -470px;
+        margin-top: -485px;
     }
 }
 

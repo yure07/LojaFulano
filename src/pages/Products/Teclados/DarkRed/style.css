@@ -2,7 +2,7 @@
     width: 60px;
     padding: 4px;
     margin-left: -280px;
-    margin-top: 415px;
+    margin-top: 350px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -24,13 +24,18 @@
     margin-top: 100px;
     position: absolute;
 }
+.parcelado-teclado-rgb{
+    font-size: 18px;
+    margin: 10px 0 20px -440px;
+}
+.parcelado-teclado-rgb p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
 @media (width <= 420px) and (height < 920px) {
     .discount-keyboard-dark-red{
         margin-left: 140px;
-        margin-top: 570px;
+        margin-top: 510px;
     }
 
     .product-keyboard-dark-red{
@@ -43,6 +48,9 @@
     .price-keyboard-dark-red{
         margin-left: -55px;
     }
+    .parcelado-teclado-rgb{
+        margin: 10px 0 20px 0;
+    }
 }
 
 /* -- TABLETS -- */
@@ -50,7 +58,7 @@
 and (height >= 1000px ) {
     .discount-keyboard-dark-red{
         margin-left: 200px;
-        margin-top: 690px;
+        margin-top: 640px;
     }
     
     .price-keyboard-dark-red{
@@ -62,5 +70,8 @@ and (height >= 1000px ) {
         height: 540px;
         margin-left: 0px;
         margin-top: -130px;
+    }
+    .parcelado-teclado-rgb{
+        margin: 10px 0 20px 0;
     }
 }

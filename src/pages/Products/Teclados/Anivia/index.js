@@ -7,7 +7,7 @@ export default function Anivia () {
     return(
         <div>
             <Header/>
-            <div className='container-keyboard'>
+            <div className='container-keyboard-anivia'>
             <h1 className='title-product-keyboard'>Teclado Mecânico Redragon</h1>
             <p className='name-product-keyboard-anivia'>Redragon Anivia Low Profile RGB - Preto</p>
             
@@ -24,11 +24,14 @@ export default function Anivia () {
             <div className='discount-keyboard-anivia'>
                 <strong>-10%</strong>
             </div>
-            <p className='price-keyboard'>R$279,99</p>
-            <strong className='price-now-keyboard'>R$249,99</strong>
+            <p className='price-keyboard-draonic'>R$279,99</p>
+            <strong className='price-now-keyboard-draonic'>R$249,99</strong>
+            <div className='parcelado-teclado-rainbow'>
+                <p>em até 10x de R$ 28,11</p>
+            </div>
 
            <a target='_blank' href='https://wa.link/5cd2vw'>
-            <button type='submit' className='btn-buy-keyboard'>COMPRAR</button>
+            <button type='submit' className='btn-buy-keyboard-draonic'>COMPRAR</button>
            </a>
                 <img src={image1} alt='1' className='product-keyboard-anivia'/>
 

@@ -30,7 +30,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -275px;
-    margin-top: 630px;
+    margin-top: 570px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -61,6 +61,6 @@
     }
     .discount-keycap-a130{
         margin-left: 195px;
-        margin-top: 910px;
+        margin-top: 860px;
     }
 }

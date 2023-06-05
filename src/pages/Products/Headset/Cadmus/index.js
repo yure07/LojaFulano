@@ -25,6 +25,9 @@ export default function HeadsetCadmus() {
             </div>
             <p className='price-hebe'>R$ 259,99</p>
             <strong className='price-now-hebe'>R$ 229,99</strong>
+            <div className='parcelado-headset'>
+                <p>em até 10x de R$ 25,86</p>
+            </div>
 
             <img src={image} alt='1' className='headset-product-cadmus'/>
             

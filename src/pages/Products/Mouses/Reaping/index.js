@@ -25,6 +25,9 @@ function Reaping () {
             </div>
             <p className='price-mouse-redragon'>R$239,99</p>
             <strong className='price-now-mouse-redragon'>R$209,99</strong>
+            <div className='parcelado-mouse-reaping'>
+                <p>em até 10x de R$ 23,61</p>
+            </div>
 
             <img src={image} alt='1' className='mouse'/>
 

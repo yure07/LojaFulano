@@ -7,7 +7,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -220px;
-    margin-top: 590px;
+    margin-top: 540px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -20,21 +20,50 @@
     margin-top: 280px;
     position: absolute;
 }
+.price-mouse-storm-pro{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: -420px;
+}
 
 /* MEDIA QUERIES */ 
-@media (width <= 992px) {
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px){
+    .mouse-storm-pro{
+        width: 320px;
+        height: 270px;
+        margin-left: 0;
+        margin-top: -220px;
+    }
+    .price-mouse-storm-pro{
+        margin: 0;
+    }
+    .discount-storm-pro{
+        margin-left: 200px;
+        margin-top: 810px;
+    }
+}
+
+@media (width <= 600px) {
     .name-product-storm-pro{
         font-size: 14px;
         margin: 0;
     }
     .discount-storm-pro{
         margin-left: 200px;
-        margin-top: 640px;
+        margin-top: 590px;
     }
     .mouse-storm-pro{
         width: 320px;
         height: 270px;
         margin-left: 0;
         margin-top: -410px;
+    }
+    .price-mouse-storm-pro{
+        margin: 0;
     }
 }

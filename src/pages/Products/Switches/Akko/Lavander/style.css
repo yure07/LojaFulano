@@ -1,0 +1,12 @@
+.parcelado-switches{
+    font-size: 18px;
+    margin: 10px 0 20px -370px;
+}
+.parcelado-switches p{margin: 0;}
+
+/* MEDIA QUERIES */ 
+@media (width <= 992px){
+    .parcelado-switches{
+        margin: 0 0 10px 0;
+    }
+}

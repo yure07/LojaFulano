@@ -15,17 +15,17 @@ useEffect(()=>{
 
     return(
         <div className='container-filter'>
-            <ul>
-                <li> <Link to='/filter/mouses' target='_blank' id='desgraca'> Mouses </Link> </li> <hr/>
-                <li> <Link to='/filter/teclados' target='_blank'> Teclados </Link> </li> <hr/>
-                <li> <Link to='/filter/headsets' target='_blank'> Headsets </Link> </li> <hr/>
-                <li> <Link to='/filter/mousepads' target='_blank'> Mousepads </Link> </li> <hr/>
-                <li> <Link to='/filter/gabinetes' target='_blank'> Gabinetes </Link> </li> <hr/>
-                <li> <Link to='/filter/switches' target='_blank'> Switches </Link> </li> <hr/>
-                <li> <Link to='/filter/cabo-teclado' target='_blank'> Cabos para Teclado </Link> </li> <hr/>
-                <li> <Link to='/filter/kits' target='_blank'> Kits </Link> </li> <hr/>
-                <li> <Link to='/filter/soundbar' target='_blank'> SoundBar </Link> </li> <hr/>
-            </ul>
+            {<ul>
+                <li> <Link to={"/filter/mouses"} target='_blank'> Mouses </Link> </li> <hr/>
+                <li> <Link to={"/filter/teclados"} target='_blank'> Teclados </Link> </li> <hr/>
+                <li> <Link to={"/filter/headsets"} target='_blank'> Headsets </Link> </li> <hr/>
+                <li> <Link to={"/filter/mousepads"} target='_blank'> Mousepads </Link> </li> <hr/>
+                <li> <Link to={"/filter/gabinetes"} target='_blank'> Gabinetes </Link> </li> <hr/>
+                <li> <Link to={"/filter/switches"} target='_blank'> Switches </Link> </li> <hr/>
+                <li> <Link to={"/filter/cabo-teclado"} target='_blank'> Cabos para Teclado </Link> </li> <hr/>
+                <li> <Link to={"/filter/kits"} target='_blank'> Kits </Link> </li> <hr/>
+                <li> <Link to={"/filter/soundbar"} target='_blank'> SoundBar </Link> </li> <hr/>
+            </ul>}
         </div>
     )
 }

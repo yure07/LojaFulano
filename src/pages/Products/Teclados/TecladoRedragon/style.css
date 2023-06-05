@@ -12,7 +12,7 @@
 }
 .title-product-keyboard{
     font-size: 45px;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 0;
 }
 .name-product-keyboard{
@@ -47,7 +47,7 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 470px;
+    margin-top: 460px;
 }
 .price-keyboard{
     color: rgb(255, 0, 0);
@@ -73,6 +73,13 @@
     border: none;
     border-radius: 10px;
     background-color: rgb(39, 185, 39);
+}
+.container-keyboard .parcelado{
+    margin: 10px 0 20px -440px;
+    font-size: 18px;
+}
+.parcelado p{
+    margin: 0;
 }
 
 /* MEDIA QUERIES */ 
@@ -107,7 +114,7 @@
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 640px;
+        margin-top: 620px;
         font-size: 18px;
     }
     .price-keyboard{
@@ -117,11 +124,15 @@
     }
     .price-now-keyboard{
         font-size: 45px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .btn-buy-keyboard{
-        margin-left: -100px;
+        margin-left: -110px;
         margin-top: 20px;
+    }
+    .container-keyboard .parcelado{
+        margin: 10px 0 10px -0px;
+        font-size: 18px;
     }
 }
 

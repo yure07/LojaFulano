@@ -24,6 +24,9 @@ function G25B () {
             </div>
             <p className='price-mousepad-tokyo'>R$269,99</p>
             <strong className='price-now-mousepad-tokyo'>R$219,99</strong>
+            <div className='parcelado-gabinete'>
+                <p>em até 10x de R$ 24,74</p>
+            </div>
 
             <img src={image} alt='1' className='product-gabinete'/>
            <a href='https://api.whatsapp.com/send?phone=5574999089728&text=Ol%C3%A1%20Fulano%2C%20Estou%20interessado%20em%20comprar%20um%20produto%20que%20vi%20na%20sua%20loja%2C%20Gabinete%20Gamer%20TGC-G25B%20PTO.%20Acredito%20que%20ele%20atender%C3%A1%20perfeitamente%20minhas%20necessidades.' target='_blank'>

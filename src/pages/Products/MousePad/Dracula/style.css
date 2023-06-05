@@ -33,7 +33,7 @@
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
     font-size: 22px;
-    margin-top: 510px;
+    margin-top: 460px;
 }
 
 .price-mousepad-dracula{
@@ -98,7 +98,7 @@ button{
     height: 50px;
     border-radius: 50%;
     margin-left: 320px;
-    margin-top: -90px;
+    margin-top: -115px;
 }
 .tokyo-mousepad-dracula{
     width: 50px;
@@ -108,7 +108,7 @@ button{
     rgb(223, 89, 111) 50%,
     white 50%);
     margin-left: 110px;
-    margin-top: -90px;
+    margin-top: -115px;
 }
 
 /* MEDIA QUERIES */ 
@@ -133,13 +133,13 @@ button{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 700px;
+        margin-top: 660px;
         font-size: 18px;
     }
     .btn-buy-mousepad-dracula{
         width: 200px;
         height: 50px;
-        margin-left: -100px;
+        margin-left: -110px;
         margin-top: 20px;
     }
     .price-mousepad-dracula{
@@ -152,26 +152,26 @@ button{
         width: 350px;
         height: 240px;
         margin-left: 0px;
-        margin-top: -180px;
+        margin-top: -220px;
     }
     .dracula-mousepad-dracula{
         width: 40px;
         height: 40px;
         margin-left: -10px;
-        margin-top: 55px;
+        margin-top: 20px;
         
     }
     .london-mousepad-dracula{
         width: 40px;
         height: 40px;
-        margin-top: -415px;
+        margin-top: -445px;
         margin-left: 70px;
     }
     .tokyo-mousepad-dracula{
         width: 40px;
         height: 40px;
         margin-left: -120px;
-        margin-top: -415px;
+        margin-top: -445px;
     }
 }
 
@@ -192,10 +192,10 @@ and (height >= 1000px ) {
     }
     .london-mousepad-dracula{
         margin-left: 260px;
-        margin-top: -130px;
+        margin-top: -155px;
     }
     .tokyo-mousepad-dracula{
         margin-left: 40px;
-        margin-top: -130px;
+        margin-top: -155px;
     }
 }

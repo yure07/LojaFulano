@@ -29,7 +29,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -250px;
-    margin-top: 510px;
+    margin-top: 460px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -43,6 +43,11 @@
     margin-top: 290px;
     position: absolute;
 }
+.parcelado-gabinete{
+    font-size: 18px;
+    margin: 10px 0 20px -410px;
+}
+.parcelado-gabinete p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -64,16 +69,17 @@
         width: 50px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 740px;
+        margin-top: 670px;
         font-size: 18px;
     }
     .product-gabinete{
         width: 215px;
         height: 230px;
         margin-left: 0px;
-        margin-top: -150px;
+        margin-top: -180px;
     }
-    .discount-gabinete{
-        margin-top: 710px;
+    .parcelado-gabinete{
+        font-size: 18px;
+        margin: 10px 0 0px -10px;
     }
 }

@@ -26,6 +26,9 @@ export default function A107 () {
                 </div>
                 <p className='price-keycap-a107'>R$99,99</p>
                 <strong className='price-now-keycap-a107'>R$64,99</strong>
+                <div className='parcelado-kit-a107'>
+                    <p>em até 2x de R$ 34,35</p>
+                </div>
 
                 <img src={image} alt='1' className='keycap-a107'/>
 

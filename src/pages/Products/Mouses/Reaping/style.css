@@ -42,7 +42,7 @@ p{margin-bottom: 0;}
     width: 65px;
     padding: 4px;
     margin-left: -220px;
-    margin-top: 550px;
+    margin-top: 500px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -73,6 +73,17 @@ p{margin-bottom: 0;}
     background-color: rgb(39, 185, 39);
     margin-left: -300px;
 }
+.parcelado-mouse-reaping{
+    font-size: 18px;
+    margin: 10px 0 20px -390px;
+}
+.parcelado-mouse-reaping p{margin: 0;}
+
+/* -- TABLETS -- */
+@media (width <= 900px) 
+and (height >= 1000px ){
+    
+}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -96,7 +107,7 @@ p{margin-bottom: 0;}
         width: 145px;
         height: 250px;
         margin-left: 0px;
-        margin-top: -370px;
+        margin-top: -390px;
     }
     .btn-buy-mouse-reaping{
         width: 200px;
@@ -112,6 +123,9 @@ p{margin-bottom: 0;}
     }
     .discount-mouse-reaping{
         margin-left: 200px;
-        margin-top: 640px;
+        margin-top: 600px;
+    }
+    .parcelado-mouse-reaping{
+        margin: 10px 0 0px -30px;
     }
 }

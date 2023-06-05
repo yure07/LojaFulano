@@ -22,6 +22,9 @@ export default function JellyWhite () {
             </div>
             <p className='price-keyboard-akko-jellyw'>R$529,99</p>
             <strong className='price-now-keyboard-akko-jellyw'>R$499,99</strong>
+            <div className='parcelado-teclado-3068'>
+                <p>em até 10x de R$ 56,22</p>
+            </div>
 
             <a target='_blank' href='https://wa.link/s3v3ly'>
                 <button type='submit' className='btn-buy-keyboard-akko-jellyw'>COMPRAR</button>
