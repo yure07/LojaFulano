@@ -26,7 +26,7 @@ function HeadsetHylas () {
             <p className='price-hylas'>R$ 139,99</p>
             <strong className='price-now-hylas'>R$ 124,99</strong>
             <div className='parcelado-headset-hebe'>
-                <p>em até 10x de R$ 22,71</p>
+                <p>R$ 136,29 - em até 10x</p>
             </div>
 
             <img src={image} alt='1' className='hylas-headset-product'/>

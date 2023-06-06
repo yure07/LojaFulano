@@ -26,7 +26,7 @@ function G28B () {
             <p className='price-mousepad-tokyo'>R$269,99</p>
             <strong className='price-now-mousepad-tokyo'>R$219,99</strong>
             <div className='parcelado-gabinete'>
-                <p>em até 10x de R$ 24,74</p>
+                <p>R$ 247,37 - em até 10x</p>
             </div>
 
             <img src={image} alt='1' className='product-gabinete'/>

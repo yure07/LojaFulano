@@ -27,7 +27,7 @@ export default function Anivia () {
             <p className='price-keyboard-draonic'>R$279,99</p>
             <strong className='price-now-keyboard-draonic'>R$249,99</strong>
             <div className='parcelado-teclado-rainbow'>
-                <p>em até 10x de R$ 28,11</p>
+                <p>R$ 281,11 - em até 10x</p>
             </div>
 
            <a target='_blank' href='https://wa.link/5cd2vw'>

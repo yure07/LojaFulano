@@ -23,7 +23,7 @@ export default function JellyBlack() {
             <p className='price-keyboard-akko-jellyw'>R$529,99</p>
             <strong className='price-now-keyboard-akko-jellyw'>R$499,99</strong>
             <div className='parcelado-teclado-3068'>
-                <p>em até 10x de R$ 56,22</p>
+                <p>R$ 562,23 - em até 10x</p>
             </div>
 
             <a target='_blank' href='https://wa.link/lywbdv'>

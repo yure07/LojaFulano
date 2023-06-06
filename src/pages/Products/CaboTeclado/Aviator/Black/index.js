@@ -30,7 +30,7 @@ export default function Black () {
             <p className='price-cable'>R$109,99</p>
             <strong className='price-now-cable'>R$98,99</strong>
             <div className='parcelado-cable-av'>
-                <p>em até 2x de R$ 52,32</p>
+                <p>R$ 104,64 - em até 2x</p>
             </div>
 
            <a target='_blank' href='https://wa.link/i76p5a'>

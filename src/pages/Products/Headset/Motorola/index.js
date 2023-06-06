@@ -27,7 +27,7 @@ export default function Motorola () {
             <p className='price-motorola'>R$ 149,99</p>
             <strong className='price-now-motorola'>R$ 109,99</strong>
             <div className='parcelado-headset-motorola'>
-                <p>em até 6x de R$ 19,99</p>
+                <p>R$ 119,97 - em até 6x</p>
             </div>
 
             <img src={image} alt='1' className='motorola-headphone-product'/>

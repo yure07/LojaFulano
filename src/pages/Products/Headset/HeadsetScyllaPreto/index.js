@@ -26,7 +26,7 @@ function HeadsetScylla () {
             <p className='price-scylla'>R$ 149,99</p>
             <strong className='price-now-scylla'>R$ 119,99</strong>
             <div className='parcelado-headset-hebe'>
-                <p>em até 6x de R$ 21,81</p>
+                <p>R$ 130,84 - em até 6x</p>
             </div>
 
             <Link to='/headset-scylla-branco'>

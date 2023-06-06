@@ -27,7 +27,7 @@ function HeadsetHebe() {
             <p className='price-hebe'>R$ 179,99</p>
             <strong className='price-now-hebe'>R$ 159,99</strong>
             <div className='parcelado-headset-hebe'>
-                <p>em até 6x de R$ 29,08</p>
+                <p>R$ 174,45 - em até 6x</p>
             </div>
 
             <img src={Hebe} alt='2' className='headset-product'/>

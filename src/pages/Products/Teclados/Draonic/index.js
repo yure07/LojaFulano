@@ -29,7 +29,7 @@ export default function Draonic () {
             <p className='price-keyboard-draonic'>R$379,99</p>
             <strong className='price-now-keyboard-draonic'>R$349,99</strong>
             <div className='parcelado-teclado-rainbow'>
-                <p>em até 10x de R$ 39,36</p>
+                <p>R$ 393,36 - em até 10x</p>
             </div>
 
            <a target='_blank' href='https://wa.link/8cn07t'>

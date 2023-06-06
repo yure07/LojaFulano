@@ -26,6 +26,9 @@ export default function CobraFPSPreto () {
             </div>
             <p className='price-mouse-redragon'>R$219,99</p>
             <strong className='price-now-mouse-redragon'>R$194,99</strong>
+            <div className='parcelado-mouse-cobra'>
+                <p>R$ 219,26 - em até 10x</p>
+            </div>
 
             <img  alt='1' className='product-mouse-cobra-fps-preto' src={image}/>
 

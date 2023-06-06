@@ -27,7 +27,7 @@ export default function E3 () {
                 <p className='price-hermes-e2'>R$399,99</p>
                 <strong className='price-now-hermes-e2'>R$349,99</strong>
                 <div className='parcelado-teclado-e2'>
-                    <p>em até 10x de R$ 39,36</p>
+                    <p>R$ 393,56 - em até 10x</p>
                 </div>
 
                 <img src={image} alt='1' className='hermes-e3'/>

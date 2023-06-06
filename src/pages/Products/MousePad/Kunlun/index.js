@@ -25,7 +25,7 @@ export default function Kunlun () {
             <p className='price-mousepad-kunlun'>R$119,99</p>
             <strong className='price-now-mousepad-kunlun'>R$89,99</strong>
             <div className='parcelado-mousepad-kunlun'>
-                <p>em até 2x de R$ 47,56</p>
+                <p>R$ 95,13 - em até 2x</p>
             </div>
 
            <a target='_blank' href='https://wa.link/ojjy1v'>

@@ -27,7 +27,7 @@ function KitMousePad () {
                 <p className='price-kit-mouse'>R$189,99</p>
                 <strong className='price-now-kit-mouse'>R$159,99</strong>
                 <div className='parcelado-kit'>
-                    <p>em até 6x de R$ 29,08</p>
+                    <p>R$ 174,45 - em até 6x</p>
                 </div>
             
                 <img src={image} alt='1' className='kit-product'/>

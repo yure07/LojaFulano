@@ -27,7 +27,7 @@ function Storm () {
             <p className='price-mouse-storm'>R$219,99</p>
             <strong className='price-now-mouse-storm'>R$194,99</strong>
             <div className='parcelado-mouse'>
-                <p>em até 10x de R$ 21,93</p>
+                <p>R$ 219,26 - em até 10x</p>
             </div>
 
             <img src={image} alt='1' className='mouse-storm' />

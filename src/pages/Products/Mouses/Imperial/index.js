@@ -27,7 +27,7 @@ function Imperial () {
             <p className='price-mouse-imperial'>R$139,99</p>
             <strong className='price-now-mouse-imperial'>R$109,99</strong>
             <div className='parcelado-mouse-imperial'>
-                <p>em até 6x de R$ 19,99</p>
+                <p>R$ 119,93 - em até 6x</p>
             </div>
 
             <img src={image} alt='1' className='mouse-imperial'/>

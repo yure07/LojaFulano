@@ -29,7 +29,7 @@ export default function StormPro () {
             <p className='price-mouse-storm-pro'>R$269,99</p>
             <strong className='price-now-mouse-storm'>R$239,99</strong>
             <div className='parcelado-mouse'>
-                <p>em até 10x de R$ 26,99</p>
+                <p>R$ 269,86 - em até 10x</p>
             </div>
 
             <img src={image} alt='1' className='mouse-storm-pro' />

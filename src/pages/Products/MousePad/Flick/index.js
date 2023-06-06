@@ -25,7 +25,7 @@ export default function Flick () {
             <p className='price-mousepad-kunlun'>R$99,99</p>
             <strong className='price-now-mousepad-kunlun'>R$79,99</strong>
             <div className='parcelado-mousepad-kunlun'>
-                <p>em até 2x de R$ 42,28</p>
+                <p>R$ 84,52 - em até 2x</p>
             </div>
 
            <a target='_blank' href='https://wa.link/75mhmr'>

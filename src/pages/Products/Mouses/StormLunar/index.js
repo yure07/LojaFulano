@@ -26,7 +26,7 @@ export default function StormLunar () {
             <p className='price-mouse-storm-lunar'>R$189,99</p>
             <strong className='price-now-mouse-storm'>R$159,99</strong>
             <div className='parcelado-mouse'>
-                <p>em até 10x de R$ 29,08</p>
+                <p>R$ 174,45 - em até 6x</p>
             </div>
 
             <img src={image} alt='1' className='mouse-storm-lunar' />

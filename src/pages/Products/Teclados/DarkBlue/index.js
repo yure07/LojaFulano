@@ -24,7 +24,7 @@ export default function DarkBlue () {
             <p className='price-keyboard-dark-blue'>R$249,99</p>
             <strong className='price-now-keyboard-dark-blue'>R$209,99</strong>
             <div className='parcelado-teclado-rainbow'>
-                <p>em até 10x de R$ 23,61</p>
+                <p>R$ 236,13 - em até 10x</p>
             </div>
 
             <a target='_blank' href='https://wa.link/c3t18p'>

@@ -4,17 +4,6 @@ import Footer from '../../../../components/Footer';
 import image from '../../../../images/produtos/mouse-cobra-branco.png'
 
 export default function CobraFPSBranco () {
-
-    /* function handleImage () {
-        const button = document.querySelector('#avance')
-        button.addEventListener('click', change())
-    }
-    function change () {
-        const div = document.querySelector('.discount-mouse-cobra-fps-white').innerHTML
-        const anotherImg = image2
-        document.querySelector('.img').innerHTML = anotherImg
-    } */
-
     return(
         <div>
             <Header/>
@@ -38,7 +27,7 @@ export default function CobraFPSBranco () {
             <p className='price-mouse-redragon'>R$209,99</p>
             <strong className='price-now-mouse-redragon'>R$194,99</strong>
             <div className='parcelado-mouse-cobra'>
-                <p>em até 10x de R$ 21,93</p>
+                <p>R$ 219,26 - em até 10x</p>
             </div>
 
            

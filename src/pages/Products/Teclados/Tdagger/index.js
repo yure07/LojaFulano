@@ -25,7 +25,7 @@ function Bora () {
             <p className='price-keyboard'>R$279,99</p>
             <strong className='price-now-keyboard'>R$229,99</strong>
             <div className='parcelado-teclado-rainbow'>
-                <p>em até 10x de R$ 25,86</p>
+                <p>R$ 258,62 - em até 10x</p>
             </div>
 
            <a target='_blank' href='https://wa.link/i7f0av'>

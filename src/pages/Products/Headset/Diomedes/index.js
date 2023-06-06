@@ -25,7 +25,7 @@ export default function HeadsetDiomedes() {
             <p className='price-hebe'>R$ 269,99</p>
             <strong className='price-now-hebe'>R$ 234,99</strong>
             <div className='parcelado-headset'>
-                <p>em até 10x de R$ 26,42</p>
+                <p>R$ 264,24 - em até 10x</p>
             </div>
 
             <img src={image} alt='2' className='headset-product-diomedes'/>

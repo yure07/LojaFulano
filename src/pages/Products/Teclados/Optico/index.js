@@ -30,7 +30,7 @@ export default function Optico () {
             <p className='price-keyboard-draonic'>R$349,99</p>
             <strong className='price-now-keyboard-magic'>R$324,99</strong>
             <div className='parcelado-teclado-magic'>
-                <p>em até 10x de R$ 36,54</p>
+                <p>R$ 365,44 - em até 10x</p>
             </div>
 
            <a target='_blank' href='https://wa.link/p20p2x'>

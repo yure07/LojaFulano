@@ -29,7 +29,7 @@ export default function Lakshmi () {
             <p className='price-keyboard'>R$249,99</p>
             <strong className='price-now-keyboard'>R$218,99</strong>
             <div className='parcelado-teclado-lakshmi'>
-                <p>em até 10x de R$ 36,54</p>
+                <p>R$ 246,25 - em até 10x</p>
             </div>
 
            <a target='_blank' href='https://wa.link/3slz22'>

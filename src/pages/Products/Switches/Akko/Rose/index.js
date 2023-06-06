@@ -27,7 +27,7 @@ export default function Rose () {
                 <p className='price-switch-akko-rose'>R$89,99</p>
                 <strong className='price-now-switch-akko-rose'>R$71,99</strong>
                 <div className='parcelado-switches'>
-                    <p>em até 2x de R$ 39,99</p>
+                    <p>R$ 79,99 - em até 2x</p>
                 </div>
 
                 <img src={image} alt='1' className='switch-akko-rose'/>

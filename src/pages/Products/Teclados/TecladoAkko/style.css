@@ -43,7 +43,7 @@
     width: 65px;
     padding: 4px;
     margin-left: -150px;
-    margin-top: 260px;
+    margin-top: 210px;
     position: absolute;
     border-radius: 4px;
     background-color: rgb(255, 6, 6);
@@ -74,6 +74,11 @@
     border-radius: 10px;
     background-color: rgb(39, 185, 39);
 }
+.parcelado-teclado-akko{
+    font-size: 18px;
+    margin: 10px 0 20px -320px;
+}
+.parcelado-teclado-akko p{margin: 0;}
 
 /* MEDIA QUERIES */ 
 /*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
@@ -97,13 +102,13 @@
         width: 320px;
         height: 130px;
         margin-left: 0px;
-        margin-top: -180px;
+        margin-top: -210px;
     }
     .discount-keyboard-akko{
         width: 55px;
         padding: 4px;
         margin-left: 190px;
-        margin-top: 420px;
+        margin-top: 400px;
         font-size: 18px;
     }
     .price-keyboard-akko{
@@ -118,6 +123,9 @@
         margin-left: -100px;
         margin-top: 20px;
     }
+    .parcelado-teclado-akko{
+        margin: 0 0 0 -20px;
+    }
 }
 
 /* -- TABLETS -- */
@@ -131,10 +139,10 @@ and (height >= 1000px ) {
         width: 400px;
         height: 150px;
         margin-left: 0px;
-        margin-top: 160px;
+        margin-top: 110px;
     }
     .discount-keyboard-akko{
-        margin-top: 450px;
+        margin-top: 400px;
     }
     .price-keyboard-akko{
         margin-top: 220px;
